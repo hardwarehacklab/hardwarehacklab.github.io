@@ -41,6 +41,18 @@
           <li><a href="/join/">Join us</a></li>
         </ul>
       </nav>
+      {{ if page.bodyid == "home" }}
+      <div id="sponsors">
+        <h2>Sponsors</h2>
+        <a href="http://www.thoughtworks.com" id="thoughtworks">
+          <img src="{{ ASSET_PATH }}/img/thoughtworks.png" alt="Thoughtworks" />
+        </a>
+        &#43;
+        <a href="http://meetup.com/volumetric" id="volumetric">
+          <img src="{{ ASSET_PATH }}/img/volumetric.png" alt="The Volumetric Society" />
+        </a>
+      </div>
+      {{ endif }}
     </header>
     {{ content }}
     {% include JB/analytics %}
