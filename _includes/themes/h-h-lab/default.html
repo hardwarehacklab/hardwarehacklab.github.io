@@ -41,7 +41,7 @@
           <li><a href="/join/">Join us</a></li>
         </ul>
       </nav>
-      {{ if page.bodyid == "home" }}
+      {% if page.bodyid == 'home' %}
       <div id="sponsors">
         <h2>Sponsors</h2>
         <a href="http://www.thoughtworks.com" id="thoughtworks">
@@ -52,7 +52,7 @@
           <img src="{{ ASSET_PATH }}/img/volumetric.png" alt="The Volumetric Society" />
         </a>
       </div>
-      {{ endif }}
+      {% endif %}
     </header>
     {{ content }}
     {% include JB/analytics %}
