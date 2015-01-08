@@ -7,7 +7,7 @@ bodyclass : "content"
 ---
 {% include JB/setup %}
 <main>
-  {% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
 			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -16,5 +16,16 @@ bodyclass : "content"
 		{{ post.content }}
 		<hr />
 	</article>
-  {% endfor %}
+	{% endfor %}
+
+  	<ul id="paging" class="cta">
+  	{% if paginator.previous_page %}
+      	{% if paginator.previous_page == 1 %}<li><a href="/feed/">Previous</a></li>
+		{% else %}<li><a href="/feed/page{{ paginator.previous_page }}/">Previous</a></li>
+		{% endif %}
+	{% endif %}
+	{% if paginator.next_page %}
+		<li><a href="/feed/page{{ paginator.next_page }}/">Next page</a></li>
+	{% endif %}
+	</ul>
 </main>
