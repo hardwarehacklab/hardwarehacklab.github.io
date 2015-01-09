@@ -414,7 +414,7 @@ body>header.fixed nav .cta a {
 /* home */
 
 #home>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-1.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-1-2048.jpg);
 	background-position: center center;
 	background-size: cover;
 	height: 96%;
@@ -466,6 +466,12 @@ body>header.fixed nav .cta a {
 }
 
 @media (max-width: 1299px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-1-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
 	#home>p {
 		font-size: 2em;
 	}
@@ -480,6 +486,12 @@ body>header.fixed nav .cta a {
 }
 
 @media (max-width: 1099px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-1-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
 	#home>p {
 		font-size: 1.81em;
 	}
@@ -495,7 +507,9 @@ body>header.fixed nav .cta a {
 
 @media (max-width: 899px) {
 	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-1-899.jpg);
 		background-position: top center !important;
+		background-size: cover;
 	}
 
 	#home>header, #home>footer {
@@ -524,7 +538,7 @@ body>header.fixed nav .cta a {
 #home #sponsors {
 	background: white;
 	opacity: 0.88;
-	filter:alpha(opacity=88);
+	filter: alpha(opacity=88);
 	position: absolute; bottom: 0; right: 0;
 }
 
@@ -534,7 +548,7 @@ body>header.fixed nav .cta a {
 
 #home #sponsors img {
 	opacity: 1;
-	filter:alpha(opacity=100);
+	filter: alpha(opacity=100);
 	vertical-align: middle;
 	margin: 18px;
 }
@@ -683,7 +697,7 @@ body>header.fixed nav .cta a {
 #home #members figcaption {
 	background: #d9d9d9;
 	opacity: 0.92;
-	filter:alpha(opacity=92);
+	filter: alpha(opacity=92);
 	display: inline;
 	padding: 2.9% 7.8%;
 	line-height: 1.3em;
@@ -697,7 +711,7 @@ body>header.fixed nav .cta a {
 #home #members blockquote {
 	background: #d9d9d9;
 	opacity: 0.92;
-	filter:alpha(opacity=92);
+	filter: alpha(opacity=92);
 	padding: 2.6em 10% 2em 12%;
 	text-align: left;
 	quotes: "\201C" "\201D";
@@ -924,7 +938,7 @@ body>header.fixed nav .cta a {
 /* home footer */
 
 #home>footer {
-	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-2048.jpg);
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
@@ -947,7 +961,21 @@ body>header.fixed nav .cta a {
 	margin: 0.5em;
 }
 
+@media (max-width: 1299px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
 @media (max-width: 1099px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
 	#home>footer a {
 		font-size: 2.8em;
 	}
@@ -955,6 +983,9 @@ body>header.fixed nav .cta a {
 
 @media (max-width: 899px) {
 	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-899.jpg);
+		background-position: center center;
+		background-size: cover;
 		height: 70%;
 	}
 
@@ -1088,7 +1119,7 @@ body>header.fixed nav .cta a {
 /* lab feed */
 
 #lab-feed>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-2048.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1106,14 +1137,41 @@ body>header.fixed nav .cta a {
 	width: 100%; height: 100%;
 }
 
+@media (max-width: 1299px) {
+	#lab-feed>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 1099px) {
+	#lab-feed>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
 @media (max-width: 899px) {
 	#lab-feed>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-899.jpg);
+		background-size: cover;
 		background-position: center top;
 		background-attachment: inherit;
 	}
 }
 
 @media (max-width: 639px) {
+	#lab-feed>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-639.jpg);
+		background-size: cover;
+		background-position: center top;
+		background-attachment: inherit;
+	}
+
 	#lab-feed main .video {
 		width: 100%;
 		padding-top: 55.55%;
@@ -1123,7 +1181,7 @@ body>header.fixed nav .cta a {
 /* join us page */
 
 #join-us>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-2048.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1143,12 +1201,26 @@ body>header.fixed nav .cta a {
 }
 
 @media (max-width: 1299px) {
+	#join-us>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
 	#join-us main #map {
 		margin: 0 0.5em 0 2.1em;
 	}
 }
 
 @media (max-width: 1099px) {
+	#join-us>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
 	#join-us address, #join-us #when {
 		font-weight: 400;
 	}
@@ -1161,6 +1233,8 @@ body>header.fixed nav .cta a {
 
 @media (max-width: 899px) {
 	#join-us>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-899.jpg);
+		background-size: cover;
 		background-position: center top;
 		background-attachment: inherit;
 	}
@@ -1174,6 +1248,13 @@ body>header.fixed nav .cta a {
 }
 
 @media (max-width: 639px) {
+	#join-us>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-639.jpg);
+		background-size: cover;
+		background-position: center top;
+		background-attachment: inherit;
+	}
+
 	#join-us main #map {
 		width: 100%;
 	}
