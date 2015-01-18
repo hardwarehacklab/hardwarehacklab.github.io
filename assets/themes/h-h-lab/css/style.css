@@ -1193,7 +1193,7 @@ body>header.fixed nav .cta a {
 /* join us page */
 
 #join-us>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-2048.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../img/lab-3-1600.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
