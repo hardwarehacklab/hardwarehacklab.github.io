@@ -944,7 +944,7 @@ body>header.fixed nav .cta a {
 /* home footer */
 
 #home>footer {
-	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-2048.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-1600.jpg);
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
@@ -1005,6 +1005,12 @@ body>header.fixed nav .cta a {
 }
 
 @media (max-width: 639px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(../img/equipment-639.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
 	#home>footer a {
 		font-size: 1.7em;
 	}
