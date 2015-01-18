@@ -1,62 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="">
-
-    <title>Hardware Hack Lab</title>
-    
-
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic" rel="stylesheet" type="text/css" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/assets/themes/h-h-lab/css/style.css" rel="stylesheet" />
-
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
-    <link rel="shortcut icon" href="/assets/themes/h-h-lab/img/favicon.png">
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-  </head>
-  <body id="home" class="">
-    <header role="banner">
-      <h1><a href="/">Hardware Hack Lab</a></h1>
-      <nav role="navigation">
-        <h2>Navigation</h2>
-        <a id="menu-button" href="#">
-          <i class="fa fa-bars"></i>
-          <i class="fa fa-times"></i>
-        </a>
-        <ul class="cta">
-          <li><a href="/feed/">Lab feed</a></li>
-          <li><a href="/join/">Join us</a></li>
-        </ul>
-      </nav>
-      
-      <div id="sponsors">
-        <h2>Sponsors</h2>
-        <a href="http://www.thoughtworks.com" id="thoughtworks">
-          <img src="/assets/themes/h-h-lab/img/thoughtworks.png" alt="Thoughtworks" />
-        </a>
-        &#43;
-        <a href="http://meetup.com/volumetric" id="volumetric">
-          <img src="/assets/themes/h-h-lab/img/volumetric.png" alt="The Volumetric Society" />
-        </a>
-      </div>
-      
-    </header>
-    
-
+---
+layout  : page
+title   : Hardware Hack Lab
+tagline : Every Wednesday in New York
+bodyid  : home
+---
+{% include JB/setup %}
     <section id="tagline" class="alt">
       <h1>Tagline</h1>
       <p>A free space for artists, <br />hackers &amp; innovators, weekly in <br />NYC.</p>
@@ -65,21 +13,21 @@
     <section id="members">
       <h1>Words from our members</h1>
       <figure id="member-1">
-        <img src="/assets/themes/h-h-lab/img/pierre.png" />
+        <img src="{{ ASSET_PATH }}h-h-lab/img/pierre.png" />
         <blockquote>
           <p><span class="quotation-mark">"</span>How can I put this? The lab is awesome, senectus et time is very good<span class="quotation-mark">"</span></p>
         </blockquote>
         <figcaption>Pierre</figcaption>
       </figure>
       <figure id="member-2">
-        <img src="/assets/themes/h-h-lab/img/annie.png" />
+        <img src="{{ ASSET_PATH }}h-h-lab/img/annie.png" />
         <blockquote>
           <p><span class="quotation-mark">"</span>It's invaluable for artists - a place where creatives and engineers mix<span class="quotation-mark">"</span></p>
         </blockquote>
         <figcaption>Annie</figcaption>
       </figure>
       <figure id="member-3">
-        <img src="/assets/themes/h-h-lab/img/jason.png" />
+        <img src="{{ ASSET_PATH }}h-h-lab/img/jason.png" />
         <blockquote>
           <p><span class="quotation-mark">"</span>The best meetup in New York - you can just turn up and start hacking<span class="quotation-mark">"</span></p>
         </blockquote>
@@ -101,7 +49,3 @@
         <li><a href="/feed/">Check out the feed</a></li>
       </ul>
     </footer>
-    
-    <script src="/assets/app-4b6cbe79aa8bffa38d15b2bd9d30ded2.js"></script>
-  </body>
-</html>
