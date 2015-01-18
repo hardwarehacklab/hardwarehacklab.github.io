@@ -1131,7 +1131,7 @@ body>header.fixed nav .cta a {
 /* lab feed */
 
 #lab-feed>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-2048.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(../img/lab-2-1600.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
