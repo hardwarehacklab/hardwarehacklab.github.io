@@ -1,5 +1,3 @@
-//= require vendor/jquery.2.1.1.min
-
 $(document).ready(function() {
 	if($('body').hasClass('content')) {
 		enableFixedHeaderOnScroll();
