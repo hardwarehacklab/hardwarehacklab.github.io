@@ -56,7 +56,6 @@
     </header>
     {{ content }}
     {% include JB/analytics %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/script.js"></script>
+    {% javascript app %}
   </body>
 </html>
