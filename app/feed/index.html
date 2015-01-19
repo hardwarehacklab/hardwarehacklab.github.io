@@ -1,0 +1,30 @@
+---
+layout    : default
+title     : Feed
+header    : A ticking feed of all the lab activity
+bodyid    : "lab-feed"
+bodyclass : "content"
+---
+<main>
+	{% for post in paginator.posts %}
+	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+		<header>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%A %-d %B %Y" }}</time>
+		</header>
+		{{ post.content }}
+		<hr />
+	</article>
+	{% endfor %}
+
+  	<ul id="paging" class="cta">
+  	{% if paginator.previous_page %}
+      	{% if paginator.previous_page == 1 %}<li><a href="/feed/">Previous page</a></li>
+		{% else %}<li><a href="/feed/page{{ paginator.previous_page }}/">Previous page</a></li>
+		{% endif %}
+	{% endif %}
+	{% if paginator.next_page %}
+		<li><a href="/feed/page{{ paginator.next_page }}/">Next page</a></li>
+	{% endif %}
+	</ul>
+</main>

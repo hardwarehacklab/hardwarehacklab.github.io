@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<main>
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1>{{ page.title }}</h1>
+      <time itemprop="dateCreated" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%A %-d %B %Y" }}</time>
+    </header>
+    {{ content }}
+    <hr />
+  </article>
+  
+  <ul id="paging" class="cta">
+    {% if page.previous %}
+    <li><a href="{{ page.previous.url }}">Previous post</a></li>
+    {% endif %}
+    {% if page.next %}
+    <li><a href="{{ page.next.url }}">Next post</a></li>
+    {% endif %}
+  </ul>
+</main>
