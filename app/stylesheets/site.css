@@ -442,6 +442,10 @@ body>header.fixed nav .cta a {
 	display: none;
 }
 
+#home h1, #home h2, #home p {
+	cursor: default;
+}
+
 #home header h1 {
 	display: block;
 }
@@ -710,6 +714,10 @@ body>header.fixed nav .cta a {
 	position: relative; top: -3.5em;
 	width: 27%;
 	vertical-align: text-top;
+}
+
+#home #members a {
+	text-decoration: none;
 }
 
 #home #members figure img {
