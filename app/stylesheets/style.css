@@ -1276,3 +1276,7 @@ body>header.fixed nav .cta a {
 		padding-top: 65%;
 	}
 }
+
+.example {
+    mask: url('mask.png') no-repeat fixed 20px 20px padding padding;
+}
