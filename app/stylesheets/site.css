@@ -107,6 +107,11 @@ h1 {
 	font-size: 2.2em;
 }
 
+h2 {
+	font-size: 1.7em;
+	font-weight: 400;
+}
+
 time {
 	font-size: 1em;
 }
@@ -125,11 +130,19 @@ hr {
 	h1 {
 		font-size: 2.05em;
 	}
+
+	h2 {
+		font-size: 1.6em;
+	}
 }
 
 @media (max-width: 1099px) {
 	h1 {
 		font-size: 1.8em;
+	}
+
+	h2 {
+		font-size: 1.4em;
 	}
 
 	time {
@@ -144,6 +157,10 @@ hr {
 @media (max-width: 899px) {
 	h1 {
 		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.25em;
 	}
 
 	time {
@@ -1287,13 +1304,6 @@ body>header.fixed nav .cta a {
 	background-attachment: fixed;
 }
 
-#people main figure {
-	display: inline-block;
-	width: 26%;
-	margin: 2.4% 3.5% 6% 3.5%;
-	text-align: center;
-}
-
 #people .grid {
 	margin-top: 2em;
 	text-align: justify;
@@ -1301,13 +1311,18 @@ body>header.fixed nav .cta a {
 	left: -0.7em;
 }
 
+#people .grid figure {
+	display: inline-block;
+	width: 26%;
+	margin: 2.4% 3.5% 6% 3.5%;
+	text-align: center;
+}
+
 #people .grid, #people .grid img, #people .grid figcaption, #people .grid p, #people .grid ul {
 	width: 100%;
 }
 
 #people .grid figcaption {
-	font-size: 1.7em;
-	font-weight: 400;
 	margin-top: 0.4em;
 }
 
@@ -1329,6 +1344,10 @@ body>header.fixed nav .cta a {
 	margin: 0 0.125em;
 }
 
+#people .grid figcaption, #people .grid p {
+	white-space: nowrap;
+}
+
 @media (max-width: 1299px) {
 	#people>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1299.jpg);
@@ -1345,6 +1364,16 @@ body>header.fixed nav .cta a {
 		background-size: cover;
 		background-attachment: fixed;
 	}
+
+	#people .grid {
+		text-align: center;
+		left: -2em;
+	}
+
+	#people .grid figure {
+		width: 39%;
+		margin: 2.4% 2.5% 6% 5.5%;
+	}
 }
 
 @media (max-width: 899px) {
@@ -1354,6 +1383,24 @@ body>header.fixed nav .cta a {
 		background-position: center top;
 		background-attachment: inherit;
 	}
+
+	#people .grid {
+		text-align: center;
+		left: -1.75em;
+	}
+
+	#people .grid figure {
+		width: 40%;
+		margin: 2.4% 2% 6% 7%;
+	}
+
+	#people .grid figcaption {
+		margin-top: 1em;
+	}
+
+	#people .grid p {
+		margin: 0.5em 0;
+	}
 }
 
 @media (max-width: 639px) {
@@ -1362,5 +1409,22 @@ body>header.fixed nav .cta a {
 		background-size: cover;
 		background-position: center top;
 		background-attachment: inherit;
+	}
+
+	#people .grid {
+		left: 0;
+	}
+
+	#people .grid figure {
+		width: 70%;
+		margin: 2.5em auto 3em auto;
+	}
+
+	#people .grid h2 {
+		font-size: 2em;
+	}
+
+	#people .grid p {
+		font-size: 1.4em;
 	}
 }
