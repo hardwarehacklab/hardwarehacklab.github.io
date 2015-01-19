@@ -953,8 +953,7 @@ body>header.fixed nav .cta a {
 #home>footer ul {
 	position: relative;
 	top: 50%;
-	-webkit-transform: translateY(-50%);
-	        transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 #home>footer li {
