@@ -1079,6 +1079,16 @@ body>header.fixed nav .cta a {
 	font-size: 1.8em;
 }
 
+.content article, .content #paging {
+	width: 66%;
+	margin-left: 33%
+}
+
+.content article header time {
+	position: absolute;
+	left: 4em;
+}
+
 @media (max-width: 1299px) {
 	.content main .cta a {
 		font-size: 1.6em;
