@@ -199,7 +199,7 @@ hr {
 }
 
 .cta a:hover, .cta a:active {
-	background-color: #d9d9d9;
+	background-color: #e9e9e9;
 	color: #444444;
 }
 
@@ -472,7 +472,7 @@ body>header.fixed nav .cta a {
 }
 
 #home>.alt {
-	background-color: #d9d9d9;
+	background-color: #e9e9e9;
 }
 
 #home>p.alt {
@@ -726,7 +726,7 @@ body>header.fixed nav .cta a {
 }
 
 #home #members figcaption {
-	background: #d9d9d9;
+	background: #e9e9e9;
 	opacity: 0.92;
 	filter: alpha(opacity=92);
 	display: inline;
@@ -740,7 +740,7 @@ body>header.fixed nav .cta a {
 }
 
 #home #members blockquote {
-	background: #d9d9d9;
+	background: #e9e9e9;
 	opacity: 0.92;
 	filter: alpha(opacity=92);
 	padding: 2.6em 10% 2em 12%;
@@ -1059,7 +1059,7 @@ body>header.fixed nav .cta a {
 
 .content main {
 	width: 63%;
-	background-color: #d9d9d9;
+	background-color: #e9e9e9;
 	font-weight: 300;
 	padding: 3.3em 3em 5em 4em;
 	margin-bottom: 7.4%;
