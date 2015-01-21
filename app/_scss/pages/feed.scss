@@ -10,8 +10,26 @@
 		article {
 			width: 66%;
 
-			header time {
-				position: absolute; left: 4em;
+			header {
+				.widgets {
+					position: absolute; left: 6%;
+
+					ul {
+						list-style-type: none;
+						text-align: right;
+						padding-top: 2em;
+					}
+
+					li {
+						display: inline-block;
+						margin-left: 0.7em;
+					}
+
+					i {
+						position: relative; top: -6%;
+						font-size: 1.8em;
+					}
+				}
 			}
 		}
 
