@@ -3,7 +3,7 @@ $(document).ready(function() {
 		enableFixedHeaderOnScroll();
 	}
 	enableMenuButton();
-	enableTwitter();
+	enableSocialLinks();
 });
 
 function enableFixedHeaderOnScroll() {
@@ -70,8 +70,8 @@ function enableMenuButton() {
 	});
 }
 
-function enableTwitter() {
-	$('.twitter').click(function(event) {
+function enableSocialLinks() {
+	$('.social a').click(function(event) {
 		var width =  575,
 		    height = 400,
 			left =   ($(window).width()	- width) / 2,
@@ -83,7 +83,7 @@ function enableTwitter() {
 					 ',top='	+ top +
 					 ',left='	+ left;
 
-		window.open(url, 'twitter', opts);
+		window.open(url, 'social-share', opts);
 		event.preventDefault();
 	});
 }
