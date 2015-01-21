@@ -24,18 +24,6 @@
 			}
 		}
 	}
-
-	article {
-		width: 66%;
-
-		header time {
-			position: absolute; left: 4em;
-		}
-	}
-
-	article, #paging {
-		margin-left: 33%;
-	}
 }
 
 @media (max-width: 1299px) {

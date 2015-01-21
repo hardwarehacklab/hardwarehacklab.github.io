@@ -7,6 +7,18 @@
 	}
 
 	main {
+		article {
+			width: 66%;
+
+			header time {
+				position: absolute; left: 4em;
+			}
+		}
+
+		article, #paging {
+			margin-left: 33%;
+		}
+
 		.video {
 			width: 90%;
 			position: relative;
