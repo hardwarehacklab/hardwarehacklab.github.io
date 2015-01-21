@@ -1,0 +1,129 @@
+#home>header {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-1-1600.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 96%;
+	position: relative;
+}
+
+#home h1, #home h2 {
+	display: none;
+}
+
+#home h1, #home h2, #home p {
+	cursor: default;
+}
+
+#home header h1 {
+	display: block;
+}
+
+#home>section {
+	font-size: 1.2em;
+}
+
+#home>section, #home>footer {
+	text-align: center;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+#home>p {
+	display: block;
+	font-weight: normal;
+	color: white;
+	padding: 4.2em 0;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 0.06em;
+}
+
+#home>.alt {
+	background-color: #e9e9e9;
+}
+
+#home>p.alt {
+	padding: 3.5em 0;
+	color: #444444;
+	font-size: 2.7em;
+	letter-spacing: 0.03em;
+}
+
+#home>p.lead-in {
+	padding: 9% 0 9.5% 0;
+}
+
+@media (max-width: 1299px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-1-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#home>p {
+		font-size: 2em;
+	}
+
+	#home p.alt {
+		font-size: 2.08em;
+	}
+
+	#home>p.lead-in {
+		padding: 8.3% 0 11% 0;
+	}
+}
+
+@media (max-width: 1099px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-1-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#home>p {
+		font-size: 1.81em;
+	}
+
+	#home p.alt {
+		font-size: 1.9em;
+	}
+
+	#home>p.lead-in {
+		padding: 10.3% 0 12.7% 0;
+	}
+}
+
+@media (max-width: 899px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-1-899.jpg);
+		background-position: top center !important;
+		background-size: cover;
+	}
+
+	#home>header, #home>footer {
+		height: 85%;
+		position: relative;
+	}
+}
+
+@media (max-width: 639px) {
+	#home>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-1-639.jpg);
+		background-position: top center !important;
+		background-size: cover;
+	}
+
+	#home>p {
+		font-size: 1.5em;
+	}
+
+	#home>p.alt {
+		font-size: 1.6em;
+		padding: 2.5em 0;
+	}
+
+	#home>p.lead-in {
+		padding: 13.3% 0 21.7% 0;
+	}
+}

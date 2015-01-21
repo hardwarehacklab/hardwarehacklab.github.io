@@ -1,0 +1,209 @@
+#home #members {
+	padding-bottom: 3.4%;
+}
+
+#home #members figure {
+	display: inline-block;
+	padding: 0 2% 1.6em 2%;
+	position: relative; top: -3.5em;
+	width: 27%;
+	vertical-align: text-top;
+}
+
+#home #members a {
+	text-decoration: none;
+}
+
+#home #members figure img {
+	width: 80%;
+	position: relative; top: 2.5em; left: -10%;
+}
+
+#home #members figcaption {
+	background: #e9e9e9;
+	opacity: 0.92;
+	filter: alpha(opacity=92);
+	display: inline;
+	padding: 2.9% 7.8%;
+	line-height: 1.3em;
+	text-align: left;
+	font-size: 1.2em;
+	position: absolute; top: 36.5%; right: 7%;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#home #members blockquote {
+	background: #e9e9e9;
+	opacity: 0.92;
+	filter: alpha(opacity=92);
+	padding: 2.6em 10% 2em 12%;
+	text-align: left;
+	quotes: "\201C" "\201D";
+	width: 73%;
+	line-height: 1.8em;
+}
+
+#home #members blockquote:before {
+	color: #cccccc;
+	content: open-quote;
+	font-size: 14em;
+	vertical-align: middle;
+	font-family: Georgia, Serif;
+	font-weight: bold;
+	position: relative; top: 19px; left: -17px;
+	margin: -11px;
+}
+
+#home #members blockquote p {
+	display: inline;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: italic;
+	color: #444444;
+}
+
+#home #members blockquote .quotation-mark {
+	display: none;
+}
+
+@media (max-width: 1299px) {
+	#home #members {
+		padding-bottom: 2.7%;
+	}
+
+	#home #members figcaption {
+		font-size: 1.1em;
+		top: 34.5%; right: 3%;
+	}
+
+	#home #members blockquote {
+		padding: 1.6em 9.3% 1.4em 9.7%;
+		width: 81%;
+	}
+
+	#home #members blockquote p {
+		font-size: 0.9em;
+	}
+
+	#home #members blockquote:before {
+		font-size: 12.5em;
+	}
+}
+
+@media (max-width: 1099px) {
+	#home #members figure {
+		width: 28%;
+	}
+
+	#home #members {
+		padding-bottom: 1.35%;
+	}
+
+	#home #members figure img {
+		width: 90%;
+		left: -4%;
+	}
+
+	#home #members figcaption {
+		font-size: 1em;
+	}
+
+	#home #members blockquote {
+		padding: 0.95em 8% 1.3em 11%;
+	}
+
+	#home #members blockquote p {
+		font-size: 0.85em;
+	}
+
+	#home #members blockquote:before {
+		display: none;
+	}
+
+	#home #members blockquote .quotation-mark {
+		display: inline;
+	}
+}
+
+@media (max-width: 899px) {
+	#home #members {
+		text-align: left;
+	}
+
+	#home #members figure {
+		width: 100%; padding: 0;
+		margin-bottom: 2.5em;
+	}
+
+	#home #members figure img {
+		width: 29%;
+		left: 22%;
+	}
+
+	#home #members figcaption {
+		font-size: 1.1em;
+		right: 71%; top: 83%;
+		padding: 2% 4.9%;
+	}
+
+	#home #members blockquote {
+		position: absolute; right: 14%; top: 22.5%;
+		width: 31%;
+		padding: 0.85em 4.2% 1em 5.3%;
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	#home #members #member-2 img {
+		left: 50%;
+	}
+
+	#home #members #member-2 figcaption {
+		right: inherit; left: 71%;
+	}
+
+	#home #members #member-2 blockquote {
+		right: inherit; top: 22.5%; left: 15%;
+	}
+}
+
+@media (max-width: 639px) {
+	#home #members figure img {
+		width: 35%;
+		left: 15%; top: 2.2em;
+	}
+
+	#home #members figcaption {
+		font-size: 0.8em;
+		top: 94.7%; right: 69.1%;
+	}
+
+	#home #members blockquote p {
+		font-size: 0.75em;
+	}
+}
+
+@media (max-width: 499px) {
+	#home #members figure {
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+	
+	#home #members figure img {
+		position: relative;
+		top: 2em; left: 0 !important;
+		width: 60%;
+	}
+
+	#home #members figcaption {
+		font-size: 1em;
+		top: 40%; right: 12% !important; left: inherit !important;
+	}
+
+	#home #members blockquote {
+		width: 60%;
+		position: static;
+		margin: 0 auto;
+	}
+}

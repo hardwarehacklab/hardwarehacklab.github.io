@@ -1,0 +1,82 @@
+#home>footer {
+	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/equipment-1600.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+}
+
+#home>footer ul {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+#home>footer li {
+	padding: 2.7em;
+	display: block;
+}
+
+#home>footer a {
+	font-size: 3em;
+	margin: 0.5em;
+}
+
+@media (max-width: 1299px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/equipment-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1099px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/equipment-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#home>footer a {
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width: 899px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/equipment-899.jpg);
+		background-position: center center;
+		background-size: cover;
+		height: 70%;
+	}
+
+	#home>footer a {
+		font-size: 2.1em;
+	}
+
+	#home>footer li {
+		padding: 1.7em;
+	}
+}
+
+@media (max-width: 639px) {
+	#home>footer {
+		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/equipment-639.jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#home>footer a {
+		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 499px) {
+	#home>footer {
+		height: 70%;
+	}
+
+	#home>footer a {
+		font-size: 1.5em;
+	}
+}

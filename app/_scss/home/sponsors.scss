@@ -1,0 +1,88 @@
+#home #sponsors {
+	background: white;
+	opacity: 0.88;
+	filter: alpha(opacity=88);
+	position: absolute; bottom: 0; right: 0;
+}
+
+#home #sponsors a {
+	text-decoration: none;
+}
+
+#home #sponsors img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	vertical-align: middle;
+	margin: 18px;
+}
+
+#home #sponsors #thoughtworks img {
+	width: 250px;
+	margin-right: 14px;
+}
+
+#home #sponsors #volumetric img {
+	width: 48px;
+	margin-left: 20px;
+}
+
+@media (max-width: 1299px) {
+	#home #sponsors #thoughtworks img {
+		width: 200px;
+	}
+
+	#home #sponsors #volumetric img {
+		width: 40px;
+	}
+}
+
+@media (max-width: 1099px) {
+	#home #sponsors img {
+		margin: 15px;
+	}
+
+	#home #sponsors #thoughtworks img {
+		width: 180px;
+	}
+
+	#home #sponsors #volumetric img {
+		width: 33px;
+	}
+}
+
+@media (max-width: 899px) {
+	#home #sponsors {
+		text-align: center;
+		margin: 0px auto;
+		width: 100%;
+	}
+
+	#home #sponsors img {
+		margin: 4px;
+	}
+
+	#home #sponsors #volumetric img {
+		width: 28px;
+	}
+}
+
+@media (max-width: 639px) {
+	#home #sponsors #thoughtworks img {
+		width: 150px;
+	}
+
+	#home #sponsors #volumetric img {
+		width: 23px;
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 499px) {
+	#home #sponsors #thoughtworks img {
+		width: 130px;
+	}
+
+	#home #sponsors #volumetric img {
+		width: 20px;
+	}
+}

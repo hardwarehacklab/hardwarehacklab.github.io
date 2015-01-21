@@ -1,0 +1,206 @@
+body>header>h1, body>header>nav, body>header>div, main {
+	margin: 3% 4.5%;
+}
+
+body>header>h1 {
+	box-shadow: 10px 10px 2em rgba(0, 0, 0, 0.6);
+}
+
+body>header>nav>ul>li>a, body>header>div, main {
+	box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.25);
+}
+
+body>header h1 {
+	padding: 0.2em 0;
+	background-color: #829192;
+	position: absolute; top: 0; left: 0;
+	text-align: center;
+	font-size: 3.7em;
+	line-height: 1.2em;
+	width: 7em;
+}
+
+body>header h1 a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ffffff;
+	width: 400px;
+	letter-spacing: 0.05em;
+}
+
+body>header nav {
+	position: absolute; top: 0; right: 0;
+}
+
+body>header nav #menu-button {
+	display: none !important;
+}
+
+body>header nav h2 {
+	display: none;
+}
+
+body>header nav li {
+	padding: 0.7em 0;
+	margin-left: 1em;
+}
+
+body>header nav .cta a {
+	padding-top: inherit;
+	padding-bottom: inherit;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+body>header.fixed>h1, body>header.fixed>nav {
+	margin: 0;
+	position: fixed;
+	z-index: 10;
+	background-color: #444444;
+	display: none;
+}
+
+body>header.fixed h1 {
+	font-size: 2em;
+	width: 100%;
+	padding: 0.1em 0.5em;
+	text-align: left;
+}
+
+body>header.fixed nav li {
+	padding: 0.7em 2em 0 0;
+}
+
+body>header.fixed nav .cta a {
+	font-size: 1.2em;
+	padding: 0;
+	background-color: #444444 !important;
+	color: white !important;
+}
+
+@media (max-width: 1299px) {
+	body>header h1 {
+		font-size: 3em;
+	}
+
+	body>header nav .cta a {
+		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 1099px) {
+	body>header h1 {
+		font-size: 2.5em;
+	}
+
+	body>header nav li {
+		padding: 0.4em 0;
+		margin-left: 0.5em;
+	}
+
+	body>header nav .cta a {
+		font-size: 1.5em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+}
+
+@media (max-width: 899px) {
+	body>header>h1, body>header>nav {
+		margin: 0;
+		position: fixed;
+		background-color: #444444;
+		z-index: 10;
+	}
+
+	body>header h1 {
+		font-size: 2em;
+		width: 100%;
+		padding: 0.1em 0.5em;
+		text-align: left;
+	}
+
+	body>header nav ul {
+		padding-right: 1em;
+	}
+
+	body>header nav li {
+		padding: 0.8em 0.4em 0 0;
+	}
+
+	body>header nav .cta a {
+		font-size: 1em;
+		padding: 0;
+		background-color: #444444 !important;
+		color: white !important;
+	}
+
+	body>header nav.popout #menu-button .fa-bars {
+		display: none;
+	}
+
+	body>header nav.popout #menu-button .fa-times {
+		display: block;
+	}
+
+	body>header nav.popout .cta, body>header nav.popout .cta li {
+		display: block;
+	}
+
+	body>header nav.popout .cta li {
+		padding-top: 3.8em;
+	}
+
+	body>header nav.popout .cta {
+		position: fixed; top: 0; left: 0; bottom: 0; right: 0;
+		width: 100%; height: 100%;
+		text-align: center;
+		background-color: rgba(68, 68, 68, .95);
+		margin-top: 1.9em;
+		padding-top: 7%;
+	}
+
+	body>header nav.popout .cta a {
+		font-size: 2em;
+		background-color: rgba(0, 0, 0, 0) !important
+	}
+}
+
+@media (max-width: 639px) {
+	body>header nav {
+		left: 0; right: inherit;
+	}
+
+	body>header h1 {
+		font-size: 1.6em;
+		text-align: center;
+		padding: 0.15em 0;
+	}
+
+	body>header nav #menu-button {
+		display: block !important;
+	}
+
+	body>header nav #menu-button i {
+		margin: 0.5em 0 0 0.6em;
+		color: white;
+		font-size: 1.2em;
+	}
+
+	body>header nav ul {
+		display: none;
+	}
+}
+
+@media (max-width: 499px) {
+	body>header h1 {
+		font-size: 1.25em;
+		padding: 0.35em 0;
+	}
+
+	body>header nav a i.fa {
+		margin: 0.5em 0 0 0.6em;
+		font-size: 1.2em;
+	}
+}

@@ -1,0 +1,131 @@
+#people>header {
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#people .grid {
+	margin-top: 2em;
+	text-align: justify;
+	position: relative;
+	left: -0.7em;
+}
+
+#people .grid figure {
+	display: inline-block;
+	width: 26%;
+	margin: 2.4% 3.5% 6% 3.5%;
+	text-align: center;
+}
+
+#people .grid, #people .grid img, #people .grid figcaption, #people .grid p, #people .grid ul {
+	width: 100%;
+}
+
+#people .grid figcaption {
+	margin-top: 0.4em;
+}
+
+#people .grid ul {
+	list-style: none;
+	list-style-type: none;
+}
+
+#people .grid li {
+	display: inline-block;
+}
+
+#people .grid p {
+	margin: 0.2em 0 0.5em 0;
+}
+
+#people .grid i {
+	font-size: 1.8em;
+	margin: 0 0.125em;
+}
+
+#people .grid figcaption, #people .grid p {
+	white-space: nowrap;
+}
+
+@media (max-width: 1299px) {
+	#people>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1299.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 1099px) {
+	#people>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1099.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#people .grid {
+		text-align: center;
+		left: -2em;
+	}
+
+	#people .grid figure {
+		width: 39%;
+		margin: 2.4% 2.5% 6% 5.5%;
+	}
+}
+
+@media (max-width: 899px) {
+	#people>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
+		background-size: cover;
+		background-position: center top;
+		background-attachment: inherit;
+	}
+
+	#people .grid {
+		text-align: center;
+		left: -1.75em;
+	}
+
+	#people .grid figure {
+		width: 40%;
+		margin: 2.4% 2% 6% 7%;
+	}
+
+	#people .grid figcaption {
+		margin-top: 1em;
+	}
+
+	#people .grid p {
+		margin: 0.5em 0;
+	}
+}
+
+@media (max-width: 639px) {
+	#people>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
+		background-size: cover;
+		background-position: center top;
+		background-attachment: inherit;
+	}
+
+	#people .grid {
+		left: 0;
+	}
+
+	#people .grid figure {
+		width: 70%;
+		margin: 2.5em auto 3em auto;
+	}
+
+	#people .grid h2 {
+		font-size: 2em;
+	}
+
+	#people .grid p {
+		font-size: 1.4em;
+	}
+}

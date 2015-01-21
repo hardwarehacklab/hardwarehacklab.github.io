@@ -1,0 +1,124 @@
+html, body {
+	width: 100%; height: 100%;
+	background-color: #829192;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin: 1.4em 0;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: 400;
+}
+
+time {
+	font-size: 1em;
+}
+
+address {
+	font-size: 1.1em;
+	font-style: normal;
+	line-height: 1.2em;
+}
+
+hr {
+	margin-bottom: 3em;
+}
+
+@media (max-width: 1299px) {
+	h1 {
+		font-size: 2.05em;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+}
+
+@media (max-width: 1099px) {
+	h1 {
+		font-size: 1.8em;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	time {
+		font-size: 0.95em;
+	}
+
+	p, address {
+		font-size: 1.05em;
+	}
+}
+
+@media (max-width: 899px) {
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	time {
+		font-size: 0.9em;
+	}
+
+	p, address {
+		font-size: 1em;
+	}
+
+	hr {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 499px) {
+	hr {
+		margin-bottom: 0.8em;
+	}
+}
+
+.cta a {
+	font-size: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.3em 0.6em;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
+}
+
+.cta a:link, .cta a:visited {
+	background-color: #829192;
+	color: white;
+}
+
+.cta a:hover, .cta a:active {
+	background-color: #e9e9e9;
+	color: #444444;
+}
+
+ul.cta, ol.cta {
+	list-style-type: none;
+}
+
+ul.cta li, ol.cta li {
+	display: inline-block;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.fa-times {
+	display: none;
+}
