@@ -34,11 +34,27 @@
 } 
 
 @media (max-width: 1299px) {
-	#lab-feed>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1299.jpg);
-		background-position: center center;
-		background-size: cover;
-		background-attachment: fixed;
+	#lab-feed {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1299.jpg);
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		main {
+			article {
+				width: 70%;
+
+				header time {
+					left: 3em;
+				}
+			}
+
+			article, #paging {
+				margin-left: 30%;
+			}
+		}
 	}
 }
 
@@ -52,24 +68,63 @@
 }
 
 @media (max-width: 899px) {
-	#lab-feed>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
+	#lab-feed {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
+
+		main {
+			article {
+				width: 66%;
+
+				header time {
+					width: 17%;
+				}
+			}
+
+			article, #paging {
+				margin-left: 19%;
+			}
+		}
 	}
 }
 
 @media (max-width: 639px) {
-	#lab-feed>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
-	}
+	#lab-feed {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
 
-	#lab-feed main .video {
-		width: 100%;
-		padding-top: 55.55%;
+		main {
+			article {
+				width: 80%;
+
+				header time {
+					width: inherit;
+					position: relative; left: 0;
+				}
+			}
+
+			article, #paging {
+				margin-left: 0;
+			}
+
+			.video {	
+				width: 100%;
+				padding-top: 55.55%;
+			}
+		}
+	}
+}
+
+@media (max-width: 499px) {
+	#lab-feed main article {
+		width: 88%;
 	}
 }

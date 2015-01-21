@@ -20,6 +20,7 @@ h2 {
 
 time {
 	font-size: 1em;
+	padding-top: 0.15em;
 }
 
 address {
@@ -40,6 +41,11 @@ hr {
 	h2 {
 		font-size: 1.6em;
 	}
+
+	time {
+		font-size: 0.95em;
+		padding-top: 0.2em;
+	}
 }
 
 @media (max-width: 1099px) {
@@ -51,12 +57,13 @@ hr {
 		font-size: 1.4em;
 	}
 
-	time {
-		font-size: 0.95em;
-	}
-
 	p, address {
 		font-size: 1.05em;
+	}
+
+	time {
+		font-size: 0.88em;
+		padding-top: 0.3em;
 	}
 }
 
@@ -67,10 +74,6 @@ hr {
 
 	h2 {
 		font-size: 1.25em;
-	}
-
-	time {
-		font-size: 0.9em;
 	}
 
 	p, address {
