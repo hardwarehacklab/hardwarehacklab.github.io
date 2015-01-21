@@ -5,6 +5,7 @@ layout: default
   <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <h1>{{ page.title }}</h1>
+      <a class="twitter" href="http://twitter.com/share?text={{ page.title | uri_escape }}&amp;url=http://{{ site.name }}{{ page.url | uri_escape }}&amp;via=hardwarehacklab">Tweet</a>
       <time itemprop="dateCreated" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%A %-d %B %Y" }}</time>
     </header>
     {{ content }}
