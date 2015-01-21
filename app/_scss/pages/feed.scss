@@ -1,21 +1,25 @@
-#lab-feed>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-}
+#lab-feed {
+	>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 
-#lab-feed main .video {
-	width: 90%;
-	position: relative;
-	display: inline-block;
-	padding-top: 50.1%;
-}
+	main {
+		.video {
+			width: 90%;
+			position: relative;
+			display: inline-block;
+			padding-top: 50.1%;
 
-#lab-feed main .video iframe {
-	position: absolute; top: 0; bottom: 0; right: 0; left: 0;
-	width: 100%; height: 100%;
-}
+			iframe {
+				position: absolute; top: 0; bottom: 0; right: 0; left: 0;
+				width: 100%; height: 100%;
+			}
+		}
+	}
+} 
 
 @media (max-width: 1299px) {
 	#lab-feed>header {

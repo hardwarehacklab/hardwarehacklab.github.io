@@ -1,80 +1,93 @@
-#join-us>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1600.jpg);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#join-us main #map {
-	position: relative;
-	width: 47%;
-	padding-top: 43%;
-	float: right;
-	margin: 0 1.4em 0 2.7em;
-}
-
-#join-us main #map iframe {
-	position: absolute; top: 0; left: 0; bottom: 0; right: 0;
-	width: 100%; height: 100%;
-}
-
-@media (max-width: 1299px) {
-	#join-us>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1299.jpg);
+#join-us {
+	>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1600.jpg);
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
 
-	#join-us main #map {
-		margin: 0 0.5em 0 2.1em;
+	main {
+		#map {
+			position: relative;
+			width: 47%;
+			padding-top: 43%;
+			float: right;
+			margin: 0 1.4em 0 2.7em;
+
+			iframe {
+				position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+				width: 100%; height: 100%;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1299px) {
+	#join-us {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1299.jpg);
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		main #map {
+			margin: 0 0.5em 0 2.1em;
+		}
 	}
 }
 
 @media (max-width: 1099px) {
-	#join-us>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1099.jpg);
-		background-position: center center;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+	#join-us {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-1099.jpg);
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
 
-	#join-us address, #join-us #when {
-		font-weight: 400;
-	}
+		address, #when {
+			font-weight: 400;
+		}
 
-	#join-us main #map {
-		width: 46%;
-		padding-top: 53%;
+		main #map {
+			width: 46%;
+			padding-top: 53%;
+		}
 	}
 }
 
 @media (max-width: 899px) {
-	#join-us>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-899.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
-	}
+	#join-us {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-899.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
 
-	#join-us main #map {
-		width: 95%;
-		padding-top: 40%;
-		float: left;
-		margin: 0.1em 10em 1.7em 0;
+		main #map {
+			width: 95%;
+			padding-top: 40%;
+			float: left;
+			margin: 0.1em 10em 1.7em 0;
+		}
 	}
 }
 
 @media (max-width: 639px) {
-	#join-us>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-639.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
-	}
-
-	#join-us main #map {
-		width: 100%;
+	#join-us {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/images/lab-3-639.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
+		
+		main #map {
+			width: 100%;
+		}
 	}
 }
 

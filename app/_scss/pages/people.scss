@@ -1,52 +1,54 @@
-#people>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-}
+#people {
+	>header {
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 
-#people .grid {
-	margin-top: 2em;
-	text-align: justify;
-	position: relative;
-	left: -0.7em;
-}
+	.grid {
+		margin-top: 2em;
+		text-align: justify;
+		position: relative; left: -0.7em;
+		width: 100%;
 
-#people .grid figure {
-	display: inline-block;
-	width: 26%;
-	margin: 2.4% 3.5% 6% 3.5%;
-	text-align: center;
-}
+		figure {
+			display: inline-block;
+			width: 26%;
+			margin: 2.4% 3.5% 6% 3.5%;
+			text-align: center;
+		}
 
-#people .grid, #people .grid img, #people .grid figcaption, #people .grid p, #people .grid ul {
-	width: 100%;
-}
+		figcaption {
+			margin-top: 0.4em;
+		}
 
-#people .grid figcaption {
-	margin-top: 0.4em;
-}
+		ul {
+			list-style: none;
+			list-style-type: none;
+		}
 
-#people .grid ul {
-	list-style: none;
-	list-style-type: none;
-}
+		li {
+			display: inline-block;
+		}
 
-#people .grid li {
-	display: inline-block;
-}
+		p {
+			margin: 0.2em 0 0.5em 0;
+		}
 
-#people .grid p {
-	margin: 0.2em 0 0.5em 0;
-}
+		i {
+			font-size: 1.8em;
+			margin: 0 0.125em;
+		}
 
-#people .grid i {
-	font-size: 1.8em;
-	margin: 0 0.125em;
-}
+		img, figcaption, p, ul {
+			width: 100%;
+		}
 
-#people .grid figcaption, #people .grid p {
-	white-space: nowrap;
+		figcaption, p {
+			white-space: nowrap;
+		}
+	}
 }
 
 @media (max-width: 1299px) {
@@ -59,73 +61,79 @@
 }
 
 @media (max-width: 1099px) {
-	#people>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1099.jpg);
-		background-position: center center;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+	#people {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1099.jpg);
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
 
-	#people .grid {
-		text-align: center;
-		left: -2em;
-	}
+		.grid {
+			text-align: center;
+			left: -2em;
 
-	#people .grid figure {
-		width: 39%;
-		margin: 2.4% 2.5% 6% 5.5%;
+			figure {
+				width: 39%;
+				margin: 2.4% 2.5% 6% 5.5%;
+			}
+		}
 	}
 }
 
 @media (max-width: 899px) {
-	#people>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
-	}
+	#people {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
 
-	#people .grid {
-		text-align: center;
-		left: -1.75em;
-	}
+		.grid {
+			text-align: center;
+			left: -1.75em;
 
-	#people .grid figure {
-		width: 40%;
-		margin: 2.4% 2% 6% 7%;
-	}
+			figure {
+				width: 40%;
+				margin: 2.4% 2% 6% 7%;
+			}
 
-	#people .grid figcaption {
-		margin-top: 1em;
-	}
+			figcaption {
+				margin-top: 1em;
+			}
 
-	#people .grid p {
-		margin: 0.5em 0;
+			p {
+				margin: 0.5em 0;
+			}
+		}
 	}
 }
 
 @media (max-width: 639px) {
-	#people>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
-		background-size: cover;
-		background-position: center top;
-		background-attachment: inherit;
-	}
+	#people {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
 
-	#people .grid {
-		left: 0;
-	}
+		.grid {
+			left: 0;
 
-	#people .grid figure {
-		width: 70%;
-		margin: 2.5em auto 3em auto;
-	}
+			figure {
+				width: 70%;
+				margin: 2.5em auto 3em auto;
+			}
 
-	#people .grid h2 {
-		font-size: 2em;
-	}
+			h2 {
+				font-size: 2em;
+			}
 
-	#people .grid p {
-		font-size: 1.4em;
+			p {
+				font-size: 1.4em;
+			}
+		}
 	}
 }
