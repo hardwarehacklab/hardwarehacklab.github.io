@@ -1,6 +1,7 @@
 body {
 	main {
 		margin: 3% 4.5%;
+		box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.4);
 	}
 
 	>header {
@@ -12,7 +13,7 @@ body {
 			box-shadow: 10px 10px 2em rgba(0, 0, 0, 0.6);
 		}
 
-		>nav >ul >li >a, >div, main {
+		>nav >ul >li >a, >div {
 			box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.25);
 		}
 
