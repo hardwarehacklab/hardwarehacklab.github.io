@@ -309,16 +309,15 @@ module.exports = function (grunt) {
         'test/spec/**/*.js'
       ]
     },
-    csslint: {
+    scsslint: {
+      allFiles: [
+        '<%= yeoman.app %>/_scss/**/*.scss',
+      ],
       options: {
-        csslintrc: '.csslintrc'
+        bundleExec: true,
+        config: '.scss-lint.yml',
+        colorizeOutput: true
       },
-      check: {
-        src: [
-          '<%= yeoman.app %>/stylesheets/**/*.css',
-          '<%= yeoman.app %>/_scss/**/*.scss'
-        ]
-      }
     },
     concurrent: {
       server: [
@@ -365,7 +364,7 @@ module.exports = function (grunt) {
     'jekyll:check',
     'sass:server',
     'jshint:all',
-    'csslint:check'
+    'scsslint'
   ]);
 
   grunt.registerTask('build', [
