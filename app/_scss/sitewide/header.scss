@@ -137,6 +137,8 @@ body {
 		}
 
 		>header {
+			margin-top: 2.4em;
+
 			>h1, >nav {
 				margin: 0;
 				position: fixed;
@@ -240,6 +242,8 @@ body {
 @media (max-width: 499px) {
 	body {
 		>header {
+			margin-top: 2em;
+
 			h1 {
 				font-size: 1.25em;
 				padding: 0.35em 0;
