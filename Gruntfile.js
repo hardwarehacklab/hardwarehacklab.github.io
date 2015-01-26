@@ -374,12 +374,12 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'autoprefixer:dist',
     'cssmin',
     'uglify',
     'imagemin',
     'svgmin',
     'filerev',
+    'autoprefixer:dist',
     'usemin',
     'htmlmin'
     ]);
