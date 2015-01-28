@@ -10,133 +10,113 @@
 		img {
 			width: 100%;
 			border-radius: 50%;
-			position: relative; z-index: 10;
-		}
-
-		.name {
-			text-transform: uppercase;
-			font-size: 1.8em;
-			margin-bottom: 0;
-		}
-
-		blockquote {
-			padding: 0 2em;
+			position: relative; z-index: 5;
 		}
 
 		figcaption {
 			background-color: #e9e9e9;
 			padding: 1em;
-			height: 19em;
-			position: relative;
-			top: -3em;
-		}
+			min-height: 19em;
+			position: relative; top: -3em;
 
-		a {
-			position: absolute; bottom: 2em;
-			width: 90%;
-			display: block;
+			h2 {
+				text-transform: uppercase;
+				display: block;
+				margin: 2em 0 1.3em 0;
+			}
+
+			p.occupation {
+				white-space: nowrap;
+			}
+
+			blockquote {
+				padding: 0 0.7em;
+
+				p {
+					margin-bottom: 3.7em;
+				}
+			}
+
+			a {
+				position: absolute; bottom: 2em;
+				width: 90%;
+				display: block;
+			}
 		}
 	}
 }
 
 @media (max-width: 1299px) {
-	#home #members {
-		padding-bottom: 2.7%;
-
-		figcaption {
-			font-size: 1.1em;
-			top: 34.5%; right: 3%;
-		}
-
-		blockquote {
-			padding: 1.6em 9.3% 1.4em 9.7%;
-			width: 81%;
-
-			p {
-				font-size: 0.9em;
-			}
-		}
-
-		blockquote:before {
-			font-size: 12.5em;
-		}
+	#home #members figure {
+		width: 29%;
+		margin: 0;
+		padding: 1.7%;
 	}
 }
 
 @media (max-width: 1099px) {
-	#home #members {
-		padding-bottom: 1.35%;
-
-		figure {
-			width: 28%;
-
-			img {
-				width: 90%;
-				left: -4%;
-			}
+	#home #members figure figcaption {
+		p.occupation {
+			white-space: normal;
+			height: 3.7em;
+			margin: 0 1em;
 		}
 
-		figcaption {
-			font-size: 1em;
-		}
-
-		blockquote {
-			padding: 0.95em 8% 1.3em 11%;
-
-			p {
-				font-size: 0.85em;
-			}
-
-			.quotation-mark {
-				display: inline;
-			}
-		}
-
-		blockquote:before {
-			display: none;
+		blockquote p {
+			height: 6em;
 		}
 	}
 }
 
 @media (max-width: 899px) {
 	#home #members {
-		text-align: left;
+		margin-bottom: 6%;
 
 		figure {
-			width: 100%; padding: 0;
-			margin-bottom: 2.5em;
+			width: 100%; height: 17em;
+			position: relative; top: 0;
+			margin-bottom: 2.6em;
 
 			img {
-				width: 29%;
-				left: 22%;
+				width: 33%;
+				position: absolute; left: 5%; top: 10%;
 			}
-		}
 
-		figcaption {
-			font-size: 1.1em;
-			right: 71%; top: 83%;
-			padding: 2% 4.9%;
-		}
+			figcaption {
+				position: absolute; top: 6%; right: 8%;
+				width: 50%;
+				min-height: inherit;
+				padding-left: 7em;
 
-		blockquote {
-			position: absolute; right: 14%; top: 22.5%;
-			width: 31%;
-			padding: 0.85em 4.2% 1em 5.3%;
-			font-size: 1.1em;
-			line-height: 1.5em;
+				h2 {
+					margin: 1em;
+				}
+
+				p.occupation {
+					height: inherit;
+				}
+
+				blockquote p {
+					height: inherit;
+					margin-bottom: inherit;
+				}
+
+				a {
+					position: relative; bottom: 0;
+					margin: 1em;
+					display: inline-block;
+				}
+			}
 		}
 
 		#member-2 {
 			img {
-				left: 50%;
+				left: inherit; right: 8%;
 			}
 
 			figcaption {
-				right: inherit; left: 71%;
-			}
-
-			blockquote {
-				right: inherit; top: 22.5%; left: 15%;
+				left: 5%; right: inherit;
+				padding-left: inherit; padding-right: 7em;
 			}
 		}
 	}
@@ -145,19 +125,14 @@
 @media (max-width: 639px) {
 	#home #members {
 		figure {
-			img {
-				width: 35%;
-				left: 15%; top: 2.2em;
+			figcaption {
+				padding-left: 4em;
 			}
 		}
 
-		figcaption {
-			font-size: 0.8em;
-			top: 94.7%; right: 69.1%;
-		}
-		blockquote {
-			p {
-				font-size: 0.75em;
+		#member-2 {
+			figcaption {
+				padding-right: 4em;
 			}
 		}
 	}
@@ -165,26 +140,23 @@
 
 @media (max-width: 499px) {
 	#home #members {
-		figure {
-			text-align: center;
-			margin-bottom: 0.5em;
+		figure, #member-2 {
+			height: inherit;
+			padding: 0 0 2em 0;
+			margin: 0;
 
 			img {
-				position: relative;
-				top: 2em; left: 0 !important;
-				width: 60%;
+				position: relative; left: inherit; right: inherit;
+				width: 80%;
+				margin: auto;
 			}
-		}
 
-		figcaption {
-			font-size: 1em;
-			top: 40%; right: 12% !important; left: inherit !important;
-		}
-		
-		blockquote {
-			width: 60%;
-			position: static;
-			margin: 0 auto;
+			figcaption {
+				position: relative; left: inherit; right: inherit; top: -1.6em;
+				width: 80%;
+				padding: 1em;
+				margin: auto;
+			}
 		}
 	}
 }
