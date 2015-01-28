@@ -33,13 +33,13 @@ bodyclass : "content"
 	<ul id="paging" class="cta">
 		{% if paginator.previous_page %}
 			{% if paginator.previous_page == 1 %}
-				<li><a href="/feed/">Previous page</a></li>
+				<li><a href="/stories/">Previous page</a></li>
 			{% else %}
-				<li><a href="/feed/page{{ paginator.previous_page }}/">Previous page</a></li>
+				<li><a href="/stories/page{{ paginator.previous_page }}/">Previous page</a></li>
 			{% endif %}
 		{% endif %}
 		{% if paginator.next_page %}
-			<li><a href="/feed/page{{ paginator.next_page }}/">Next page</a></li>
+			<li><a href="/stories/page{{ paginator.next_page }}/">Next page</a></li>
 		{% endif %}
 	</ul>
 </main>

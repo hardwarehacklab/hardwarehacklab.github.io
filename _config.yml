@@ -21,7 +21,7 @@ show_drafts: true
 
 permalink: pretty
 paginate: 7
-paginate_path: "/feed/page:num/"
+paginate_path: "/stories/page:num/"
 
 # Markdown library
 markdown: kramdown
