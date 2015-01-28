@@ -1,70 +1,39 @@
 #home #members {
-	padding-bottom: 3.4%;
-
 	a {
 		text-decoration: none;
 	}
 
 	figure {
 		display: inline-block;
-		padding: 0 2% 1.6em 2%;
 		position: relative; top: -3.5em;
-		width: 27%;
+		width: 25%;
+		padding: 2%;
+		margin: 1%;
 		vertical-align: text-top;
 
 		img {
-			width: 80%;
-			position: relative; top: 2.5em; left: -10%;
+			width: 100%;
 			border-radius: 50%;
 		}
-	}
 
-	figcaption {
-		background: #e9e9e9;
-		opacity: 0.92;
-		filter: alpha(opacity=92);
-		display: inline;
-		padding: 2.9% 7.8%;
-		line-height: 1.3em;
-		text-align: left;
-		font-size: 1.2em;
-		position: absolute; top: 36.5%; right: 7%;
-		text-transform: uppercase;
-		font-weight: 400;
-	}
-
-	blockquote {
-		background: #e9e9e9;
-		opacity: 0.92;
-		filter: alpha(opacity=92);
-		padding: 2.6em 10% 2em 12%;
-		text-align: left;
-		quotes: "\201C" "\201D";
-		width: 73%;
-		line-height: 1.8em;
-
-		p {
-			display: inline;
-			font-size: 1em;
-			font-weight: 400;
-			font-style: italic;
-			color: #444444;
+		.name {
+			text-transform: uppercase;
+			font-size: 1.8em;
+			margin-bottom: 0;
 		}
 
-		.quotation-mark {
-			display: none;
+		blockquote {
+			padding: 0 2em;
 		}
-	}
 
-	blockquote:before {
-		color: #cccccc;
-		content: open-quote;
-		font-size: 14em;
-		vertical-align: middle;
-		font-family: Georgia, Serif;
-		font-weight: bold;
-		position: relative; top: 19px; left: -17px;
-		margin: -11px;
+		figcaption {
+			background-color: #e9e9e9;
+			padding: 1em;
+			height: 16em;
+			position: relative;
+			top: -3em;
+			z-index: -10;
+		}
 	}
 }
 
