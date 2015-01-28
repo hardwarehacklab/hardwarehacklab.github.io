@@ -1,6 +1,6 @@
 #people {
 	>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1600.jpg);
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1600.jpg);
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -53,7 +53,7 @@
 
 @media (max-width: 1299px) {
 	#people>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1299.jpg);
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1299.jpg);
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -63,7 +63,7 @@
 @media (max-width: 1099px) {
 	#people {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-1099.jpg);
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1099.jpg);
 			background-position: center center;
 			background-size: cover;
 			background-attachment: fixed;
@@ -84,7 +84,7 @@
 @media (max-width: 899px) {
 	#people {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-899.jpg);
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-899.jpg);
 			background-size: cover;
 			background-position: center top;
 			background-attachment: inherit;
@@ -113,7 +113,7 @@
 @media (max-width: 639px) {
 	#people {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/lab-2-639.jpg);
+			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-639.jpg);
 			background-size: cover;
 			background-position: center top;
 			background-attachment: inherit;
