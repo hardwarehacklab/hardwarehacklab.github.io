@@ -9,17 +9,12 @@ body {
 			margin: 3% 4.5%;
 		}
 
-		>h1 {
-			box-shadow: 10px 10px 2em rgba(0, 0, 0, 0.6);
-		}
-
-		>nav >ul >li >a, >div {
+		>div {
 			box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.25);
 		}
 
 		h1 {
 			padding: 0.2em 0;
-			background-color: #829192;
 			position: absolute; top: 0; left: 0;
 			text-align: center;
 			font-size: 3.7em;
@@ -31,7 +26,8 @@ body {
 				text-transform: uppercase;
 				font-weight: 700;
 				color: #ffffff;
-				width: 400px;
+				display: block;
+				width: 100%; height: 100%;
 				letter-spacing: 0.05em;
 			}
 		}
@@ -57,6 +53,14 @@ body {
 				padding-bottom: inherit;
 				padding-left: 0.7em;
 				padding-right: 0.7em;
+			}
+
+			.cta a:link, .cta a:visited {
+				background-color: inherit;
+			}
+
+			.cta a:hover, .cta a:active {
+				background-color: #e9e9e9;
 			}
 		}
 	}
