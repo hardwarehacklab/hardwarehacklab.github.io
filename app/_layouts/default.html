@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="/images/favicon.png">
   </head>
   <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
-    <header role="banner">
+    <header role="banner"{% if page.bodyid == 'home' %} class="first-glance"{% endif %}>
       <h1><a href="/">Hardware Hack Lab</a></h1>
       <nav role="navigation">
         <h2>Navigation</h2>

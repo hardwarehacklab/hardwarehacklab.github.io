@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	enableFixedHeaderOnScroll();
+	enableHeaderFixesOnScroll();
 	enableMenuButton();
 	enableSocialLinks();
 });
 
-function enableFixedHeaderOnScroll() {
+function enableHeaderFixesOnScroll() {
 	var win = $(window);
 	var header = $('body>header');
 	var headerChildren = $('body>header>h1, body>header>nav');
@@ -42,8 +42,8 @@ function enableFixedHeaderOnScroll() {
 
 	function fixHeader() {
 		headerFixed = true;
-		header.addClass('fixed');
 		headerChildren.hide(0);
+		header.removeClass('first-glance').addClass('fixed');
 		headerChildren.show(200);
 	}
 
