@@ -1,5 +1,5 @@
 #home>header {
-	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-1-1600.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(/images/full-bleed/lab-1-1600.jpg);
 	background-position: center center;
 	background-size: cover;
 	height: 96%;
@@ -16,6 +16,10 @@
 
 #home header h1 {
 	display: block;
+}
+
+#home header nav {
+	display: none;
 }
 
 #home>section {

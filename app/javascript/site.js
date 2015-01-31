@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	if($('body').hasClass('content')) {
-		enableFixedHeaderOnScroll();
-	}
+	enableFixedHeaderOnScroll();
 	enableMenuButton();
 	enableSocialLinks();
 });
@@ -34,7 +32,8 @@ function enableFixedHeaderOnScroll() {
 	}
 
 	function isBeyondScrollBreak() {
-		return win.scrollTop() > $('main').offset().top - 200;
+		var start = $('main').length ? $('main') : $('.lead-in');
+		return win.scrollTop() > start.offset().top - 200;
 	}
 
 	function isWiderThanCssBreak() {
