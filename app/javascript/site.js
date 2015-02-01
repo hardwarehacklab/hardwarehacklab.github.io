@@ -33,7 +33,7 @@ function enableHeaderFixesOnScroll() {
 
 	function isBeyondScrollBreak() {
 		var start = $('main').length ? $('main') : $('.lead-in');
-		return win.scrollTop() > start.offset().top - 200;
+		return win.scrollTop() > start.offset().top - 150;
 	}
 
 	function isWiderThanCssBreak() {
