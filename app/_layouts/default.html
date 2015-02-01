@@ -42,18 +42,20 @@
         <h2>Tagline</h2>
         <p>A free space for artists, <br />hackers &amp; innovators, weekly <br />in NYC.</p>
       </div>
-      <div id="sponsors">
-        <h2>Sponsors</h2>
-        <a href="http://www.thoughtworks.com" id="thoughtworks">
-          <img src="/images/sponsors/thoughtworks.png" alt="Thoughtworks" />
-        </a>
-        &#43;
-        <a href="http://meetup.com/volumetric" id="volumetric">
-          <img src="/images/sponsors/volumetric.png" alt="The Volumetric Society" />
-        </a>
-      </div>
       {% endif %}
     </header>
+    {% if page.bodyid == 'home' %}
+    <section id="sponsors">
+      <h2>Sponsors</h2>
+      <a href="http://www.thoughtworks.com" id="thoughtworks">
+        <img src="/images/sponsors/thoughtworks.png" alt="Thoughtworks" />
+      </a>
+      &#43;
+      <a href="http://meetup.com/volumetric" id="volumetric">
+        <img src="/images/sponsors/volumetric.png" alt="The Volumetric Society" />
+      </a>
+    </section>
+    {% endif %}
     {{ content }}
     <!-- build:js(app) /javascript/script.js -->
     <script src="/javascript/jquery.js"></script>
