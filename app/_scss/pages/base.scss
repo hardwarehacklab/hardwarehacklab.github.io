@@ -52,7 +52,7 @@
 @media (max-width: 899px) {
 	.content {
 		>header {
-			height: 62%;
+			height: 48%;
 		}
 
 		main {
@@ -94,10 +94,6 @@
 
 @media (max-width: 499px) {
 	.content {
-		>header {
-			height: 50%;
-		}
-
 		article {
 			padding: 1.5em 2em 0 1.5em;
 		}
