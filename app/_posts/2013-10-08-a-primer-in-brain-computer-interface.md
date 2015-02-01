@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A Primer in Brain-Computer Interface"
-bodyid    : "lab-feed"
+bodyid    : "stories"
 bodyclass : "content"
 ---
 <p>When Conor from <a href="http://openbci.com">OpenBCI</a> dropped by the hack lab, we accosted him. Here he is explaining the basics of Brain-Computer Interface.</p>

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Projection Mapping with CHiKA"
-bodyid    : "lab-feed"
+bodyid    : "stories"
 bodyclass : "content"
 ---
 <p>Installation artist CHiKA paid a visit to the lab yesterday. She gave an introduction to projection mapping, the technique for projecting video patterns to match the contours of real-world objects.</p>

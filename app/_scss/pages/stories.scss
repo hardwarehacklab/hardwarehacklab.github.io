@@ -1,4 +1,4 @@
-#lab-feed {
+#stories {
 	>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1600.jpg);
 		background-position: center center;
@@ -61,7 +61,7 @@
 } 
 
 @media (max-width: 1299px) {
-	#lab-feed {
+	#stories {
 		>header {
 			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1299.jpg);
 			background-position: center center;
@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 1099px) {
-	#lab-feed>header {
+	#stories>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-1099.jpg);
 		background-position: center center;
 		background-size: cover;
@@ -95,7 +95,7 @@
 }
 
 @media (max-width: 899px) {
-	#lab-feed {
+	#stories {
 		>header {
 			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-899.jpg);
 			background-size: cover;
@@ -147,7 +147,7 @@
 }
 
 @media (max-width: 639px) {
-	#lab-feed {
+	#stories {
 		>header {
 			background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url(/images/full-bleed/lab-2-639.jpg);
 			background-size: cover;
@@ -173,7 +173,7 @@
 }
 
 @media (max-width: 499px) {
-	#lab-feed main article {
+	#stories main article {
 		width: 82%;
 	}
 }
