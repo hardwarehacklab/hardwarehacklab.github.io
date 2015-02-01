@@ -3,8 +3,8 @@
 		display: inline-block;
 		position: relative; top: -3.5em;
 		width: 25%;
-		padding: 2%;
-		margin: 1%;
+		margin: 0;
+		padding: 3%;
 		vertical-align: text-top;
 
 		img {
@@ -15,25 +15,23 @@
 
 		figcaption {
 			background-color: #e9e9e9;
-			padding: 1em;
-			min-height: 19em;
-			position: relative; top: -3em;
+			padding: 1em 0;
 
 			h2 {
 				text-transform: uppercase;
 				display: block;
-				margin: 2em 0 1.3em 0;
+				margin-bottom: 0.9em;
 			}
 
 			p.occupation {
 				white-space: nowrap;
+				font-weight: 900;
 			}
 
 			blockquote {
-				padding: 0 0.7em;
-
 				p {
-					margin-bottom: 3.7em;
+					margin-bottom: 5em;
+					font-style: italic;
 				}
 			}
 
@@ -46,24 +44,14 @@
 	}
 }
 
-@media (max-width: 1299px) {
-	#home #members figure {
-		width: 29%;
-		margin: 0;
-		padding: 1.7%;
-	}
-}
-
 @media (max-width: 1099px) {
 	#home #members figure figcaption {
 		p.occupation {
 			white-space: normal;
-			height: 3.7em;
-			margin: 0 1em;
 		}
 
 		blockquote p {
-			height: 6em;
+			margin-bottom: 3em;
 		}
 	}
 }
@@ -73,33 +61,38 @@
 		margin-bottom: 6%;
 
 		figure {
-			width: 100%; height: 17em;
+			width: 100%; height: 16em;
 			position: relative; top: 0;
-			margin-bottom: 2.6em;
 			padding: 0;
+			text-align: left;
+
+			img, figcaption {
+				position: absolute; top: 50%;
+				transform: translateY(-50%);
+			}
 
 			img {
+				left: 8%;
 				width: 33%;
-				position: absolute; left: 5%; top: 10%;
 			}
 
 			figcaption {
-				position: absolute; top: 6%; right: 8%;
+				right: 4%;
 				width: 50%;
 				min-height: inherit;
 				padding-left: 7em;
-
-				h2 {
-					margin: 1em;
-				}
 
 				p.occupation {
 					height: inherit;
 				}
 
-				blockquote p {
-					height: inherit;
-					margin-bottom: inherit;
+				blockquote {
+					padding-right: 16%;
+
+					p {
+						height: inherit;
+						margin-bottom: inherit;
+					}
 				}
 
 				a {
@@ -111,30 +104,81 @@
 		}
 
 		#member-2 {
+			text-align: right;
+
 			img {
 				left: inherit; right: 8%;
 			}
 
 			figcaption {
-				left: 5%; right: inherit;
+				left: 4%; right: inherit;
 				padding-left: inherit; padding-right: 7em;
+
+				blockquote {
+					padding-right: 0;
+					padding-left: 16%;
+				}
 			}
 		}
+
+		#member-3 {
+			margin-bottom: 26%;
+		}
+	}
+}
+
+@media (max-width: 849px) {
+	#home #members figure {
+		height: 16em;
+	}
+}
+
+@media (max-width: 799px) {
+	#home #members figure {
+		height: 15em;
+	}
+}
+
+@media (max-width: 749px) {
+	#home #members figure {
+		height: 14em;
 	}
 }
 
 @media (max-width: 639px) {
 	#home #members {
-		figure {
+		figure, #member-2 {
+			text-align: center;
+			width: 100%;
+			height: inherit;
+
+			img, figcaption {
+				position: relative; top: 0; left: 0;
+				transform: inherit;
+			}
+
+			img {
+				width: 60%;
+			}
+
 			figcaption {
-				padding-left: 4em;
+				width: 100%;
+				padding: 0;
+
+				h2 {
+					margin-top: 1em;
+				}
+
+				blockquote {
+					padding: 0;
+					width: 50%;
+					margin: 0 auto 3em auto;
+				}
 			}
 		}
 
-		#member-2 {
-			figcaption {
-				padding-right: 4em;
-			}
+		#member-3 {
+			margin-bottom: 9em;
 		}
 	}
 }
@@ -142,21 +186,14 @@
 @media (max-width: 499px) {
 	#home #members {
 		figure, #member-2 {
-			height: inherit;
-			padding: 0 0 2em 0;
-			margin: 0;
-
 			img {
-				position: relative; left: inherit; right: inherit;
-				width: 80%;
-				margin: auto;
+				width: 77%;
 			}
 
 			figcaption {
-				position: relative; left: inherit; right: inherit; top: -1.6em;
-				width: 80%;
-				padding: 1em;
-				margin: auto;
+				blockquote {
+					width: 75%;
+				}
 			}
 		}
 	}

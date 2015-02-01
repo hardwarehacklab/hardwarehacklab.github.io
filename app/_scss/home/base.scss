@@ -24,12 +24,20 @@
 
 #home>section {
 	font-size: 1.2em;
+	position: relative;
 }
 
 #home>section, #home>footer {
 	text-align: center;
 	line-height: 1.5em;
 	width: 100%;
+}
+
+#home>section .more {
+	position: absolute; bottom: 11%;
+	display: block;
+	width: 80%;
+	padding: 0 10%;
 }
 
 #home>p {
@@ -113,6 +121,14 @@
 		height: 87%;
 		position: relative;
 	}
+
+	#home>p.lead-in {
+		padding: 10.3% 0 7.7% 0;
+	}
+
+	#home>section .more {
+		bottom: 9%;
+	}
 }
 
 @media (max-width: 639px) {
@@ -132,6 +148,10 @@
 	}
 
 	#home>p.lead-in {
-		padding: 13.3% 0 21.7% 0;
+		padding: 12.3% 0 14% 0;
+	}
+
+	#home>section .more {
+		bottom: 5%;
 	}
 }
