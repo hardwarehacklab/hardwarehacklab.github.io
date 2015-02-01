@@ -36,15 +36,14 @@
 #home>section .more {
 	position: absolute; bottom: 11%;
 	display: block;
-	width: 80%;
-	padding: 0 10%;
+	width: 80%; padding: 0 10%;
 }
 
 #home>p {
+	padding: 4.2em 10%;
 	display: block;
 	font-weight: normal;
 	color: white;
-	padding: 4.2em 0;
 	font-size: 2.5em;
 	text-align: center;
 	margin: 0;
@@ -56,14 +55,16 @@
 }
 
 #home>p.alt {
-	padding: 3.5em 0;
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
 	color: #444444;
 	font-size: 2.7em;
 	letter-spacing: 0.03em;
 }
 
 #home>p.lead-in {
-	padding: 9% 0 9.5% 0;
+	padding-top: 9%;
+	padding-bottom: 9.5%;
 }
 
 @media (max-width: 1299px) {
@@ -82,7 +83,8 @@
 	}
 
 	#home>p.lead-in {
-		padding: 8.3% 0 11% 0;
+		padding-top: 8.3%;
+		padding-bottom: 11%;
 	}
 }
 
@@ -102,7 +104,8 @@
 	}
 
 	#home>p.lead-in {
-		padding: 10.3% 0 12.7% 0;
+		padding-top: 10.3%;
+		padding-bottom: 12.7%;
 	}
 }
 
@@ -123,7 +126,7 @@
 	}
 
 	#home>p.lead-in {
-		padding: 10.3% 0 7.7% 0;
+		padding-bottom: 7.7%;
 	}
 
 	#home>section .more {
@@ -140,16 +143,19 @@
 
 	#home>p {
 		font-size: 1.5em;
-		padding: 2.2em 0;
+		padding-top: 2.2em;
+		padding-bottom: 2.2em;
 	}
 
 	#home>p.alt {
 		font-size: 1.6em;
-		padding: 2.5em 0;
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
 	}
 
 	#home>p.lead-in {
-		padding: 12.3% 0 14% 0;
+		padding-top: 12.3%;
+		padding-bottom: 14%;
 	}
 
 	#home>section .more {
