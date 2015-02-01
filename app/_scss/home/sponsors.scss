@@ -13,12 +13,12 @@
 
 	#thoughtworks img {
 		width: 400px;
-		margin-right: 14px;
+		margin-right: 4px;
 	}
 
 	#volumetric img {
 		width: 68px;
-		margin-left: 20px;
+		margin-left: 12px;
 	}
 }
 
@@ -67,7 +67,11 @@
 @media (max-width: 499px) {
 	#home #sponsors {
 		#thoughtworks img {
-			width: 230px;
+			width: 200px;
+		}
+
+		#volumetric img {
+			width: 30px;
 		}
 	}
 }
