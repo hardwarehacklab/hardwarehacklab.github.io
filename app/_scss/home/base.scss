@@ -101,7 +101,7 @@
 @media (max-width: 899px) {
 	#home>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/full-bleed/lab-1-899.jpg);
-		background-position: top center !important;
+		background-position: center center !important;
 		background-size: cover;
 	}
 
@@ -114,7 +114,7 @@
 @media (max-width: 639px) {
 	#home>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/full-bleed/lab-1-639.jpg);
-		background-position: top center !important;
+		background-position: bottom center !important;
 		background-size: cover;
 	}
 
