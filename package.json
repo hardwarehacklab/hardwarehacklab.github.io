@@ -2,7 +2,7 @@
   "name": "hardware-hack-labgithubio",
   "private": true,
   "version": "0.0.0",
-  "description": "Yeoman workflow for hardware-hack-lab.github.io",
+  "description": "Yeoman workflow",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
