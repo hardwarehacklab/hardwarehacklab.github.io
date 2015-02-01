@@ -74,10 +74,11 @@
 		height: 70%;
 
 		a {
+			display: block;
 			font-size: 1.6em;
 			line-height: 1.2em;
 			white-space: inherit;
-			margin: 0; padding: 0.15em 0.4em;
+			margin: 0; padding: 0.15em;
 		}
 	}
 }
