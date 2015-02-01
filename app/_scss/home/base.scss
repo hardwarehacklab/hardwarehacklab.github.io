@@ -99,6 +99,10 @@
 }
 
 @media (max-width: 899px) {
+	#home>header nav {
+		display: block;
+	}
+
 	#home>header {
 		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-899.jpg);
 		background-position: center center !important;
