@@ -20,12 +20,13 @@
 			h2 {
 				text-transform: uppercase;
 				display: block;
-				margin-bottom: 0.9em;
+				margin: 0.6em 0;
 			}
 
 			p.occupation {
 				white-space: nowrap;
 				font-weight: 900;
+				margin: 1em 0;
 			}
 
 			blockquote {
@@ -36,7 +37,7 @@
 				}
 			}
 
-			a {
+			a.more {
 				position: absolute; bottom: 2em;
 				width: 90%;
 				display: block;
@@ -96,7 +97,7 @@
 					}
 				}
 
-				a {
+				a.more {
 					position: relative; bottom: 0;
 					margin: 1em;
 					display: inline-block;
