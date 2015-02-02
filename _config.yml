@@ -19,7 +19,7 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: pretty
+permalink: /stories/:title
 paginate: 7
 paginate_path: "/stories/page:num/"
 
