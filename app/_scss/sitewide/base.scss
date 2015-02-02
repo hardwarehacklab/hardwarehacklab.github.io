@@ -33,6 +33,12 @@ hr {
 	margin-bottom: 3em;
 }
 
+blockquote {
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 2em;
+}
+
 @media (max-width: 1299px) {
 	h1 {
 		font-size: 2.05em;
