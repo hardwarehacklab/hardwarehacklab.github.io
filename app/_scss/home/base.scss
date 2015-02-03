@@ -3,7 +3,7 @@
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/full-bleed/lab-1-1600.jpg);
 		background-position: center center;
 		background-size: cover;
-		height: 96%;
+		height: 100%;
 		position: relative;
 	}
 
@@ -16,12 +16,40 @@
 	}
 
 	header {
+		position: relative;
+
 		h1 {
 			display: block;
 		}
 
 		nav {
 			display: none;
+		}
+
+		#chevron {
+			position: absolute; bottom: 4%; left: 50%;
+			text-align: center;
+			padding: 0; margin: 0;
+			width: 4em; height: 0.3em;
+			transform: translateX(-50%);
+			opacity: 0.7;
+			filter: alpha(opacity=70);
+		}
+
+		#chevron:before {
+			content: '';
+			position: absolute; top: 0; left: 0;
+			width: 51%; height: 100%;
+			background: white;
+			transform: skew(0deg, 20deg);
+		}
+
+		#chevron:after {
+			content: '';
+			position: absolute; top: 0; right: 0;
+			width: 50%; height: 100%;
+			background: white;
+			transform: skew(0deg, -20deg);
 		}
 	}
 
@@ -128,8 +156,12 @@
 		}
 
 		>header, #home>footer {
-			height: 87%;
+			height: 96%;
 			position: relative;
+		}
+
+		header #chevron {
+			bottom: 8%;
 		}
 
 		>p.lead-in {
