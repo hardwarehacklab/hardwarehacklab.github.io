@@ -1,8 +1,30 @@
 $(document).ready(function() {
+	makeChevronGlow();
 	enableHeaderFixesOnScroll();
 	enableMenuButton();
 	enableSocialLinks();
 });
+
+function makeChevronGlow() {
+	var win = $(window);
+
+	if($('#home').length) {
+		setTimeout(fadeInChevron, 3500);
+	}
+
+	function fadeInChevron() {
+		if(win.scrollTop() < $('#home').offset().top + 150) {
+			$('#chevron').fadeIn(300, function() {
+				setTimeout(fadeOutChevron, 2500);
+			});
+		}
+	}
+
+	function fadeOutChevron() {
+		$('#chevron').fadeOut(2000);
+		setTimeout(fadeInChevron, 3500);
+	}
+}
 
 function enableHeaderFixesOnScroll() {
 	var win = $(window);
