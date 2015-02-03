@@ -1,164 +1,174 @@
-#home>header {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/full-bleed/lab-1-1600.jpg);
-	background-position: center center;
-	background-size: cover;
-	height: 96%;
-	position: relative;
-}
+#home {
+	>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/full-bleed/lab-1-1600.jpg);
+		background-position: center center;
+		background-size: cover;
+		height: 96%;
+		position: relative;
+	}
 
-#home h1, #home h2 {
-	display: none;
-}
+	h1, h2 {
+		display: none;
+	}
 
-#home h1, #home h2, #home p {
-	cursor: default;
-}
+	h1, h2, p {
+		cursor: default;
+	}
 
-#home header h1 {
-	display: block;
-}
+	header {
+		h1 {
+			display: block;
+		}
 
-#home header nav {
-	display: none;
-}
+		nav {
+			display: none;
+		}
+	}
 
-#home>section {
-	font-size: 1.2em;
-	position: relative;
-}
+	>section {
+		font-size: 1.2em;
+		position: relative;
 
-#home>section, #home>footer {
-	text-align: center;
-	line-height: 1.5em;
-	width: 100%;
-}
+		.more {
+			position: absolute; bottom: 11%;
+			display: block;
+			width: 80%; padding: 0 10%;
+		}
+	}
 
-#home>section .more {
-	position: absolute; bottom: 11%;
-	display: block;
-	width: 80%; padding: 0 10%;
-}
+	>section, >footer {
+		text-align: center;
+		line-height: 1.5em;
+		width: 100%;
+	}
 
-#home>p {
-	padding: 4.2em 10%;
-	display: block;
-	font-weight: normal;
-	color: white;
-	font-size: 2.5em;
-	text-align: center;
-	margin: 0;
-	letter-spacing: 0.06em;
-}
+	>p {
+		padding: 4.2em 10%;
+		display: block;
+		font-weight: normal;
+		color: white;
+		font-size: 2.5em;
+		text-align: center;
+		margin: 0;
+		letter-spacing: 0.06em;
+	}
 
-#home>.alt {
-	background-color: #e9e9e9;
-}
+	>.alt {
+		background-color: #e9e9e9;
+	}
 
-#home>p.alt {
-	padding-top: 3.5em;
-	padding-bottom: 3.5em;
-	color: #444444;
-	font-size: 2.7em;
-	letter-spacing: 0.03em;
-}
+	>p.alt {
+		padding-top: 3.5em;
+		padding-bottom: 3.5em;
+		color: #444444;
+		font-size: 2.7em;
+		letter-spacing: 0.03em;
+	}
 
-#home>p.lead-in {
-	padding-top: 9%;
-	padding-bottom: 9.5%;
+	>p.lead-in {
+		padding-top: 9%;
+		padding-bottom: 9.5%;
+	}
 }
 
 @media (max-width: 1299px) {
-	#home>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1299.jpg);
-		background-position: center center;
-		background-size: cover;
-	}
+	#home {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1299.jpg);
+			background-position: center center;
+			background-size: cover;
+		}
 
-	#home>p {
-		font-size: 2em;
-	}
+		>p {
+			font-size: 2em;
+		}
 
-	#home p.alt {
-		font-size: 2.08em;
-	}
+		p.alt {
+			font-size: 2.08em;
+		}
 
-	#home>p.lead-in {
-		padding-top: 8.3%;
-		padding-bottom: 11%;
+		>p.lead-in {
+			padding-top: 8.3%; padding-bottom: 11%;
+		}
 	}
 }
 
 @media (max-width: 1099px) {
-	#home>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1099.jpg);
-		background-position: center center;
-		background-size: cover;
-	}
+	#home {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1099.jpg);
+			background-position: center center;
+			background-size: cover;
+		}
 
-	#home>p {
-		font-size: 1.81em;
-	}
+		>p {
+			font-size: 1.81em;
+		}
 
-	#home p.alt {
-		font-size: 1.9em;
-	}
+		p.alt {
+			font-size: 1.9em;
+		}
 
-	#home>p.lead-in {
-		padding-top: 10.3%;
-		padding-bottom: 12.7%;
+		>p.lead-in {
+			padding-top: 10.3%; padding-bottom: 12.7%;
+		}
 	}
 }
 
 @media (max-width: 899px) {
-	#home>header nav {
-		display: block;
-	}
+	#home {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-899.jpg);
+			background-position: center center !important;
+			background-size: cover;
 
-	#home>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-899.jpg);
-		background-position: center center !important;
-		background-size: cover;
-	}
+			nav {
+				display: block;
+			}
+		}
 
-	#home>header, #home>footer {
-		height: 87%;
-		position: relative;
-	}
+		>header, #home>footer {
+			height: 87%;
+			position: relative;
+		}
 
-	#home>p.lead-in {
-		padding-bottom: 7.7%;
-	}
+		>p.lead-in {
+			padding-bottom: 7.7%;
+		}
 
-	#home>section .more {
-		bottom: 9%;
+		>section .more {
+			bottom: 9%;
+		}
 	}
 }
 
 @media (max-width: 639px) {
-	#home>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-639.jpg);
-		background-position: bottom center !important;
-		background-size: cover;
-	}
+	#home {
+		>header {
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-639.jpg);
+			background-position: bottom center !important;
+			background-size: cover;
+		}
 
-	#home>p {
-		font-size: 1.5em;
-		padding-top: 2.2em;
-		padding-bottom: 2.2em;
-	}
+		>p {
+			font-size: 1.5em;
+			padding-top: 2.2em;
+			padding-bottom: 2.2em;
+		}
 
-	#home>p.alt {
-		font-size: 1.6em;
-		padding-top: 2.5em;
-		padding-bottom: 2.5em;
-	}
+		>p.alt {
+			font-size: 1.6em;
+			padding-top: 2.5em;
+			padding-bottom: 2.5em;
+		}
 
-	#home>p.lead-in {
-		padding-top: 12.3%;
-		padding-bottom: 14%;
-	}
+		>p.lead-in {
+			padding-top: 12.3%;
+			padding-bottom: 14%;
+		}
 
-	#home>section .more {
-		bottom: 5%;
+		>section .more {
+			bottom: 5%;
+		}
 	}
 }
