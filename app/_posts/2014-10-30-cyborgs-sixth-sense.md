@@ -14,6 +14,8 @@ bodyclass : "content"
 
 <p>Neil has an antenna implanted in his skull which allows him to hear color. Moon has a vibrating implant in her elbow which is wirelessly connected to online seismographs, which means she can sense earthquakes from all over the world.</p>
 
+<!--excerpt-ends-->
+
 <p>Together they run the non-profit <a href="http://cyborgism.wix.com/cyborg">Cyborg Foundation</a>, with a stated mission to:</p>
 
 <blockquote><p>"help humans become cyborgs, to promote the use of cybernetics as part of the human body and to defend cyborg rights"</p></blockquote>

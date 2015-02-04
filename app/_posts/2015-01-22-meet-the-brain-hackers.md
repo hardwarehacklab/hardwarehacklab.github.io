@@ -14,6 +14,8 @@ bodyclass : "content"
 
 <p>During this week's lab Conor and Joel gave us the basics, and announced a new <a href="http://www.meetup.com/OpenBCI-Workshop/">OpenBCI workshop series</a> designed for the community.</p>
 
+<!--excerpt-ends-->
+
 <p>But why do they do it?</p>
 
 <p>One answer is it's about access, just as with any open source technology. Not just who can get access, but also can they extend or hack it, and how easy is it to get started?</p>

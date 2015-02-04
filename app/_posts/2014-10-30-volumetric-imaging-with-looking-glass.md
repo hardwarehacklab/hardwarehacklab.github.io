@@ -12,6 +12,8 @@ bodyclass : "content"
 
 <p>Most impressive were the new volumetric display prototypes. Prototype 3D cubes, which they plan to mass manufacture and sell online - appropriately named 'L3D Cube'.</p>
 
+<!--excerpt-ends-->
+
 <p>These guys are hackers at heart and brought in some cool demos to show off. One of them involves holding a plastic painting palette. On the palette are bits of colored play-doh hooked up to a Makey-Makey and a Leap Motion.</p>
 
 <p>When you press your finger on the play-doh you can switch colors, and as you wave your hand above the Leap you move a cursor in 3D space. In this way you have direct control over the contents of the L3D Cube.</p>

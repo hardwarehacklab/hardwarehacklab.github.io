@@ -12,6 +12,8 @@ bodyclass : "content"
 
 <p>This is a technique CHiKA often uses in her artworks. The method she uses is based on combining the powers of two different software packages, along with a projector and a laptop.</p>
 
+<!--excerpt-ends-->
+
 <p>The first software is <a href="http://www.modul8.ch/">Modul8</a>, a VJing and video-mixing package. The second is <a href="http://www.madmapper.com/">MadMapper</a>, a tool which allows you to define how the video from Modul8 will match the contours of real-world objects.</p>
 
 <p>To learn more, you could attend one of CHiKA's <a href="http://www.mappathon.com/">Mappathons</a>. They are a bit like hackathons but for projection mapping - an intensive learning and creative experience, with a built-in exhibition opportunity.</p>

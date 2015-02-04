@@ -25,7 +25,8 @@ bodyclass : "content"
 				</ul>
 			</div>
 		</header>
-		{{ post.content }}
+		{{ post.excerpt }}
+		<a href="{{ post.url }}">Continue reading</a>
 		<hr />
 	</article>
 	{% endfor %}
