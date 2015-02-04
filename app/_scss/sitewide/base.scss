@@ -3,6 +3,14 @@ html, body {
 	background-color: #829192;
 }
 
+a:link, a:visited {
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
 p {
 	font-size: 1.1em;
 	line-height: 1.5em;
@@ -11,6 +19,10 @@ p {
 
 h1 {
 	font-size: 2.2em;
+
+	a:link, a:visited {
+		text-decoration: none;
+	}
 }
 
 h2, .more{
