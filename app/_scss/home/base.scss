@@ -59,9 +59,10 @@
 		position: relative;
 
 		.more {
-			position: absolute; bottom: 11%;
+			position: absolute; bottom: 13%;
 			display: block;
 			width: 80%; padding: 0 10%;
+			font-size: 1.2em;
 		}
 	}
 
@@ -76,7 +77,7 @@
 		display: block;
 		font-weight: normal;
 		color: white;
-		font-size: 2.5em;
+		font-size: 2.63em;
 		text-align: center;
 		margin: 0;
 		letter-spacing: 0.06em;
@@ -109,15 +110,19 @@
 		}
 
 		>p {
-			font-size: 2em;
+			font-size: 2.15em;
 		}
 
 		p.alt {
-			font-size: 2.08em;
+			font-size: 2.2em;
 		}
 
 		>p.lead-in {
 			padding-top: 8.3%; padding-bottom: 11%;
+		}
+
+		>section .more {
+			font-size: 1.15em;
 		}
 	}
 }
@@ -131,15 +136,19 @@
 		}
 
 		>p {
-			font-size: 1.81em;
+			font-size: 2.05em;
 		}
 
 		p.alt {
-			font-size: 1.9em;
+			font-size: 2.1em;
 		}
 
 		>p.lead-in {
 			padding-top: 10.3%; padding-bottom: 12.7%;
+		}
+
+		>section .more {
+			font-size: 1.1em;
 		}
 	}
 }
@@ -184,13 +193,11 @@
 		}
 
 		>p {
-			font-size: 1.5em;
 			padding-top: 2.2em;
 			padding-bottom: 2.2em;
 		}
 
 		>p.alt {
-			font-size: 1.6em;
 			padding-top: 2.5em;
 			padding-bottom: 2.5em;
 		}
