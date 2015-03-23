@@ -11,6 +11,9 @@ linters:
   ColorKeyword:
     enabled: true
 
+  ColorVariable:
+    enabled: false
+
   Comment:
     enabled: true
 
@@ -51,6 +54,9 @@ linters:
   IdSelector:
     enabled: false
 
+  ImportantRule:
+    enabled: false
+
   ImportPath:
     enabled: true
     leading_underscore: false
@@ -72,7 +78,7 @@ linters:
     enabled: false
 
   NestingDepth:
-    enabled: true
+    enabled: false
     max_depth: 4
 
   PlaceholderInExtend:
@@ -86,27 +92,27 @@ linters:
     extra_properties: []
 
   QualifyingElement:
-    enabled: true
+    enabled: false
     allow_element_with_attribute: false
     allow_element_with_class: false
     allow_element_with_id: false
 
   SelectorDepth:
-    enabled: true
+    enabled: false
     max_depth: 3
 
   SelectorFormat:
     enabled: false
 
   Shorthand:
-    enabled: true
+    enabled: false
 
   SingleLinePerProperty:
-    enabled: true
+    enabled: false
     allow_single_line_rule_sets: false
 
   SingleLinePerSelector:
-    enabled: true
+    enabled: false
 
   SpaceAfterComma:
     enabled: true

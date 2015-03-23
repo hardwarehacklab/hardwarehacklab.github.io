@@ -1,5 +1,5 @@
 #home>footer {
-	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/full-bleed/equipment-1600.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('/images/full-bleed/equipment-1600.jpg');
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
@@ -22,7 +22,7 @@
 
 @media (max-width: 1299px) {
 	#home>footer {
-		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/full-bleed/equipment-1299.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('/images/full-bleed/equipment-1299.jpg');
 		background-position: center center;
 		background-size: cover;
 	}
@@ -30,7 +30,7 @@
 
 @media (max-width: 1099px) {
 	#home>footer {
-		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/full-bleed/equipment-1099.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('/images/full-bleed/equipment-1099.jpg');
 		background-position: center center;
 		background-size: cover;
 
@@ -42,7 +42,7 @@
 
 @media (max-width: 899px) {
 	#home>footer {
-		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/full-bleed/equipment-899.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('/images/full-bleed/equipment-899.jpg');
 		background-position: center center;
 		background-size: cover;
 		height: 70%;
@@ -59,7 +59,7 @@
 
 @media (max-width: 639px) {
 	#home>footer {
-		background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4) ), url(/images/full-bleed/equipment-639.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)), url('/images/full-bleed/equipment-639.jpg');
 		background-position: center center;
 		background-size: cover;
 

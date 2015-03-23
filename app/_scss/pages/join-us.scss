@@ -1,6 +1,6 @@
 #join-us {
 	>header {
-		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(/images/full-bleed/lab-4-1600.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1600.jpg');
 		background-position: 100% 100%;
 		background-size: cover;
 		background-attachment: fixed;
@@ -26,7 +26,7 @@
 @media (max-width: 1299px) {
 	#join-us {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(/images/full-bleed/lab-4-1299.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1299.jpg');
 			background-position: 100% 100%;
 			background-size: cover;
 			background-attachment: fixed;
@@ -41,7 +41,7 @@
 @media (max-width: 1099px) {
 	#join-us {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(/images/full-bleed/lab-4-1099.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1099.jpg');
 			background-position: 100% 100%;
 			background-size: cover;
 			background-attachment: fixed;
@@ -61,7 +61,7 @@
 @media (max-width: 899px) {
 	#join-us {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(/images/full-bleed/lab-4-899.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-899.jpg');
 			background-size: cover;
 			background-position: 100% 100%;
 			background-attachment: inherit;
@@ -79,7 +79,7 @@
 @media (max-width: 639px) {
 	#join-us {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(/images/full-bleed/lab-4-639.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-639.jpg');
 			background-size: cover;
 			background-position: 100% 100%;
 			background-attachment: inherit;

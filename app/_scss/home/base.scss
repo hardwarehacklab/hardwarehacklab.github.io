@@ -1,6 +1,6 @@
 #home {
 	>header {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/full-bleed/lab-1-1600.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/full-bleed/lab-1-1600.jpg');
 		background-position: center center;
 		background-size: cover;
 		height: 100%;
@@ -41,7 +41,7 @@
 			content: '';
 			position: absolute; top: 0; left: 0;
 			width: 51%; height: 100%;
-			background: white;
+			background: #ffffff;
 			transform: skew(0deg, 20deg);
 		}
 
@@ -49,7 +49,7 @@
 			content: '';
 			position: absolute; top: 0; right: 0;
 			width: 50%; height: 100%;
-			background: white;
+			background: #ffffff;
 			transform: skew(0deg, -20deg);
 		}
 	}
@@ -76,7 +76,7 @@
 		padding: 4.2em 10%;
 		display: block;
 		font-weight: normal;
-		color: white;
+		color: #ffffff;
 		font-size: 2.63em;
 		text-align: center;
 		margin: 0;
@@ -104,7 +104,7 @@
 @media (max-width: 1299px) {
 	#home {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1299.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/full-bleed/lab-1-1299.jpg');
 			background-position: center center;
 			background-size: cover;
 		}
@@ -130,7 +130,7 @@
 @media (max-width: 1099px) {
 	#home {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-1099.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/full-bleed/lab-1-1099.jpg');
 			background-position: center center;
 			background-size: cover;
 		}
@@ -156,7 +156,7 @@
 @media (max-width: 899px) {
 	#home {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-899.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/full-bleed/lab-1-899.jpg');
 			background-position: center center !important;
 			background-size: cover;
 
@@ -187,7 +187,7 @@
 @media (max-width: 639px) {
 	#home {
 		>header {
-			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(/images/full-bleed/lab-1-639.jpg);
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/full-bleed/lab-1-639.jpg');
 			background-position: bottom center !important;
 			background-size: cover;
 		}
