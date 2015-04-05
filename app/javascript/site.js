@@ -4,6 +4,7 @@ $(document).ready(function() {
 		enableHeaderFixesOnScroll();
 		enableMenuButton();
 		enableSocialLinks();
+		fixResizableHeights();
 	}
 
 	function makeChevronGlow() {
@@ -117,6 +118,15 @@ $(document).ready(function() {
 			window.open(url, 'social-share', opts);
 			event.preventDefault();
 		});
+	}
+
+	function fixResizableHeights() {
+		//Fixes problem with viewport height changing on mobile, as the URL bar disappears
+		if($(window).width() <= 639) {
+			$('#home>header').each(function(index, value) {
+				$(this).css('height', $(this).height() + 'px');
+			});
+		}
 	}
 
 	init();
