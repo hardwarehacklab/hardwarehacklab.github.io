@@ -32,7 +32,7 @@
 			background-attachment: fixed;
 		}
 
-		main #map {
+		main .widget {
 			margin: 0 0.5em 0 2.1em;
 		}
 	}
@@ -51,7 +51,7 @@
 			font-weight: 400;
 		}
 
-		main #map {
+		main .widget {
 			width: 46%;
 			padding-top: 53%;
 		}
@@ -67,7 +67,7 @@
 			background-attachment: inherit;
 		}
 
-		main #map {
+		main .widget {
 			width: 95%;
 			padding-top: 40%;
 			float: left;
@@ -85,14 +85,14 @@
 			background-attachment: inherit;
 		}
 		
-		main #map {
+		main .widget {
 			width: 100%;
 		}
 	}
 }
 
 @media (max-width: 499px) {
-	#join-us main #map {
+	#join-us main .widget {
 		padding-top: 65%;
 	}
 }
