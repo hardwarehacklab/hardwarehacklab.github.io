@@ -103,7 +103,7 @@ $(document).ready(function() {
 	}
 
 	function enableSocialLinks() {
-		$('.social a').click(function(event) {
+		$('main .social a').click(function(event) {
 			var width =  575,
 			    height = 400,
 				left =   ($(window).width()	- width) / 2,
