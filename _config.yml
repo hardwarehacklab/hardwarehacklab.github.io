@@ -43,3 +43,7 @@ markdown: kramdown
 pygments: true
 gems:
   - jekyll-sitemap
+  
+collections:
+  members:
+    output: true
