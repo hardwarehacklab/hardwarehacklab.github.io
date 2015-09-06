@@ -29,14 +29,14 @@
 		}
     }
     
-    .grid, article {
+    .grid, .member-page {
 		img, figcaption, p, ul {
 			width: 100%;
 			border-radius: 50%;
 		}
 	}
     
-    article {
+    .member-page {
         margin-left: 33%;
         
         .profile {
