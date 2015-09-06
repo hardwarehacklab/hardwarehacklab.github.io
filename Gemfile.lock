@@ -9,7 +9,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1)
+    coffee-script-source (1.9.1.1)
     colorator (0.1)
     execjs (2.4.0)
     fast-stemmer (1.0.2)
@@ -77,3 +77,6 @@ DEPENDENCIES
   kramdown
   sass (>= 3.2)
   scss-lint (>= 0.18.0)
+
+BUNDLED WITH
+   1.10.6
