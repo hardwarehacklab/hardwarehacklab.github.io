@@ -13,10 +13,10 @@ bodyclass : "content"
 		<div class="grid">
             {% for member in site.members %}
             <figure>
-                <a href="{{ member.path }}">
+                <a href="{{ member.url }}">
                     <img src="/images/members/{{ member.photo }}" />
                 </a>
-                <a href="{{ member.path }}">
+                <a href="{{ member.url }}">
                     <figcaption><h2>{{ member.title }}</h2></figcaption>
                 </a>
 				<p>{{ member.description }}</p>
