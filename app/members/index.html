@@ -11,6 +11,22 @@ bodyclass : "content"
 		<p>A mix of artists, engineers, students, designers and well, straight-up nerds. We make a free and friendly space every Wednesday, with people, equipment and a good vibe. Some of our members are new to tech, others have been doing it a lifetime. Some drop by on occasion, others are here every week.</p>
 		<p>If you like the sound of that, please <a href="/join">drop by and visit</a>.</p>
 		<div class="grid">
+            {% for member in site.members %}
+            <figure>
+                <a href="{{ member.path }}">
+                    <img src="/images/members/{{ member.photo }}" />
+                </a>
+                <a href="{{ member.path }}">
+                    <figcaption><h2>{{ member.title }}</h2></figcaption>
+                </a>
+				<p>{{ member.description }}</p>
+				<ul class="links">
+                {% for link in member.links %}
+                    <li><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i></a></li>
+                {% endfor %}
+                </ul>
+			</figure>
+            {% endfor %}
 			<figure>
 				<img src="/images/members/enki.jpg" />
 				<figcaption><h2>Enki Andrews</h2></figcaption>
@@ -69,16 +85,6 @@ bodyclass : "content"
 				</ul>
 			</figure>
 			<figure>
-				<img src="/images/members/julien.jpg" />
-				<figcaption><h2>Julien Deswaef</h2></figcaption>
-				<p>Maker, Hacker</p>
-				<ul class="links">
-					<li><a href="https://github.com/xuv"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://twitter.com/xuv"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="http://xuv.be"><i class="fa fa-globe"></i></a></li>
-				</ul>
-			</figure>
-			<figure>
 				<img src="/images/members/gene.jpg" />
 				<figcaption><h2>Gene Kogan</h2></figcaption>
 				<p>Programmer, Artist</p>
@@ -118,25 +124,6 @@ bodyclass : "content"
 					<li><a href="https://twitter.com/jahyadotnet"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://vimeo.com/jahya"><i class="fa fa-vimeo-square"></i></a></li>
 					<li><a href="http://www.jahya.net"><i class="fa fa-globe"></i></a></li>
-				</ul>
-			</figure>
-			<figure>
-				<img src="/images/members/nga.jpg" />
-				<figcaption><h2>Nga N.</h2></figcaption>
-				<p>Fashion Designer</p>
-				<ul class="links">
-					<li><a href="https://twitter.com/nga_nyc"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="http://www.nganycdesign.com"><i class="fa fa-globe"></i></a></li>
-				</ul>
-			</figure>
-			<figure>
-				<img src="/images/members/ellen.jpg" />
-				<figcaption><h2>Ellen Pearlman</h2></figcaption>
-				<p>Artist, Researcher</p>
-				<ul class="links">
-					<li><a href="http://artdis.tumblr.com"><i class="fa fa-globe"></i></a></li>
-					<li><a href="http://nyc.volumetric.org"><i class="fa fa-globe"></i></a></li>
-					<li><a href="http://www.scm.cityu.edu.hk/people/doctoral-researchers/pearlman-ellen-l/"><i class="fa fa-globe"></i></a></li>
 				</ul>
 			</figure>
 			<figure>
