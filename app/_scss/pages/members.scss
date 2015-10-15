@@ -32,8 +32,10 @@
     .grid, .member-page {
 		img, figcaption, p, ul {
 			width: 100%;
-			border-radius: 50%;
 		}
+        figure img {
+                border-radius: 50%;
+        }
 	}
     
     .member-page {
