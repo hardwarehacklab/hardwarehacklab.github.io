@@ -40,10 +40,13 @@ My own Andy Warhol Arts Writers Grant Finalist award winning blog on art and tec
 
 As ubiquity grows, so goes surveillance.
 
-Attachments of works -
+### Attachments of works
 
-1. Khymer Noctures - done in collaboration with the Metropolitan Museum of Art Media Lab - shown at the "Sounds, Image and Data" conference at NYU Stenhardt/Goldsmiths College/Leonardo
+1. Khymer Noctures - done in collaboration with the Metropolitan Museum of Art Media Lab - shown at the "Sounds, Image and Data" conference at NYU Stenhardt/Goldsmiths College/Leonardo  
+   ![Khymer Nocturnes](/images/interviews/ellen/khymer_noctures.jpg)
 
-2. Surveillance Siddhi - Shown at SIGGRAPH Digital Gallery on line - "Enhanced Vision"
+2. Surveillance Siddhi - Shown at SIGGRAPH Digital Gallery on line - "Enhanced Vision"  
+   ![Surveillance Siddhi](/images/interviews/ellen/surveillance_siddhi.jpg)
 
-3. Included in "Signal Culture Cookbook" 
+3. Included in "Signal Culture Cookbook"  
+   ![Signal Culture Cookbook](/images/interviews/ellen/signal_culture_cookbook.png)
