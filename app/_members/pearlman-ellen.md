@@ -36,7 +36,7 @@ Yehuda Dueynas - The Ascent
 Lisa Park - Euonia II
 
 ### Which blogs or zines do you peruse right now?
-My own Andy Warhol Arts Writers Grant Finalist award winning blog on art and technology. http://artdis.tumblr.com
+My own Andy Warhol Arts Writers Grant Finalist award winning blog on art and technology. <http://artdis.tumblr.com>
 
 As ubiquity grows, so goes surveillance.
 

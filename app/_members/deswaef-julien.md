@@ -41,9 +41,9 @@ It's {how|why} internet was built and although it looks like a dying idea someti
 
 So I keep a eye on:
 
-- https://www.ethereum.org/
-- http://matrix.org/
-- http://cozy.io/
+- <https://www.ethereum.org/>
+- <http://matrix.org/>
+- <http://cozy.io/>
 
 
 ### Which blogs or zines do you peruse right now?
@@ -51,6 +51,6 @@ So I keep a eye on:
 I have an [RSS reader](https://tt-rss.org/gitlab/fox/tt-rss) with ~200 feeds.
 But my latest favorites are:
 
-- http://algopop.tumblr.com/
-- http://prostheticknowledge.tumblr.com/
-- http://text-mode.tumblr.com/ 
+- <http://algopop.tumblr.com/>
+- <http://prostheticknowledge.tumblr.com/>
+- <http://text-mode.tumblr.com/>
