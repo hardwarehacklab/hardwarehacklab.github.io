@@ -47,3 +47,4 @@ gems:
 collections:
   members:
     output: true
+    permalink: /members/:title/
