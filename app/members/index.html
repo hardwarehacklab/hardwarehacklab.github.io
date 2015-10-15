@@ -13,13 +13,26 @@ bodyclass : "content"
 		<div class="grid">
             {% for member in site.members %}
             <figure>
-                <a href="{{ member.url }}">
+                {% comment %} 
+                    Find out if there is content (aka interview) in the member file.
+                    If there is no content (aka memeber.content is empty), then don't dislpay link
+                {% endcomment %}
+                
+                {% assign content = member.content | strip_newlines %}
+                {% if content != "" %}
+                    <a href="{{ member.url }}">
+                        <img src="/images/members/{{ member.photo }}" />
+                    </a>
+                    
+                    <a href="{{ member.url }}">
+                        <figcaption><h2>{{ member.title }}</h2></figcaption>
+                    </a>
+                {% else %}
                     <img src="/images/members/{{ member.photo }}" />
-                </a>
-                <a href="{{ member.url }}">
                     <figcaption><h2>{{ member.title }}</h2></figcaption>
-                </a>
-				<p>{{ member.description }}</p>
+                {% endif %}
+				
+                <p>{{ member.description }}</p>
 				<ul class="links">
                 {% for link in member.links %}
                     <li><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i></a></li>
@@ -27,23 +40,6 @@ bodyclass : "content"
                 </ul>
 			</figure>
             {% endfor %}
-			<figure>
-				<img src="/images/members/enki.jpg" />
-				<figcaption><h2>Enki Andrews</h2></figcaption>
-				<p>Distortionist, Artist</p>
-				<ul class="links">
-					<li><a href="http://www.syncord.com/"><i class="fa fa-globe"></i></a></li>
-				</ul>
-			</figure>
-			<figure>
-				<img src="/images/members/allison.jpg" />
-				<figcaption><h2>Allison Berkoy</h2></figcaption>
-				<p>Artist</p>
-				<ul class="links">
-					<li><a href="https://vimeo.com/allisonberkoy"><i class="fa fa-vimeo-square"></i></a></li>
-					<li><a href="http://berkoy.com"><i class="fa fa-globe"></i></a></li>
-				</ul>
-			</figure>
 			<figure>
 				<img src="/images/members/annie.jpg" />
 				<figcaption><h2>Annie Berman</h2></figcaption>
