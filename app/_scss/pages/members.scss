@@ -107,7 +107,7 @@
 		.grid {
 			text-align: center;
 			left: -1.75em;
-
+            
 			figure {
 				width: 40%;
 				margin: 2.4% 2% 6% 7%;
@@ -121,6 +121,26 @@
 				margin: 0.5em 0;
 			}
 		}
+        
+        .member-page {
+            margin-left: 0;
+            
+            .profile {
+                position: absolute; left: 33%; top: 10em;
+                width: 33%;
+                text-align: center;
+                
+                i { color: white; }
+                
+                img {
+                    border: solid 2px white;
+                }
+                
+                .links {
+                    margin-top: 1em;
+                }
+            }
+        }
 	}
 }
 
@@ -149,5 +169,11 @@
 				font-size: 1.4em;
 			}
 		}
+        
+        .member-page {
+            .profile {
+                top: 4em;
+            }
+        }
 	}
 }
