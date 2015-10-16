@@ -21,7 +21,7 @@ links:
 interviewed   : 2015-09-05
 ---
 
-### Tell us a little about what you do
+##Tell us a little about what you do
 
 I'm an artist, designer and creative coder. I usually make [video pipelines](https://www.youtube.com/channel/UC64gD1NN-GE_tfd0swtxcOA) and [unidentified web objects](http://lovemachine.cc/). 
 I basically like anything that involves mashups and that can be manipulated with code.
@@ -34,7 +34,7 @@ Lately I've been studying ways to improve [collaboration between graphic designe
 I also collect [laptops covered with stickers](https://instagram.com/xuvgram/), references of [abuse and empathy with robots](http://slapmybot.tumblr.com/) and run my own [NYCmesh](http://nycmesh.net) node.
  
 
-### Which tech trend(s) are getting the most of your attention right now?
+##Which tech trend(s) are getting the most of your attention right now?
 
 I've always been interested in distributed technologies... from file sharing to messaging and nowadays digital "currencies".  
 It's {how|why} internet was built and although it looks like a dying idea sometimes, there always new stuff popping up.
@@ -46,7 +46,7 @@ So I keep a eye on:
 - <http://cozy.io/>
 
 
-### Which blogs or zines do you peruse right now?
+##Which blogs or zines do you peruse right now?
 
 I have an [RSS reader](https://tt-rss.org/gitlab/fox/tt-rss) with ~200 feeds.
 But my latest favorites are:
