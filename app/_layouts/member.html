@@ -20,13 +20,4 @@ layout: default
     {{ content }}
     <hr />
   </article>
-  
-  <ul id="paging" class="cta">
-    {% if page.previous %}
-    <li><a href="{{ page.previous.url }}">Previous post</a></li>
-    {% endif %}
-    {% if page.next %}
-    <li><a href="{{ page.next.url }}">Next post</a></li>
-    {% endif %}
-  </ul>
 </main>
