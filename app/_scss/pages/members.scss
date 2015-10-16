@@ -33,8 +33,9 @@
 		img, figcaption, p, ul {
 			width: 100%;
 		}
+
 		figure img {
-				border-radius: 50%;
+			border-radius: 50%;
 		}
 	}
 
@@ -164,9 +165,23 @@
 		}
 
 		.member-page {
+			header {
+				margin: 0;
+			}
+
 			.profile {
-				top: 4em;
+				width: 55%;
+				position: relative;
+				top: inherit;
+				right: inherit;
+				margin: 2em auto;
 			}
 		}
+	}
+}
+
+@media (max-width: 499px) {
+	#members .member-page .profile {
+		width: 90%;
 	}
 }
