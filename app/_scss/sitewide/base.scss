@@ -83,6 +83,18 @@ ul.links {
 	}
 }
 
+.video {
+	width: 96%;
+	position: relative;
+	display: inline-block;
+	padding-top: 54%;
+
+	iframe {
+		position: absolute; top: 0; bottom: 0; right: 0; left: 0;
+		width: 100%; height: 100%;
+	}
+}
+
 @media (max-width: 1299px) {
 	h1 {
 		font-size: 2.05em;

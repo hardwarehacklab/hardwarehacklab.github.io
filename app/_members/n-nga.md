@@ -25,11 +25,15 @@ My introductory piece to the Evoke series is an Augmented Meditation Stone with 
 
 
 Stage presentation.  
-<iframe src="https://player.vimeo.com/video/129139704?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video">
+	<iframe src="https://player.vimeo.com/video/129139704?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 
-Product video.  
-<iframe src="https://player.vimeo.com/video/127483446?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Product video.
+<div class="video">
+	<iframe src="https://player.vimeo.com/video/127483446?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 
 The Evoke collection is exploratory work which welcomes different point of views to incur conversation between designers, practitioners of various fields and tech industries to participate in a more connected way. 
