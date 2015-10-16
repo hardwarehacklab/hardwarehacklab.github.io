@@ -16,6 +16,18 @@
 			font-weight: normal;
 		}
 
+		ol, ul {
+			margin: 0 0 2em 1.25em;
+
+			li {
+				margin-bottom: 0.3em;
+			}
+		}
+
+		ul.links {
+			margin: 0;
+		}
+
 		.cta {
 			margin-top: 3em;
 

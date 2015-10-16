@@ -17,6 +17,10 @@ p {
 	margin: 1.4em 0;
 }
 
+ul, ol {
+	font-size: 1.1em;
+}
+
 h1 {
 	font-size: 2.2em;
 
@@ -57,6 +61,7 @@ blockquote {
 }
 
 ul.links {
+	margin: 0;
 	list-style: none;
 	list-style-type: none;
 
