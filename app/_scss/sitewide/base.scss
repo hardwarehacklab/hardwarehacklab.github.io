@@ -19,6 +19,14 @@ p {
 
 ul, ol {
 	font-size: 1.1em;
+
+	p {
+		font-size: inherit;
+
+		img {
+			margin-top: 0.7em;
+		}
+	}
 }
 
 h1 {
