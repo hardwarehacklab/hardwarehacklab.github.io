@@ -19,7 +19,7 @@
 			vertical-align: text-top;
 			text-align: center;
 		}
-        
+
 		figcaption {
 			margin-top: 0.4em;
 		}
@@ -27,41 +27,39 @@
 		p {
 			margin: 0.2em 0 0.5em 0;
 		}
-    }
-    
-    .grid, .member-page {
+	}
+
+	.grid, .member-page {
 		img, figcaption, p, ul {
 			width: 100%;
 		}
-        figure img {
-                border-radius: 50%;
-        }
+		figure img {
+				border-radius: 50%;
+		}
 	}
-    
-    .member-page {
-        margin-left: 33%;
-        
-        .profile {
-            position: absolute; left: 5%; top: 3em;
-            width: 25%;
-            text-align: center;
-            
-            .links {
-                margin-top: 1em;
-            }
-        }
-        
-        h3 {
-            margin-top: 1em;
-            font-style: italic;
-        }
-        
-        ul {
-            list-style: none;
-        }
-        
-    }
-    
+
+	.member-page {
+		margin-left: 33%;
+
+		.profile {
+			position: absolute; left: 5%; top: 3em;
+			width: 25%;
+			text-align: center;
+
+			.links {
+				margin-top: 1em;
+			}
+		}
+
+		h3 {
+			margin-top: 1em;
+			font-style: italic;
+		}
+
+		ul {
+			list-style: none;
+		}
+	}
 }
 
 
@@ -107,7 +105,7 @@
 		.grid {
 			text-align: center;
 			left: -1.75em;
-            
+
 			figure {
 				width: 40%;
 				margin: 2.4% 2% 6% 7%;
@@ -121,26 +119,21 @@
 				margin: 0.5em 0;
 			}
 		}
-        
-        .member-page {
-            margin-left: 0;
-            
-            .profile {
-                position: absolute; left: 33%; top: 10em;
-                width: 33%;
-                text-align: center;
-                
-                i { color: white; }
-                
-                img {
-                    border: solid 2px white;
-                }
-                
-                .links {
-                    margin-top: 1em;
-                }
-            }
-        }
+
+		.member-page {
+			margin-left: 0;
+			position: relative;
+
+			header {
+				margin: 5.8em 0 2.9em;
+			}
+
+			.profile {
+				position: absolute;
+				top: 2.6em; right: 4em; left: inherit;
+				width: 200px;
+			}
+		}
 	}
 }
 
@@ -169,11 +162,11 @@
 				font-size: 1.4em;
 			}
 		}
-        
-        .member-page {
-            .profile {
-                top: 4em;
-            }
-        }
+
+		.member-page {
+			.profile {
+				top: 4em;
+			}
+		}
 	}
 }
