@@ -1,120 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://hardwarehacklab.io/stories/thoughtworks-hackers-smarthome-jam</loc>
-    <lastmod>2015-03-21T00:00:00-04:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/stories/an-initial-post</loc>
+    <lastmod>2015-10-22T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/meet-the-brain-hackers</loc>
-    <lastmod>2015-01-22T00:00:00-05:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/</loc>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/projection-mapping-with-chika</loc>
-    <lastmod>2014-12-11T00:00:00-05:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/join/</loc>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/controlling-sound-with-your-hands</loc>
-    <lastmod>2014-11-19T00:00:00-05:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/members/</loc>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/volumetric-imaging-with-looking-glass</loc>
-    <lastmod>2014-10-30T00:00:00-04:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/stories/</loc>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/cyborgs-sixth-sense</loc>
-    <lastmod>2014-10-30T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/stories/kinect-projector-toolkit</loc>
-    <lastmod>2014-04-04T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/stories/a-primer-in-brain-computer-interface</loc>
-    <lastmod>2013-10-08T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/join/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/periscope/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/stories/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/enki-andrews/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/benton-c-bainbridge/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/allison-berkoy/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/annie-berman/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/pierre-bernard/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/qiuyi-chewy/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/chika/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/julien-deswaef/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/gene-kogan/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/jason-levine/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/rebecca-ligier/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/andrew-mcwilliams/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/nga-n/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/ellen-pearlman/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/kent-rahman/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/fraco-ramirez/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/conor-russomanno/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/norman-savitt/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/matthew-schlanger/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/andre-smith/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/liz-starin/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/members/ashley-vogt/</loc>
-  </url>
-  <url>
-    <loc>http://hardwarehacklab.io/periscope/periscope-widget.html</loc>
-    <lastmod>2015-09-04T12:25:29-04:00</lastmod>
+    <loc>http://thoughtworksresidency.github.io/members/a-person-s-name/</loc>
   </url>
 </urlset>
