@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author.name }}">
 
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }}{% if page.bodyid != "home" %} - Hardware Hack Lab{% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
