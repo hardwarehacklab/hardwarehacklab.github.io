@@ -32,7 +32,7 @@ I'm currently obsessed with WebGL, Eurorack Modular Synths and Thermal Photograp
 ![Thermal Stairway](/images/interviews/benton/thermal_stairway.jpg)
 
 ##Which industry or art trends are getting the most of your attention right now?
-I believe a symbiotic union of cryptocurrencies and media art will make these media less ethereal and ephemeral. I've been working with ConsenSys to record art sales and provenance within the Ethereum blockchain, starting with my WebGL moving painting series <http://www.justasec.XYZ>
+I believe a symbiotic union of cryptocurrencies and media art will make these media less ethereal and ephemeral. I've been working with ConsenSys to record art sales and provenance within the Ethereum blockchain, starting with my WebGL [moving painting series](http://www.justasec.XYZ).
 
 ![Just a Sec](/images/interviews/benton/just_a_sec_fragment.jpg)
 
