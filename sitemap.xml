@@ -52,9 +52,6 @@
     <loc>http://hardwarehacklab.io/stories/</loc>
   </url>
   <url>
-    <loc>http://hardwarehacklab.io/stories/page2/</loc>
-  </url>
-  <url>
     <loc>http://hardwarehacklab.io/members/enki-andrews/</loc>
   </url>
   <url>
@@ -77,6 +74,9 @@
   </url>
   <url>
     <loc>http://hardwarehacklab.io/members/julien-deswaef/</loc>
+  </url>
+  <url>
+    <loc>http://hardwarehacklab.io/members/greg-dutcher/</loc>
   </url>
   <url>
     <loc>http://hardwarehacklab.io/members/gene-kogan/</loc>
@@ -131,6 +131,6 @@
   </url>
   <url>
     <loc>http://hardwarehacklab.io/periscope/periscope-widget.html</loc>
-    <lastmod>2015-09-04T12:25:29-04:00</lastmod>
+    <lastmod>2015-11-24T20:04:47-05:00</lastmod>
   </url>
 </urlset>
