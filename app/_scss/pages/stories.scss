@@ -57,8 +57,13 @@ $small_lineheight: 1.7em;
 				text-transform: uppercase;
 			}
 
-			figure img {
-				width: 95%;
+			figure img, figure figcaption {
+				width: 90%;
+			}
+
+			figure figcaption {
+				text-align: center;
+				margin: 0.4em 0 0 0;
 			}
 
 			p, pre, blockquote {
