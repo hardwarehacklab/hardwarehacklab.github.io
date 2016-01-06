@@ -1,3 +1,14 @@
+$largest_font: 1.2em;
+$large_font: 1.15em;
+$medium_font: 1.125em;
+$small_font: 1.05em;
+
+$large_spacing: 0.05em;
+$small_spacing: 0.03em;
+
+$large_lineheight: 1.8em;
+$small_lineheight: 1.7em;
+
 #stories {
 	>header {
 		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('/images/full-bleed/lab-2-1600.jpg');
@@ -49,6 +60,18 @@
 			figure img {
 				width: 95%;
 			}
+
+			p, pre, blockquote {
+				font-size: $largest_font;
+				letter-spacing: $large_spacing;
+				line-height: $small_lineheight;
+				margin: 1.4em 0;
+			}
+
+			blockquote {
+				font-style: italic;
+				margin: 0 3em;
+			}
 		}
 
 		article, #paging {
@@ -85,6 +108,10 @@
 				header time {
 					left: 3em;
 				}
+
+				p, pre {
+					font-size: $large_font;
+				}
 			}
 
 			article, #paging {
@@ -95,11 +122,21 @@
 }
 
 @media (max-width: 1099px) {
-	#stories>header {
-		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('/images/full-bleed/lab-2-1099.jpg');
-		background-position: center center;
-		background-size: cover;
-		background-attachment: fixed;
+	#stories {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('/images/full-bleed/lab-2-1099.jpg');
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		main article {
+			p, pre {
+				font-size: $medium_font;
+				line-height: $large_lineheight;
+				padding: 0.6em 0;
+			}
+		}
 	}
 }
 
@@ -172,6 +209,12 @@
 					width: inherit;
 					position: relative; left: 0;
 				}
+
+				blockquote {
+					font-size: 1.18em;
+					letter-spacing: 0.05em;
+					margin: 0 1.8em;
+				}
 			}
 
 			article, #paging {
@@ -184,5 +227,11 @@
 @media (max-width: 499px) {
 	#stories main article {
 		width: 82%;
+
+		p, pre {
+			font-size: $medium_font;
+			letter-spacing: $small_spacing;
+			line-height: $small_lineheight;
+		}
 	}
 }
