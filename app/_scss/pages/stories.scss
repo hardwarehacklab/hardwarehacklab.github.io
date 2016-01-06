@@ -90,12 +90,13 @@ $small_lineheight: 1.7em;
 				}
 
 				p {
-					display: inline;
 					font-style: italic;
 					font-size: $largest_font;
 					margin: 0.85em;
-					position: relative;
-					top: -14px;
+					position: absolute;
+					left: 4.7em;
+					bottom: -1.6em;
+					width: 71%;
 				}
 			}
 		}
@@ -162,6 +163,10 @@ $small_lineheight: 1.7em;
 				line-height: $large_lineheight;
 				padding: 0.6em 0;
 			}
+
+			.author p {
+				font-size: $medium_font;
+			}
 		}
 	}
 }
@@ -203,6 +208,11 @@ $small_lineheight: 1.7em;
 							font-size: 1.6em;
 						}
 					}
+				}
+
+				.author {
+					top: 1em;
+					height: 4.2em;
 				}
 			}
 
