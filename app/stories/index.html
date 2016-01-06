@@ -23,6 +23,13 @@ bodyclass : "content"
 					</li>
 				</ul>
 			</div>
+			{% capture author %}{{ post.author_slug }}{% endcapture %}
+			{% unless author == "" %}
+				<div class="author">
+					<img src="/images/members/{{ post.author_photo }}" alt="{{ post.author }}" />
+					<p>Posted by <a href="/members/{{ post.author_slug }}">{{ post.author }}</a></p>
+				</div>
+			{% endunless %}
 		</header>
 		{{ post.excerpt }}
 		<a class="read-more" href="{{ post.url }}">Read more &gt;</a>

@@ -19,6 +19,13 @@ layout: default
           </li>
         </ul>
       </div>
+      {% capture author %}{{ page.author_slug }}{% endcapture %}
+      {% unless author == "" %}
+        <div class="author">
+          <img src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
+          <p>Posted by <a href="/members/{{ page.author_slug }}">{{ page.author }}</a></p>
+        </div>
+      {% endunless %}
     </header>
     {{ content }}
     <hr />

@@ -1,8 +1,11 @@
 ---
-layout    : post
-title     : "Virtual Reality and 3D Video"
-bodyid    : "stories"
-bodyclass : "content"
+layout       : post
+title        : "Exploring Virtual Reality and 3D Video"
+bodyid       : "stories"
+bodyclass    : "content"
+author       : Andrew McWilliams
+author_slug  : andrew-mcwilliams
+author_photo : andrew.jpg
 ---
 <p>The tech consortium <a href="http://www.nycmedialab.org/">NYC MediaLab</a> just released an interesting report on the <a href="http://www.nycmedialab.org/wp-content/uploads/2015/12/12.14.VR_.pdf">current state of Virtual Reality</a>. It looks at some of the tech, a timeline of recent events and discussion on business opportunities.</p>
 

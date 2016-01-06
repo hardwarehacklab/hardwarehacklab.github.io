@@ -77,6 +77,27 @@ $small_lineheight: 1.7em;
 				font-style: italic;
 				margin: 0 3em;
 			}
+
+			.author {
+				height: 3.5em;
+				position: relative;
+				top: -0.8em;
+
+				img {
+					border-radius: 50%;
+					width: 4.7em;
+					margin-left: 0.5em;
+				}
+
+				p {
+					display: inline;
+					font-style: italic;
+					font-size: $largest_font;
+					margin: 0.85em;
+					position: relative;
+					top: -14px;
+				}
+			}
 		}
 
 		article, #paging {
