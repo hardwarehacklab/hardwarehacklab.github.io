@@ -4,7 +4,7 @@
 # 3. config.yml
 
 name: hardwarehacklab.io
-url: 'http://hardwarehacklab.io'
+url: 'https://hardwarehacklab.io'
 description: Every Wednesday in NYC
 author:
   name: Andrew McWilliams

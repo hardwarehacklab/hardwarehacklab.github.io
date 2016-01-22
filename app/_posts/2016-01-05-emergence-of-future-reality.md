@@ -133,7 +133,7 @@ author_photo : andrew.jpg
 
 <figure>
   <div class="video ratio-56">
-    <iframe src="http://player.vimeo.com/video/131476718?title=0&amp;byline=0&amp;portrait=0&amp;color=15a6ab&amp;hd_off=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <iframe src="https://player.vimeo.com/video/131476718?title=0&amp;byline=0&amp;portrait=0&amp;color=15a6ab&amp;hd_off=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>
   <figcaption class="caption">
     Matterport goes VR
@@ -157,7 +157,7 @@ author_photo : andrew.jpg
 
 <figure>
   <div class="video ratio-56">
-    <iframe src="http://player.vimeo.com/video/148961704?title=0&amp;byline=0&amp;portrait=0&amp;color=15a6ab&amp;hd_off=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <iframe src="https://player.vimeo.com/video/148961704?title=0&amp;byline=0&amp;portrait=0&amp;color=15a6ab&amp;hd_off=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>
   <figcaption class="caption">
     'Blackout' by Specular
