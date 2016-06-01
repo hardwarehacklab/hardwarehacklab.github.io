@@ -1,0 +1,40 @@
+---
+layout	  : default
+title	  : Beach Lab
+bodyid	  : "beach-lab"
+bodyclass : "content"
+---
+
+<main>
+	{% for project in site.projects %}
+	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+		<header>
+			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
+			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
+			{% capture author %}{{ project.author_slug }}{% endcapture %}
+			{% unless author == "" %}
+				<div class="author">
+					<img src="/images/members/{{ project.author_photo }}" alt="{{ project.author }}" />
+					<p>Posted by <a href="/members/{{ project.author_slug }}">{{ project.author }}</a></p>
+				</div>
+			{% endunless %}
+		</header>
+		{{ project.excerpt }}
+		<a class="read-more" href="{{ project.url }}">Read more &gt;</a>
+		<hr />
+	</article>
+	{% endfor %}
+
+	<ul id="paging" class="cta">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<li><a href="/stories/">Previous page</a></li>
+			{% else %}
+				<li><a href="/stories/page{{ paginator.previous_page }}/">Previous page</a></li>
+			{% endif %}
+		{% endif %}
+		{% if paginator.next_page %}
+			<li><a href="/stories/page{{ paginator.next_page }}/">Next page</a></li>
+		{% endif %}
+	</ul>
+</main>

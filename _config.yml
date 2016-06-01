@@ -48,3 +48,6 @@ collections:
   members:
     output: true
     permalink: /members/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
