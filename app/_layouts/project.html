@@ -6,17 +6,10 @@ layout: default
     <header>
       <h1>{{ page.title }}</h1>
     </header>
-    <div class="profile">
-        <figure>
-            <img src="/images/projects/{{ page.photo }}" />
-            <ul class="links">
-            {% for link in page.links %}
-                <li><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i></a></li>
-            {% endfor %}
-            </ul>
-        </figure>
-    </div>
     {{ content }}
-    <hr />
+    <hr/>
+    <div class="cta">
+      <a href="/beach_lab">Back to the lab</a>
+    </div>
   </article>
 </main>

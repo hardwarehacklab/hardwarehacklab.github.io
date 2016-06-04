@@ -9,7 +9,10 @@ blurb     : "The hair of the dog"
 
 ---
 
-##Tell us a little about what you do
+<iframe src="https://player.vimeo.com/video/45364766" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/45364766">Infinity mirror / Espejo infinito</a> from <a href="https://vimeo.com/acorv">Andr&eacute;s Corvetto</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+##Interactive Installation
 
 I'm an artist, designer and creative coder. I usually make [video pipelines](https://www.youtube.com/channel/UC64gD1NN-GE_tfd0swtxcOA) and [unidentified web objects](http://lovemachine.cc/). 
 I basically like anything that involves mashups and that can be manipulated with code.
