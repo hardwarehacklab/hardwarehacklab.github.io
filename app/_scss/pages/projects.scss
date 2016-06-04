@@ -1,0 +1,197 @@
+.projects__grid {
+	margin-top: 2em;
+	text-align: justify;
+	position: relative; left: -0.7em;
+	width: 100%;
+}
+
+.project-preview {
+	display: inline-block;
+	width: 25%; // Firefox needs 25%
+	margin: 2.4% 3.5% 6% 3.5%;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.project-preview__image {
+	width: 100%;
+}
+
+.project-preview__figcaption {
+	width: 100%;
+}
+
+.project-preview__title {
+	margin-top: 0.4em;
+}
+
+.project-preview__blurb {
+	font-size: 0.8em;
+	margin: 0.5em 0 0.5em 0;
+	width: 100;
+}
+
+@media (max-width: 1099px) {
+	.projects__grid {
+		text-align: center;
+		left: -2em;
+	}
+
+	.project-preview {
+		width: 39%;
+		margin: 2.4% 2.5% 6% 5.5%;
+	}
+}
+
+@media (max-width: 899px) {
+	.projects__grid {
+		text-align: center;
+		left: -1.75em;
+	}
+
+	.project-preview {
+		width: 40%;
+		margin: 2.4% 2% 6% 7%;
+	}
+
+	.project-preview__figcaption {
+		margin-top: 1em;
+	}
+
+	.project-preview__blurb {
+		margin: 0.5em 0;
+	}
+}
+
+@media (max-width: 639px) {
+	.projects__grid {
+		left: 0;
+	}
+
+	.project-preview {
+		width: 70%;
+		margin: 0 auto 2.8em auto;
+	}
+}
+
+@media (max-width: 499px) {
+	.project-preview {
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+#projects {
+	>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1600.jpg');
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.member-page {
+		img, figcaption, p, ul {
+			width: 100%;
+		}
+
+		figure img {
+			border-radius: 50%;
+		}
+	}
+
+	.member-page {
+		margin-left: 33%;
+
+		.profile {
+			position: absolute; left: 5%; top: 3em;
+			width: 25%;
+			text-align: center;
+
+			.links {
+				margin-top: 1em;
+			}
+		}
+
+		h2 {
+			margin-top: 1.2em;
+			font-size: 1.3em;
+		}
+	}
+}
+
+
+@media (max-width: 1299px) {
+	#projects>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1299.jpg');
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 1099px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1099.jpg');
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-899.jpg');
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
+
+		.member-page {
+			margin-left: 0;
+			position: relative;
+
+			header {
+				margin: 5.8em 0 2.9em;
+			}
+
+			.profile {
+				position: absolute;
+				top: 2.6em; right: 4em; left: inherit;
+				width: 200px;
+			}
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-639.jpg');
+			background-size: cover;
+			background-position: center top;
+			background-attachment: inherit;
+		}
+
+		.member-page {
+			header {
+				margin: 0;
+			}
+
+			.profile {
+				width: 55%;
+				position: relative;
+				top: inherit;
+				right: inherit;
+				margin: 2em auto;
+			}
+		}
+	}
+}

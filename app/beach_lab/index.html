@@ -1,40 +1,33 @@
 ---
-layout	  : default
-title	  : Beach Lab
-bodyid	  : "beach-lab"
+layout    : default
+title     : Beach Lab
+bodyid    : "projects"
 bodyclass : "content"
 ---
-
 <main>
-	{% for project in site.projects %}
-	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
-		<header>
-			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
-			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
-			{% capture author %}{{ project.author_slug }}{% endcapture %}
-			{% unless author == "" %}
-				<div class="author">
-					<img src="/images/members/{{ project.author_photo }}" alt="{{ project.author }}" />
-					<p>Posted by <a href="/members/{{ project.author_slug }}">{{ project.author }}</a></p>
-				</div>
-			{% endunless %}
-		</header>
-		{{ project.excerpt }}
-		<a class="read-more" href="{{ project.url }}">Read more &gt;</a>
-		<hr />
-	</article>
-	{% endfor %}
+	<article id="projects" role="article">
+		<h1>Beach Lab</h1>
+		<p>Beach Lab is a series of projects done by people at Thoughtworks who have some spare time between client assignments.  Participants are invited to a brainstorming session to kick off the process, then one idea from that brainstorming process is chosen and developed over the next few weeks.</p>
+		<p>If you'd like to get involved, contact <a href="mailto:gdutcher@thoughtworks.com">Greg Dutcher</a>.</p>
+		<div class="projects__grid">
+            {% for project in site.projects %}
+            <figure class="project-preview">
+                <a href="{{ project.url }}">
+                	<img class="project-preview__image" src="/images/projects/{{ project.photo }}"/>
+            	</a>
+            	<figcaption class="project-preview__figcaption">
+            		<a href="{{ project.url }}">
+            			<h3 class="project-preview__title">{{ project.title }}</h3>
+            		</a>
+            		<p class="project-preview__blurb">{{project.blurb}}</p>
+            	</figcaption>
+                </a>
+			</figure>
+            {% endfor %}
+		</div>
 
-	<ul id="paging" class="cta">
-		{% if paginator.previous_page %}
-			{% if paginator.previous_page == 1 %}
-				<li><a href="/stories/">Previous page</a></li>
-			{% else %}
-				<li><a href="/stories/page{{ paginator.previous_page }}/">Previous page</a></li>
-			{% endif %}
-		{% endif %}
-		{% if paginator.next_page %}
-			<li><a href="/stories/page{{ paginator.next_page }}/">Next page</a></li>
-		{% endif %}
-	</ul>
+		<div class="cta">
+			<a href="/join">Join us in the lab</a>
+		</div>
+	</article>
 </main>
