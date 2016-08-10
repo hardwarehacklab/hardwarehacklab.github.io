@@ -4,10 +4,18 @@ layout: default
 <main>
   <article role="article" class="project-page">
     <header>
-      <h1>{{ page.title }}</h1>
-      <div class="project__blurb--header">{{ page.blurb }}</div>
+      <div class="project__header--left">
+        <h1>{{ page.title }}</h1>
+        <div class="project__blurb--header">{{ page.blurb }}</div>
+      </div>
+      <div class="project__author">
+        <img class="author__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
+        <span class="author__name">Posted by <a href="/members/{{ page.author_slug }}">{{ page.author }}</span></p>
+      </div>
     </header>
-    {{ content }}
+    <section class="project__container">
+      {{ content }}
+    </section>
     <hr/>
     <div class="cta">
       <a href="/projects">Back to the lab</a>

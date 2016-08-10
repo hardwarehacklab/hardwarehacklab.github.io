@@ -7,6 +7,10 @@ title       : "Dirty Dishes"
 photo       : "2016-07-12-dirty-dishes/preview.jpg"
 blurb     : "Someone is watching you"
 
+author       : Greg Dutcher
+author_slug  : greg-dutcher
+author_photo : greg.jpg
+
 ---
 
 There’s something watching people at the sink in the ThoughtWorks NYC office.
