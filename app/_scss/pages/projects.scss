@@ -118,8 +118,14 @@
     width: 4.7em;
 }
 
+.image-collection {
+	display: flex;
+}
 
-
+.image-caption {
+	text-align: center;
+    font-size: 0.8em;
+}
 
 #projects {
 	>header {
