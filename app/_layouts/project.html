@@ -3,8 +3,8 @@ layout: default
 ---
 <main>
   <article role="article" class="project-page">
-    <header>
-      <div class="project__header--left">
+    <div class="project__header">
+      <div class="project__info">
         <h1>{{ page.title }}</h1>
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
@@ -12,7 +12,7 @@ layout: default
         <img class="author__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
         <span class="author__name">Posted by <a href="/members/{{ page.author_slug }}">{{ page.author }}</a></span></p>
       </div>
-    </header>
+    </div>
     <section class="project__container">
       {{ content }}
     </section>

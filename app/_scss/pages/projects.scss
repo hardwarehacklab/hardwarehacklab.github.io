@@ -80,10 +80,6 @@
 	}
 }
 
-.project__header--left {
-	float: left;
-}
-
 .project__blurb--header {
 	font-size: 1.25em;
     font-weight: 400;
@@ -91,12 +87,17 @@
 }
 
 .project__container {
-	clear: both;
-	padding-top: 1em;
+	@media (min-width: 900px) {
+		padding-top: 1em;
+	}
 }
 
 .project__author {
-	float: right;
+	padding-top: 2em;
+
+	@media (min-width: 900px) {
+		padding-top: 0;
+	}
 }
 
 .author__name {
@@ -113,6 +114,16 @@
 	width: 80%;
 }
 
+.project__header {
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 900px) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
 .author__image {
 	border-radius: 50%;
     width: 4.7em;
@@ -125,6 +136,12 @@
 .image-caption {
 	text-align: center;
     font-size: 0.8em;
+}
+
+.vimeo {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
 }
 
 #projects {
