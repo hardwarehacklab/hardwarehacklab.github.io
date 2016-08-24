@@ -86,6 +86,7 @@
 	font-size: 1.25em;
     font-weight: 400;
     font-style: italic;
+    margin-bottom: 2em;
 }
 
 .project__container {
@@ -94,20 +95,49 @@
 	}
 }
 
-.project__author {
-	padding-top: 2em;
+.project__members {
+	position: relative;
+	right: 0.5rem;
+	vertical-align: top;
 
-	@media (min-width: 900px) {
-		padding-top: 0;
+	.by {
+		position: absolute;
+		//top: 1.2em;
+		left: 0.5rem;
+		white-space: nowrap;
 	}
 }
 
-.author__name {
-	display: block;
-	float: left;
+.member__container {
+	display: inline-block;
 	position: relative;
-	bottom: -1em;
-	right: 1em;
+
+	ul {
+		list-style-type: none;
+		margin: 0.6rem 0 0 0 !important;
+		display: inline;
+	}
+
+	li {
+		display: inline;
+	}
+
+	figure {
+		width: 5rem;
+		margin: 2.1rem 0 0 0;
+		text-align: center;
+		display: inline-block;
+	}
+
+	figcaption {
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
+.member__image {
+	border-radius: 50%;
+	width: 4rem;
 }
 
 .project-page__image-container {
@@ -119,27 +149,15 @@
 }
 
 .project__header {
-	display: flex;
-	flex-direction: column;
-
-	@media (min-width: 900px) {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	.project__info {
-		min-width: 50%;
-	}
-
 	.label {
 		font-style: italic;
 	}
 }
 
-.author__image {
-	border-radius: 50%;
-    width: 4em;
-    float: right;
+.project__info {
+	h1 {
+		margin-bottom: 0.7em !important;
+	}
 }
 
 .image-collection {

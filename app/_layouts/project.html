@@ -8,9 +8,28 @@ layout: default
         <h1><span class="label">Project: </span>"{{ page.title }}"</h1>
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
-      <div class="project__author">
-        <span class="author__name">Article by:<br /><a href="/members/{{ page.author_slug }}">{{ page.author }}</a></span>
-        <img class="author__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
+      <div class="project__members">
+        <div class="member__container">
+          <span class="by">Project by:</span>
+          <ul>
+            {% for creator in page.creators %}
+            {% assign member = site.members | where:"title", creator.name | first %}
+            <li>
+              <figure>
+                <img class="member__image" src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
+                <figcaption>{{ member.title }}</figcaption>
+              </figure>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="member__container">
+          <span class="by">Article by:</a></span>
+          <figure>
+            <img class="member__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
+            <figcaption>{{ page.author }}</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
     <section class="project__container">
