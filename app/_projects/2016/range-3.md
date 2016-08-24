@@ -4,7 +4,8 @@ bodyid      : "projects"
 bodyclass   : "content"
 
 title       : "Range 3"
-photo       : "2016-07-14-range-3/preview.png"
+date        : "2016-07-14"
+photo       : "2016/range-3/preview.png"
 blurb       : "A democractic canvas."
 
 author       : Andy McWilliams
@@ -25,7 +26,7 @@ Range 3 is intended to encourage people of varied skill levels to experiment wit
 
 “I want everyone to participate in this,” says Dutcher. “There are so many people who are intimidated by creative technology because they think they need to be experts in order to accomplish anything. Range 3 is an opportunity for people to get exposed to electronics, and I think they’ll see it’s not so scary, and that it’s also fun.” 
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-14-range-3/setting-up.png"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/range-3/setting-up.png"></figure>
 <p class="image-caption">Dutcher and colleagues setting up <i>Range 3</i>.</p>
 
 Dutcher has long been interested in LEDs as a medium, and Range 3, as the title implies, is the third iteration of artworks he’s been working on that involve programmable LEDs.  Each of the previous iterations involved some sort of audience participation, and he wanted to take this idea further with his latest installation.  
@@ -42,7 +43,7 @@ Dutcher has been running workshops on soldering, how to use Arduino, and other f
 
 The installation is controlled by <a target="_blank" rel="noopener noreferrer" href="https://www.pjrc.com/teensy/">two Teensy boards</a> (an Arduino competitor) paired with <a target="_blank" rel="noopener noreferrer" href="https://www.pjrc.com/teensy/td_libs_OctoWS2811.html">OctoWS2811 adaptors</a>, which are additional pieces of hardware designed for working with large numbers of LEDs.  The Teensy boards send data to the LEDs via Cat 6 cables, the same kind that deliver Ethernet to homes and offices.  The animation itself was programmed in C++, which is also used in programming Arduinos.
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-14-range-3/up-close.png"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/range-3/up-close.png"></figure>
 <p class="image-caption">Up close.</p>
 
 Before starting this series of artworks, Dutcher knew little about electronics or C++ and was intimidated by the thought of learning so much in so little time.  His first artwork in the series, titled Range, was completed in two weeks under a tight deadline, and he found that not only had he been mistaken about the amount of expertise he needed, but learning the skills he needed was easy and fun.

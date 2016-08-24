@@ -4,7 +4,8 @@ bodyid      : "projects"
 bodyclass   : "content"
 
 title       : "Insulin"
-photo       : "2016-07-13-insulin/preview.png"
+date 		: "2016-07-13"
+photo       : "2016/insulin/preview.png"
 blurb       : "Blood-sugar sensors in art."
 
 author       : Greg Dutcher
@@ -26,19 +27,19 @@ The idea of this artwork came gradually to McWilliams over several months of exp
 
 The display of Insulin evokes the flow of blood.  When blood sugar is within the normal range, the flow of patterns on the display is swift and features a pulsation that mimics a heartbeat. At high blood sugar levels, the flow of blood becomes “constricted,” and the flow of patterns is interrupted by swaths of red texture. When blood sugar is low, the screen flashes red, indicating danger - episodes of low blood sugar are accompanied by shaking, impaired vision, and loss of consciousness.
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-13-insulin/triptych.png"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/insulin/triptych.png"></figure>
 
 Insulin is updated in real time using actual data from McWilliams’ body.  McWilliams, who was diagnosed with Type 1 Diabetes several years ago, wears a sensor on his abdomen which sends blood sugar data every five minutes to an Android app on McWilliams’ phone over Bluetooth.  This app then sends the data to a web server, from where the <a target="_blank" rel="noopener noreferrer" href="https://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html">Nvidia Jetson TK1 embedded supercomputer</a> pulls the data and updates the display in real-time.
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-13-insulin/diagram.jpg"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/insulin/diagram.jpg"></figure>
 
 McWilliams used scans of broken glass and ripped tissue paper to create the textures used in the artwork.  The patterns that glide across the screen of Insulin are the result of extensive research and experimentation into image layers and layer masks in openFrameworks McWilliams conducted in 2015, during which time he created the addons  <a target="_blank" rel="noopener noreferrer" href="https://github.com/microcosm/ofxLayerMask">ofxLayerMask</a> and <a target="_blank" rel="noopener noreferrer" href="https://github.com/microcosm/ofxTexturePlane">ofxTexturePlane</a>.
   
 These experiments began purely out of interest in the possibilities of layering images and textures on top of one another, and the idea for Insulin did not come until several months after McWilliams had started experimenting. The results of these daily sketches are <a target="_blank" rel="noopener noreferrer" href="https://sketchpad.jahya.net/">archived on the Daily Sketches site</a>. A couple of examples are shown below. 
 
 <div class="image-collection">
-	<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-13-insulin/animation1.gif"></figure>
-	<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-13-insulin/animation2.gif"></figure>
+	<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/insulin/animation1.gif"></figure>
+	<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/insulin/animation2.gif"></figure>
 </div>
 
 <p class="image-caption">Some of McWilliams’ experiments.</p>

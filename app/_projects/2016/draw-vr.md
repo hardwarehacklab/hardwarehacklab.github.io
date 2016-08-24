@@ -4,7 +4,8 @@ bodyid      : "projects"
 bodyclass   : "content"
 
 title       : "Draw VR"
-photo       : "2016-08-05-vr/preview.png"
+date 		: "2016-08-05"
+photo       : "2016/draw-vr/preview.png"
 blurb       : "Humanized collaborative VR."
 
 author       : Greg Dutcher
@@ -26,7 +27,7 @@ Technology, though it has made remote communication easier, has in general tende
 
 The team knew they wanted to develop something that afforded a more human mode of expression than was possible with existing videoconferencing tools like Google Hangouts.  Because VR alters one’s sense of place and presence, they felt there was an opportunity to use it to improve on the current state of remote collaboration.
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-08-05-vr/team.jpg"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/draw-vr/team.jpg"></figure>
 <p class="image-caption">Members of the team Neil (left), Kent (middle), and Haeyoung (right) testing out an early prototype.</p>
 
 This trajectory began as a passion project for Kent Rahman, a user experience designer with ThoughtWorks.  While on a project at an education technology company in 2014, he noticed how technology affected communication between students and teachers.  For instance, students uncomfortable speaking up in class could communicate with their teacher using iPad software ThoughtWorks had built.
@@ -64,14 +65,14 @@ This is new technology to most everyone on the team, so there’s been a lot of 
 
 “It’s amazing,” Rahman says.  “The first thing people want to do in VR is high five each other.  It brings out a natural curiosity in people.  They immediately start exploring the environment and expressing themselves within it.  There’s something really powerful and intangible in the knowledge you share a virtual space with another person.”
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-08-05-vr/thumbsup.png"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/draw-vr/thumbsup.png"></figure>
 <p class="image-caption">A "thumbs up" signal from all participants starts the meeting.</p>
 
 One concept the team quickly seized upon was what they described as “ambient utility,” the virtual environment’s ability to provide utility through its design.  For instance, one of their prototypes is a virtual meeting that takes place among mountains and forests.  When all the participants give a thumbs up sign, a bell sounds and the sun rises.  As the time allotted for the meeting draws to a close, the sun begins to set, providing a naturalistic, intuitive cue to participants that they should finish their discussion.
 
 They have also been learning about what it’s like to develop software for VR.  Since VR development hasn’t been around for very long, the industry lacks a consensus on topics such as testing and continuous integration pipelines.  The team hopes to establish a set of best practices for VR development.
 
-<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-08-05-vr/hand-out.jpg"></figure>
+<figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/draw-vr/hand-out.jpg"></figure>
 <p class="image-caption">A user testing session for an early version of <i>Draw</i>.</p>
 
 Given the difficulties of recognizing trajectories of new technologies, one of the best approaches is to enable teams to experiment and rapidly iterate on ideas.  This may only be an experimental application, but the team hopes that their ideas will influence the design of remote collaboration tools.  Even if they don't, though, the team agrees it's important to experiment and contribute to the dialogue about VR. As Rahman says, "There’s something really satisfying about working to prove that there is a way in which this technology can be used.”
