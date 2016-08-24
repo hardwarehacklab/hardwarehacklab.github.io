@@ -3,7 +3,7 @@ layout      : project
 bodyid      : "projects"
 bodyclass   : "content"
 
-title       : "Draw"
+title       : "Draw VR"
 photo       : "2016-08-05-vr/preview.png"
 blurb       : "Remote collaboration, humanized."
 

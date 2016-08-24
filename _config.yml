@@ -50,4 +50,4 @@ collections:
     permalink: /members/:title/
   projects:
     output: true
-    permalink: /projects/:title/
+    permalink: /projects/:path/
