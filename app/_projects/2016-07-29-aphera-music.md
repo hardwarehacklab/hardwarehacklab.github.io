@@ -39,6 +39,4 @@ There are plans for more instruments, too, and Woskob is interested in developin
 <figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016-07-29-aphera-music/step-synth.png"></figure>
 <p class="image-caption">The step synthesizer, an instrument still in development.</p>
 
-Woskob uses his app regularly in music-making.  I make music regularly with him, and we always make it a point to use the app.  You can hear a song that features both the slider synth and the drum machine here.  
-
 The most remarkable thing about this app is that Woskob started with zero knowledge about iOS and was able to develop such sophisticated functionality.  Many people attending the Hardware Hack Lab start without any up-front technical knowledge.  There are always low-barrier entry points allowing would-be developers to get started quickly.  The work starts out looking rough, but can be refined later. <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/georgewoskob">You can hear more of Woskob's work here.</a>
