@@ -124,6 +124,14 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+	.project__info {
+		min-width: 50%;
+	}
+
+	.label {
+		font-style: italic;
+	}
 }
 
 .author__image {
