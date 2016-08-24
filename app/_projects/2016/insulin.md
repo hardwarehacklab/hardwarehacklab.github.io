@@ -5,7 +5,7 @@ bodyclass   : "content"
 
 title       : "Insulin"
 photo       : "2016-07-13-insulin/preview.png"
-blurb       : "A blood sugar monitor and artwork."
+blurb       : "Blood-sugar sensors in art."
 
 author       : Greg Dutcher
 author_slug  : greg-dutcher

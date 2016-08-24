@@ -5,7 +5,7 @@ bodyclass   : "content"
 
 title       : "Aphera Music"
 photo       : "2016-07-29-aphera-music/preview.png"
-blurb       : "Make music on the subway."
+blurb       : "Making music on the subway."
 
 author       : Greg Dutcher
 author_slug  : greg-dutcher

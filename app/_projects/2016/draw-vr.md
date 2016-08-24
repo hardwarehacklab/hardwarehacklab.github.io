@@ -5,7 +5,7 @@ bodyclass   : "content"
 
 title       : "Draw VR"
 photo       : "2016-08-05-vr/preview.png"
-blurb       : "Remote collaboration, humanized."
+blurb       : "Humanized collaborative VR."
 
 author       : Greg Dutcher
 author_slug  : greg-dutcher
