@@ -9,8 +9,8 @@ layout: default
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
       <div class="project__author">
+        <span class="author__name">Article by:<br /><a href="/members/{{ page.author_slug }}">{{ page.author }}</a></span>
         <img class="author__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
-        <span class="author__name">Posted by <a href="/members/{{ page.author_slug }}">{{ page.author }}</a></span></p>
       </div>
     </div>
     <section class="project__container">

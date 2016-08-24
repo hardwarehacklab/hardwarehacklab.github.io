@@ -103,9 +103,11 @@
 }
 
 .author__name {
+	display: block;
+	float: left;
 	position: relative;
-	bottom: 1em;
-	padding-left: 1em;
+	bottom: -1em;
+	right: 1em;
 }
 
 .project-page__image-container {
@@ -136,7 +138,8 @@
 
 .author__image {
 	border-radius: 50%;
-    width: 4.7em;
+    width: 4em;
+    float: right;
 }
 
 .image-collection {
