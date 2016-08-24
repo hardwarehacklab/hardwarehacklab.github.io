@@ -15,9 +15,11 @@ bodyclass : "content"
                 	<img class="project-preview__image" src="/images/projects/{{ project.photo }}"/>
             	</a>
             	<figcaption class="project-preview__figcaption">
-            		<a href="{{ project.url }}">
-            			<h3 class="project-preview__title">{{ project.title }}</h3>
-            		</a>
+            		<h1 class="project-preview__title">
+                        <a href="{{ project.url }}">
+            			    {{ project.title }}
+            		    </a>
+                    </h1>
             		<p class="project-preview__blurb">{{project.blurb}}</p>
             	</figcaption>
                 </a>
