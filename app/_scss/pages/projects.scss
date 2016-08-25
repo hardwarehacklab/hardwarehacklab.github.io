@@ -195,7 +195,7 @@
 
 #projects {
 	>header {
-		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1600.jpg');
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1600.jpg');
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -234,7 +234,7 @@
 
 @media (max-width: 1299px) {
 	#projects>header {
-		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1299.jpg');
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1299.jpg');
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -244,7 +244,7 @@
 @media (max-width: 1099px) {
 	#projects {
 		>header {
-			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-1099.jpg');
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1099.jpg');
 			background-position: center center;
 			background-size: cover;
 			background-attachment: fixed;
@@ -255,9 +255,9 @@
 @media (max-width: 899px) {
 	#projects {
 		>header {
-			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-899.jpg');
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-899.jpg');
 			background-size: cover;
-			background-position: center top;
+			background-position: center 47%;
 			background-attachment: inherit;
 		}
 
@@ -281,9 +281,9 @@
 @media (max-width: 639px) {
 	#projects {
 		>header {
-			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-3-639.jpg');
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-639.jpg');
 			background-size: cover;
-			background-position: center top;
+			background-position: center 24%;
 			background-attachment: inherit;
 		}
 
