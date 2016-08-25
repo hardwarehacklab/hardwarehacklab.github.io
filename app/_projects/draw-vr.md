@@ -1,5 +1,6 @@
 ---
 title       : "Draw VR"
+slug        : "draw-vr2"
 date 		: "2016-08-05"
 photo       : "2016/draw-vr/preview.png"
 blurb       : "Humanized collaborative virtual reality."
