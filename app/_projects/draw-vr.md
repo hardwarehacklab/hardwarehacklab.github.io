@@ -17,7 +17,9 @@ creators:
  - name     : "Nick Maxwell"
 ---
 
-An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.  Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
+An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
+
+Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
 
 <figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/l2zb8I0J93Q" allowfullscreen></iframe>
@@ -28,7 +30,7 @@ The idea for the application, tentatively named <i>Draw</i>, came out of a Thoug
 
 Technology, though it has made remote communication easier, has in general tended to dehumanize the way we communicate and collaborate.  Most remote communication is done over email or video chat - media and interfaces that force one to type words out on a keyboard and interact with others through a flat screen.
 
-The team knew they wanted to develop something that afforded a more human mode of expression than was possible with existing videoconferencing tools like Google Hangouts.  Because VR alters one’s sense of place and presence, they felt there was an opportunity to use it to improve on the current state of remote collaboration.
+The team knew they wanted to develop something that afforded a more human mode of expression than was possible with existing video-conferencing tools like Google Hangouts.  Because VR alters one’s sense of place and presence, they felt there was an opportunity to use it to improve on the current state of remote collaboration.
 
 <figure>
 	<img src="/images/projects/2016/draw-vr/team.jpg">
@@ -84,6 +86,8 @@ They have also been learning about what it’s like to develop software for VR. 
 	<figcaption>A user testing session for an early version of <i>Draw</i></figcaption>
 </figure>
 
-Given the difficulties of recognizing trajectories of new technologies, one of the best approaches is to enable teams to experiment and rapidly iterate on ideas.  This may only be an experimental application, but the team hopes that their ideas will influence the design of remote collaboration tools.  Even if they don't, though, the team agrees it's important to experiment and contribute to the dialogue about VR. As Rahman says, "There’s something really satisfying about working to prove that there is a way in which this technology can be used.”
+Given the difficulties of recognizing trajectories of new technologies, one of the best approaches is to enable teams to experiment and rapidly iterate on ideas.  This may only be an experimental application, but the team hopes that their ideas will influence the design of remote collaboration tools.
+
+Even if they don't, though, the team agrees it's important to experiment and contribute to the dialogue about VR. As Rahman says, "There’s something really satisfying about working to prove that there is a way in which this technology can be used.”
 
 All of the hardware this experimental team has been using is available to the public at the ThoughtWorks NYC office.  If you'd like to try out the hardware and learn more about what it's like to develop for VR, <a target="_blank" rel="noopener noreferrer" href="https://hardwarehacklab.io/join/">stop by the Hardware Hack Lab any Wednesday.</a>

@@ -31,7 +31,7 @@ Dutcher has long been interested in LEDs as a medium, and Range 3, as the title 
 
 The LEDs, also referred to as “pixels,” are arranged in a grid 150 wide by 50 tall.  They are represented in code as one long line of LEDs snaking its way back and forth across the canvas, left to right, starting from the topmost LED on the left.  
 
-A “sketch” consists of instructions (in C++) denoting the color of each LED in the array.  A microcontroller processes these instructions around 60 times per second, so one can make animated patterns of movement with the pixels.  Since each of the LEDs is individually addressable and full-color, the possibilities for these sketches are endless.
+A “sketch” consists of instructions (in C++) denoting the color of each LED in the array.  A microcontroller processes these instructions around 60 times per second, so would-be hackers can make animated patterns of movement with the pixels.  Since each of the LEDs is individually addressable and full-color, the possibilities for these sketches are endless.
 
 
 <figure class="video ratio-105">
@@ -51,4 +51,4 @@ Before starting this series of artworks, Dutcher knew little about electronics o
 
 “Incremental improvements made my learning process so much easier.  My early installations were on a much smaller scale.  The different versions require very different approaches, and I was only able to learn how to power Range 3 because I was building off knowledge I had from my earlier work.”
 
-Range 3 is intended as a democratic artwork and a potentially engaging teaching tool.  Going forward, Dutcher intends to use it in workshops on creative technology.  Also, as one of the organizers of the Hardware Hack Lab, and <a target="_blank" rel="noopener noreferrer" href="https://hardwarehacklab.io/join/">you can find him in the public lab events on many Wednesdays</a>.
+Range 3 is intended as a democratic artwork and a potentially engaging teaching tool.  Going forward, Dutcher intends to use it in workshops on creative technology.  Also, as one of the organizers of the Hardware Hack Lab, and you can find him in the <a target="_blank" rel="noopener noreferrer" href="https://hardwarehacklab.io/join/">public lab events on many Wednesdays</a>.
