@@ -16,7 +16,7 @@ creators:
 
 An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.  Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
 
-<figure class="video">
+<figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/l2zb8I0J93Q" allowfullscreen></iframe>
 	<figcaption>Drawing with others in virtual space</figcaption>
 </figure>
@@ -36,7 +36,7 @@ This trajectory began as a passion project for Kent Rahman, a user experience de
 
 This same capability - the ability to communicate in non-verbal ways - is what he recognized VR could provide in ways no existing technology could.  “Designers have a moral obligation to make tools people use for their jobs enjoyable and delightful, because they influence workers’ happiness,” he says.  “It’s important to treat users like human beings.”
 
-<figure class="video">
+<figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/SiR9Tehn6Qg" allowfullscreen></iframe>
 	<figcaption>Creating and scaling objects in VR</figcaption>
 </figure>
@@ -47,7 +47,7 @@ This ability to manipulate objects is at the center of <i>Draw</i>, the result o
 
 The team - composed of developers Allie Quintano and Nick Maxwell, designers Haeyoung Kim and Christopher Edwards, strategist Neil Redding, and technologist Rachel Laycock - plans to release the application to the community the coming weeks.
 
-<figure class="video">
+<figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/dAlAMhXhDiE" allowfullscreen></iframe>
 	<figcaption>More networked drawing in VR</figcaption>
 </figure>
@@ -56,7 +56,7 @@ Having designed a basic drawing system, the team now plans to extend the functio
 
 Finding abstract, simplified ways of representing dynamic systems is a problem that cuts across scores of industries.  Often, tasks like this are done using whiteboards and post-it notes, but the team believes that VR can be used to do this more intuitively.  One feature they'd like to bring to <i>Draw</i> is the ability to create objects, scale them, and move them around the virtual space in a loop.
 
-<figure class="video">
+<figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/7xylV1QfE08" allowfullscreen></iframe>
 	<figcaption>A prototype for setting waypoints and having an object move around on a path</figcaption>
 </figure>
