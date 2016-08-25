@@ -17,6 +17,8 @@ $small_lineheight: 1.7em;
 			header {
 				.widgets {
 					position: absolute; left: 6%;
+					width: 20%;
+					text-align: right;
 
 					ul {
 						margin: 0;
@@ -209,6 +211,8 @@ $small_lineheight: 1.7em;
 
 					.widgets {
 						position: relative; left: 0;
+						width: inherit;
+						text-align: left;
 
 						ul {
 							text-align: left;
