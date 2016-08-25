@@ -11,7 +11,10 @@ creators:
  - name     : "Kent Rahman"
  - name     : "Rachel Laycock"
  - name     : "Allie Quintano"
+ - name     : "Christopher Edwards"
  - name     : "Neil Redding"
+ - name     : "Haeyoung Kim"
+ - name     : "Nick Maxwell"
 ---
 
 An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.  Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.

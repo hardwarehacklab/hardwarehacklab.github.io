@@ -9,7 +9,7 @@ bodyclass: "content article"
         <h1>{{ page.title }}</h1>
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
-      <div class="widgets">
+      <div class="widgets flex">
         <div class="member__container">
           <span class="info">Article by</span>
           {% assign member = site.members | where:"title", page.author | first %}
