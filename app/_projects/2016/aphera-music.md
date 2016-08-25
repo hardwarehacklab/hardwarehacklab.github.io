@@ -1,8 +1,4 @@
 ---
-layout      : project
-bodyid      : "projects"
-bodyclass   : "content"
-
 title       : "Aphera Music"
 date 		: "2016-07-29"
 photo       : "2016/aphera-music/preview.png"

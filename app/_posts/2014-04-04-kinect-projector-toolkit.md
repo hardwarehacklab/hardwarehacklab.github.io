@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "The Kinect-Projector Toolkit: A Demo"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>Some of the best hacks are when you mash together two pieces of commercial hardware that weren't designed with each other in mind. That's exactly what Gene Kogan did when he made the <a href="http://www.genekogan.com/works/kinect-projector-toolkit.html">Kinect-Projector Toolkit</a> for openFrameworks and Processing.</p>
 

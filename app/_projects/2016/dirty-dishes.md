@@ -1,8 +1,4 @@
 ---
-layout      : project
-bodyid      : "projects"
-bodyclass   : "content"
-
 title       : "Dirty Dishes"
 date 		: "2016-07-12"
 photo       : "2016/dirty-dishes/preview.jpg"

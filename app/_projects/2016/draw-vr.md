@@ -1,8 +1,4 @@
 ---
-layout      : project
-bodyid      : "projects"
-bodyclass   : "content"
-
 title       : "Draw VR"
 date 		: "2016-08-05"
 photo       : "2016/draw-vr/preview.png"

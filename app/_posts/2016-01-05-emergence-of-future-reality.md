@@ -1,8 +1,5 @@
 ---
-layout       : post
 title        : "Exploring Virtual Reality and 3D Video"
-bodyid       : "stories"
-bodyclass    : "content"
 author       : Andrew McWilliams
 author_slug  : andrew-mcwilliams
 author_photo : andrew.jpg

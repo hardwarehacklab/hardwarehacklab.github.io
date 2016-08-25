@@ -1,8 +1,4 @@
 ---
-layout      : project
-bodyid      : "projects"
-bodyclass   : "content"
-
 title       : "Insulin"
 date 		: "2016-07-13"
 photo       : "2016/insulin/preview.png"

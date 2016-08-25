@@ -1,8 +1,4 @@
 ---
-layout      : project
-bodyid      : "projects"
-bodyclass   : "content"
-
 title       : "Range 3"
 date        : "2016-07-14"
 photo       : "2016/range-3/preview.png"

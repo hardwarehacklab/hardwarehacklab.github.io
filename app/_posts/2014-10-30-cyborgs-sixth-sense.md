@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Cyborgs: The Sixth Sense?"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>When we found out that Neil Harbisson and Moon Ribas were in town we jumped at the chance to have them come visit us the hack lab.</p>
 
