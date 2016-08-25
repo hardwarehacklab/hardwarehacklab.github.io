@@ -25,7 +25,8 @@ bodyclass: "content article"
         <div class="member__container">
           <span class="info">Project by</span>
           <ul>
-            {% for creator in page.creators %}
+            {% assign creators = page.creators | sort: "name" %}
+            {% for creator in creators %}
             {% assign member = site.members | where:"title", creator.name | first %}
             <li>
               <figure>
