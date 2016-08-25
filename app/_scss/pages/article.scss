@@ -238,15 +238,14 @@ $small_lineheight: 1.7em;
 					top: 1em;
 					height: 4.2em;
 				}
+
+				.video {
+					margin: 0 5%;
+				}
 			}
 
 			article, #paging {
 				margin-left: 7%;
-			}
-
-			.video {
-				width: 100%;
-				padding-top: 55.55%;
 			}
 		}
 	}
@@ -261,6 +260,10 @@ $small_lineheight: 1.7em;
 				header time {
 					width: inherit;
 					position: relative; left: 0;
+				}
+
+				figure img, figure figcaption {
+					width: 107%;
 				}
 
 				blockquote {
