@@ -12,6 +12,8 @@ author       : Greg Dutcher
 author_slug  : greg-dutcher
 author_photo : greg.jpg
 
+creators:
+ - name     : "Aidan Obley"
 ---
 
 There’s something watching people at the sink in the ThoughtWorks NYC office.
@@ -22,7 +24,7 @@ For the past few weeks, a team of designers from Parsons School for Design have 
 
 Say you’ve just finished your second espresso of the day and you’re looking for a place to put your tiny cup and spoon.  You walk towards the sink, and as soon as you start running the tap, you’re met with the pair of glowering eyes above.  What you didn’t realize is that you’ve just tripped an infrared motion sensor connected to a Raspberry Pi.
 
-Parsons students Melika Leili and Elena Habre found that implementing their solution to this problem wasn’t so hard, and more, it was fun.  The system is simple: the screen stays dark most of the time, but when the motion sensor is tripped, the Raspberry Pi plays a short video.  Thoughtworks consultant Aidan Obley wrote a <a href="https://github.com/adobley/PiMotionPlayer" target="_blank" rel="noopener noreferrer">short python script</a> that uses the Pi’s built-in video player to do this.  
+Parsons students Melika Leili and Elena Habre found that implementing their solution to this problem wasn’t so hard, and more, it was fun.  The system is simple: the screen stays dark most of the time, but when the motion sensor is tripped, the Raspberry Pi plays a short video. Thoughtworks consultant Aidan Obley wrote a <a href="https://github.com/adobley/PiMotionPlayer" target="_blank" rel="noopener noreferrer">short python script</a> that uses the Pi’s built-in video player to do this.  
 
 <figure class="project-page__image-container"><img class="project-page__image" src="/images/projects/2016/dirty-dishes/dirtyDishes2.jpg"></figure>
 

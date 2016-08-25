@@ -12,6 +12,8 @@ author       : Greg Dutcher
 author_slug  : greg-dutcher
 author_photo : greg.jpg
 
+creators:
+ - name     : "Andrew McWilliams"
 ---
 
 Insulin is an artwork that doubles as a real-time blood sugar monitor for diabetics.  It is the result of experimentations with image layers and masks conducted by Thoughtworks consultant <a target="_blank" rel="noopener noreferrer" href="https://jahya.net/">Andrew McWilliams</a>. The final installation artwork uses the creative coding toolkit openFrameworks, running on the Jetson TK1 hardware platform, and interacts with a body-mounted blood-glucose sensor worn by the artist.

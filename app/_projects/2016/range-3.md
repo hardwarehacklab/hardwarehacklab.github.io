@@ -12,6 +12,8 @@ author       : Andy McWilliams
 author_slug  : andrew-mcwilliams
 author_photo : andrew.jpg
 
+creators:
+ - name     : "Greg Dutcher"
 ---
 
 Technologist and artist Greg Dutcher has created a 17-foot canvas of LEDs which anyone can modify by uploading code.  The work, titled Range 3, debuted at a function for speakers at an O’Reilly Software Architecture conference in April 2016, and is a permanent installation on the 12th floor of the ThoughtWorks NYC office.

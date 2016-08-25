@@ -14,9 +14,9 @@ author_photo : greg.jpg
 
 creators:
  - name     : "Kent Rahman"
- - name     : "Andrew McWilliams"
- - name     : "Pierre Bernard"
- - name     : "Andre Smith"
+ - name     : "Rachel Laycock"
+ - name     : "Allie Quintano"
+ - name     : "Neil Redding"
 ---
 
 An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.  Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.

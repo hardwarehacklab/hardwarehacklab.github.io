@@ -12,6 +12,8 @@ author       : Greg Dutcher
 author_slug  : greg-dutcher
 author_photo : greg.jpg
 
+creators:
+ - name     : "George Woskob"
 ---
 
 Aphera Music Instruments Suite is an iPhone app that houses several different instruments and facilitates jam sessions with multiple people.  It was designed and built by ThoughtWorks consultant George Woskob, who has been working on it since November 2015.  He expects to release it in the App Store soon.
