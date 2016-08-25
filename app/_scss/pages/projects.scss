@@ -99,13 +99,6 @@
 	position: relative;
 	right: 0.5rem;
 	vertical-align: top;
-
-	.by {
-		position: absolute;
-		//top: 1.2em;
-		left: 0.5rem;
-		white-space: nowrap;
-	}
 }
 
 .member__container {
@@ -132,6 +125,25 @@
 	figcaption {
 		font-size: 1rem;
 		text-align: center;
+	}
+
+	.by {
+		position: absolute;
+		left: 0.5rem;
+		white-space: nowrap;
+	}
+}
+
+.member__container:not(:last-child) {
+	border-right: 1px solid #cccccc;
+	padding-right: 2em;
+}
+
+.member__container:not(:first-child) {
+	padding-left: 1.5em;
+
+	.by {
+		left: 2rem;
 	}
 }
 
