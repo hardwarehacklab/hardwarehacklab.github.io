@@ -4,39 +4,41 @@ bodyclass: "content article"
 ---
 <main>
   <article role="article" class="project-page">
-    <div class="project__header">
+    <header>
       <div class="project__info">
         <h1>{{ page.title }}</h1>
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
-      <div class="project__members">
+      <div class="widgets">
         <div class="member__container">
-          <span class="by">Project by:</span>
+          <span class="info">Article by</span>
+          {% assign member = site.members | where:"title", page.author | first %}
+          <ul>
+            <li>
+              <figure>
+                <img src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
+                <figcaption><a href="{{ member.url }}">{{ member.title }}</a></figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="member__container">
+          <span class="info">Project by</span>
           <ul>
             {% for creator in page.creators %}
             {% assign member = site.members | where:"title", creator.name | first %}
             <li>
               <figure>
-                <img class="member__image" src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
-                <figcaption>{{ member.title }}</figcaption>
+                <img src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
+                <figcaption><a href="{{ member.url }}">{{ member.title }}</a></figcaption>
               </figure>
             </li>
             {% endfor %}
           </ul>
         </div>
-        <div class="member__container">
-          <span class="by">Article by:</a></span>
-          {% assign member = site.members | where:"title", page.author | first %}
-          <figure>
-            <img class="member__image" src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
-            <figcaption>{{ member.title }}</figcaption>
-          </figure>
-        </div>
       </div>
-    </div>
-    <section class="project__container">
-      {{ content }}
-    </section>
+    </header>
+    {{ content }}
     <hr/>
     <div class="cta">
       <a href="/projects">&lt; All Projects</a>

@@ -45,6 +45,8 @@ $small_lineheight: 1.7em;
 						position: relative; top: -6%;
 						font-size: 2.2em;
 					}
+
+					//Note that things here are being overriden in projects.scss
 				}
 			}
 
@@ -205,14 +207,14 @@ $small_lineheight: 1.7em;
 				width: 66%;
 
 				header {
-					time {
-						width: 17%;
-					}
-
 					.widgets {
 						position: relative; left: 0;
 						width: inherit;
 						text-align: left;
+
+						.info {
+							width: 17%;
+						}
 
 						ul {
 							text-align: left;
