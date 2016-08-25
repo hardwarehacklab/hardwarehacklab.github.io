@@ -9,8 +9,6 @@ photo       : "2016/insulin/preview.png"
 blurb       : "Blood-sugar sensors in art."
 
 author       : Greg Dutcher
-author_slug  : greg-dutcher
-author_photo : greg.jpg
 
 creators:
  - name     : "Andrew McWilliams"

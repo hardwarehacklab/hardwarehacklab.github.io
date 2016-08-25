@@ -9,8 +9,6 @@ photo       : "2016/aphera-music/preview.png"
 blurb       : "Making music on the subway."
 
 author       : Greg Dutcher
-author_slug  : greg-dutcher
-author_photo : greg.jpg
 
 creators:
  - name     : "George Woskob"

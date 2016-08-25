@@ -8,9 +8,7 @@ date 		: "2016-08-05"
 photo       : "2016/draw-vr/preview.png"
 blurb       : "Humanized collaborative VR."
 
-author       : Greg Dutcher
-author_slug  : greg-dutcher
-author_photo : greg.jpg
+author       : "Greg Dutcher"
 
 creators:
  - name     : "Kent Rahman"

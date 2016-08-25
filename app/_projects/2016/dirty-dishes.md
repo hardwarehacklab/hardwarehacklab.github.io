@@ -9,8 +9,6 @@ photo       : "2016/dirty-dishes/preview.jpg"
 blurb       : "Is someone is watching you?"
 
 author       : Greg Dutcher
-author_slug  : greg-dutcher
-author_photo : greg.jpg
 
 creators:
  - name     : "Aidan Obley"

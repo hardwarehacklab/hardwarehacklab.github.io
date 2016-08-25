@@ -25,9 +25,10 @@ layout: default
         </div>
         <div class="member__container">
           <span class="by">Article by:</a></span>
+          {% assign member = site.members | where:"title", page.author | first %}
           <figure>
-            <img class="member__image" src="/images/members/{{ page.author_photo }}" alt="{{ page.author }}" />
-            <figcaption>{{ page.author }}</figcaption>
+            <img class="member__image" src="/images/members/{{ member.photo }}" alt="{{ member.title }}" />
+            <figcaption>{{ member.title }}</figcaption>
           </figure>
         </div>
       </div>

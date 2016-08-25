@@ -8,9 +8,7 @@ date        : "2016-07-14"
 photo       : "2016/range-3/preview.png"
 blurb       : "A democractic canvas."
 
-author       : Andy McWilliams
-author_slug  : andrew-mcwilliams
-author_photo : andrew.jpg
+author       : Andrew McWilliams
 
 creators:
  - name     : "Greg Dutcher"
