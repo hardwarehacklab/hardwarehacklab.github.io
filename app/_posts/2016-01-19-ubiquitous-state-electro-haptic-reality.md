@@ -1,8 +1,5 @@
 ---
-layout       : post
 title        : "A Ubiquitous State Becomes An Electro-Haptic Reality"
-bodyid       : "stories"
-bodyclass    : "content"
 author       : Ellen Pearlman
 author_slug  : ellen-pearlman
 author_photo : ellen.jpg

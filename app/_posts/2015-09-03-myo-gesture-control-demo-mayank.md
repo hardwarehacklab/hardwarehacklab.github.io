@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Myo Gesture Control Demo from Mayank Sharma"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>Another great night in the weekly lab. Check out the video - Mayank Sharma demos the Myo gesture control device.</p>
 

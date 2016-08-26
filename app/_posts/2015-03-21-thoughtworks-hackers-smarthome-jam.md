@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "ThoughtWorks Hackers at the SmartHome Jam"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>Who knew electronics could be so much fun?</p>
 

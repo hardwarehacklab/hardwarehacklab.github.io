@@ -5,7 +5,6 @@
 
 name: hardwarehacklab.io
 url: 'https://hardwarehacklab.io'
-description: Every Wednesday in NYC
 author:
   name: Andrew McWilliams
   email: andy@jahya.net
@@ -48,3 +47,24 @@ collections:
   members:
     output: true
     permalink: /members/:title/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      bodyid: "stories"
+      bodyclass: "content article"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      bodyid: "projects"
+      bodyclass: "content article"

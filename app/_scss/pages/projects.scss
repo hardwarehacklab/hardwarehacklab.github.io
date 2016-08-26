@@ -1,0 +1,304 @@
+.projects__grid {
+	margin-top: 2em;
+	text-align: justify;
+	position: relative; left: -0.7em;
+	width: 100%;
+}
+
+.project-preview {
+	display: inline-block;
+	width: 25%; // Firefox needs 25%
+	margin: 2.4% 3.5% 7% 3.5%;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.project-preview__image {
+	width: 100%;
+	border: 4px solid #cccccc;
+}
+
+.project-preview__figcaption {
+	width: 100%;
+}
+
+.project-preview__title {
+	margin: 0.9em 0 0.3em 0 !important;
+	font-size: 1.6em;
+	font-style: italic;
+}
+
+.project-preview__blurb {
+	margin: 0;
+	font-size: 1.05em;
+}
+
+@media (max-width: 1630px) {
+	.projects__grid {
+		text-align: center;
+		left: -2em;
+	}
+
+	.project-preview {
+		width: 39%;
+		margin: 2.4% 2.5% 6% 5.5%;
+	}
+}
+
+@media (max-width: 899px) {
+	.projects__grid {
+		text-align: center;
+		left: -1.75em;
+	}
+
+	.project-preview {
+		width: 40%;
+		margin: 2.4% 2% 7% 7%;
+	}
+
+	.project-preview__figcaption {
+		margin-top: 1em;
+	}
+
+	.project-preview__blurb {
+		margin: 0.5em 0;
+	}
+}
+
+@media (max-width: 639px) {
+	.projects__grid {
+		left: 0;
+	}
+
+	.project-preview {
+		width: 70%;
+		margin: 0 auto 2.8em auto;
+	}
+}
+
+@media (max-width: 499px) {
+	.project-preview {
+		width: 90%;
+	}
+}
+
+.project__blurb--header {
+	font-size: 1.25em;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+//Note that this is extending the declarations in article.scss
+.member__container {
+	position: relative;
+	margin-bottom: 2em;
+
+	.info {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 6.6em;
+		text-align: center;
+	}
+
+	ul {
+		display: inline-block;
+	}
+
+	a {
+		margin: 0.5em 0 2.4em 0;
+		opacity: 1 !important;
+		filter: alpha(opacity=100) !important;
+		display: block;
+	}
+
+	figure {
+		img {
+			border-radius: 50%;
+			width: 6em !important;
+		}
+
+		figcaption {
+			margin: 0 !important;
+			width: 6em !important;
+			text-align: center !important;
+		}
+	}
+}
+
+@media (max-width: 899px) {
+
+	.flex {
+		display: flex;
+	}
+
+	.member__container {
+		display: inline-block;
+		position: relative;
+		margin-bottom: 0;
+
+		ul {
+			list-style-type: none;
+			margin: 0.6rem 0 0 0 !important;
+			display: inline;
+		}
+
+		li {
+			display: inline;
+			margin-right: 1.2em !important;
+		}
+
+		figure {
+			width: 4em;
+			margin: 2.1rem 0 0 0;
+			text-align: center;
+			display: inline-block;
+
+			img {
+				width: 4em !important;
+			}
+
+			figcaption {
+				font-size: 1rem;
+				width: 5em !important;
+				position: relative;
+				left: -0.5em;
+			}
+
+			a {
+				margin-bottom: 0.8em;
+			}
+		}
+
+		.info {
+			position: absolute;
+			left: 0;
+			white-space: nowrap;
+		}
+	}
+
+	.member__container:not(:last-child) {
+		border-right: 1px solid #cccccc;
+		padding-right: 2em;
+	}
+
+	.member__container:not(:first-child) {
+		padding-left: 1.5em;
+		margin-right: -1em;
+
+		.info {
+			left: 1.5rem;
+		}
+	}
+}
+
+#projects {
+	>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1600.jpg');
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.member-page {
+		img, figcaption, p, ul {
+			width: 100%;
+		}
+
+		figure img {
+			border-radius: 50%;
+		}
+	}
+
+	.member-page {
+		margin-left: 33%;
+
+		.profile {
+			position: absolute; left: 5%; top: 3em;
+			width: 25%;
+			text-align: center;
+
+			.links {
+				margin-top: 1em;
+			}
+		}
+
+		h2 {
+			margin-top: 1.2em;
+			font-size: 1.3em;
+		}
+	}
+}
+
+
+@media (max-width: 1299px) {
+	#projects>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1299.jpg');
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 1099px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-1099.jpg');
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-899.jpg');
+			background-size: cover;
+			background-position: center 47%;
+			background-attachment: inherit;
+		}
+
+		.member-page {
+			margin-left: 0;
+			position: relative;
+
+			header {
+				margin: 5.8em 0 2.9em;
+			}
+
+			.profile {
+				position: absolute;
+				top: 2.6em; right: 4em; left: inherit;
+				width: 200px;
+			}
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	#projects {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-5-639.jpg');
+			background-size: cover;
+			background-position: center 24%;
+			background-attachment: inherit;
+		}
+
+		.member-page {
+			header {
+				margin: 0;
+			}
+
+			.profile {
+				width: 55%;
+				position: relative;
+				top: inherit;
+				right: inherit;
+				margin: 2em auto;
+			}
+		}
+	}
+}

@@ -1,0 +1,293 @@
+$largest_font: 1.2em;
+$large_font: 1.15em;
+$medium_font: 1.125em;
+$small_font: 1.05em;
+
+$large_spacing: 0.05em;
+$small_spacing: 0.03em;
+
+$large_lineheight: 1.8em;
+$small_lineheight: 1.7em;
+
+.article {
+	main {
+		article {
+			width: 66%;
+
+			header {
+				.widgets {
+					position: absolute; left: 6%;
+					width: 20%;
+					text-align: right;
+
+					ul {
+						margin: 0;
+						list-style-type: none;
+						text-align: right;
+						padding-top: 3.1em;
+					}
+
+					li {
+						margin-bottom: 1.8em;
+					}
+
+					a:link, a:visited {
+						opacity: 0.2;
+						filter: alpha(opacity=20);
+					}
+
+					a:hover, a:active {
+						opacity: 0.9;
+						filter: alpha(opacity=90);
+					}
+
+					i {
+						position: relative; top: -6%;
+						font-size: 2.2em;
+					}
+
+					//Note that things here are being overriden in projects.scss
+				}
+			}
+
+			.read-more {
+				text-transform: uppercase;
+			}
+
+			figure img, figure figcaption {
+				width: 90%;
+			}
+
+			figure figcaption {
+				text-align: center;
+				margin: 1.8em 0 2.2em 0;
+			}
+
+			figure.two-images {
+				img {
+					width: 44%;
+				}
+
+				img:first-child {
+					margin-right: 2%;
+				}
+			}
+
+			.video {
+				display: inline-block;
+				position: relative;
+				width: 90%; height: 0;
+				padding-top: 54%;
+
+				>iframe {
+					position: absolute; top: 0; left: 0;
+					width: 100%; height: 100%;
+				}
+
+				figcaption {
+					width: 100%;
+				}
+			}
+
+			.video.ratio-50 {
+				padding-top: 50%;
+			}
+
+			.video.ratio-51 {
+				padding-top: 51%;
+			}
+
+			.video.ratio-55 {
+				padding-top: 55.25%;
+			}
+
+			.video.ratio-56 {
+				padding-top: 56.25%;
+			}
+
+			.video.ratio-59 {
+				padding-top: 59.65%;
+			}
+
+			.video.ratio-71 {
+				padding-top: 71.15%;
+			}
+
+			.video.ratio-80 {
+				padding-top: 80%;
+			}
+
+			.video.ratio-105 {
+				padding-top: 105%;
+			}
+
+			p, pre, blockquote {
+				font-size: $largest_font;
+				letter-spacing: $large_spacing;
+				line-height: $small_lineheight;
+				margin: 1.4em 0;
+			}
+
+			blockquote {
+				font-style: italic;
+				margin: 0 3em;
+			}
+
+			.author {
+				height: 3.5em;
+				position: relative;
+				top: -0.8em;
+
+				img {
+					border-radius: 50%;
+					width: 4.7em;
+					margin-left: 0.5em;
+				}
+
+				p {
+					font-style: italic;
+					font-size: $largest_font;
+					margin: 0.85em;
+					position: absolute;
+					left: 4.7em;
+					bottom: -1.6em;
+					width: 71%;
+				}
+			}
+		}
+
+		article, #paging {
+			margin-left: 33%;
+		}
+	}
+} 
+
+@media (max-width: 1299px) {
+	.article {
+		main {
+			article {
+				width: 70%;
+
+				header time {
+					left: 3em;
+				}
+
+				p, pre {
+					font-size: $large_font;
+				}
+			}
+
+			article, #paging {
+				margin-left: 30%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1099px) {
+	.article {
+		main article {
+			p, pre {
+				font-size: $medium_font;
+				line-height: $large_lineheight;
+				padding: 0.6em 0;
+			}
+
+			.author p {
+				font-size: $medium_font;
+			}
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	.article {
+		main {
+			article {
+				width: 66%;
+
+				header {
+					.widgets {
+						position: relative; left: 0;
+						width: inherit;
+						text-align: left;
+
+						.info {
+							width: 17%;
+						}
+
+						ul {
+							text-align: left;
+							margin-top: 1em;
+							padding: 0;
+						}
+
+						li {
+							display: inline;
+							margin-right: 0.7em;
+						}
+
+						i {
+							top: 0;
+							font-size: 1.6em;
+						}
+					}
+				}
+
+				.author {
+					top: 1em;
+					height: 4.2em;
+				}
+
+				.video {
+					margin: 0 5%;
+				}
+			}
+
+			article, #paging {
+				margin-left: 7%;
+			}
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	.article {
+		main {
+			article {
+				width: 80%;
+
+				header time {
+					width: inherit;
+					position: relative; left: 0;
+				}
+
+				figure img, figure figcaption {
+					width: 107%;
+				}
+
+				blockquote {
+					font-size: 1.18em;
+					letter-spacing: 0.05em;
+					margin: 0 1.8em;
+				}
+			}
+
+			article, #paging {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 499px) {
+	.article main article {
+		width: 82%;
+
+		p, pre {
+			font-size: $medium_font;
+			letter-spacing: $small_spacing;
+			line-height: $small_lineheight;
+		}
+	}
+}

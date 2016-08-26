@@ -126,7 +126,7 @@ body {
 
 		nav {
 			li {
-				padding: 0.7em 2em 0 0;
+				padding: 0.5em 2em 0 0;
 			}
 
 			.cta a {
@@ -158,7 +158,7 @@ body {
 	}
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 1199px) {
 	body {
 		>header {
 			h1 {
@@ -192,7 +192,7 @@ body {
 	}
 }
 
-@media (max-width: 899px) {
+@media (max-width: 999px) {
 	body {
 		main {
 			box-shadow: inherit;

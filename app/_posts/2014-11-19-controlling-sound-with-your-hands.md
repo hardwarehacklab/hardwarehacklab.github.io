@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Controlling Sound with Your Hands"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>We have been experimenting with full-body interactions in the lab of late. Yesterday we were invited to install some of our work at NYC MediaLab's <a href="http://www.nycmedialab.org/future-interfaces/">Future Interfaces</a> event:</p>
 

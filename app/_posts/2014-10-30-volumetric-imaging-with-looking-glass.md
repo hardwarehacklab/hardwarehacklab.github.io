@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Volumetric Imaging with Looking Glass"
-bodyid    : "stories"
-bodyclass : "content"
 ---
 <p>Looking Glass are a cool startup making 3D displays. They dropped by the lab last night to show us the products they've been developing.</p>
 
