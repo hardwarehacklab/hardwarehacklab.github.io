@@ -22,7 +22,7 @@ The app is programmed in Objective-C, a language Woskob had no experience with p
 The hardest part, he says, was learning how to generate the audio itself.  “You have to give the audio engine 44,100 data points every second to draw the waveform that will ultimately come out of the speaker. That's a lot of data points and it has to happen in real time so that the sound isn’t interrupted. I had to dust off the bit of C I picked up in college.”
 
 <figure>
-	<img src="/images/projects/2016/aphera-music/george.JPG">
+	<img src="/images/projects/2016/aphera-music/george.jpg">
 	<figcaption>Woskob using the app</figcaption>
 </figure>
 
