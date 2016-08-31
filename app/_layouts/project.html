@@ -10,7 +10,11 @@ bodyclass: "content article"
         <div class="project__blurb--header">{{ page.blurb }}</div>
       </div>
       <div class="widgets flex">
+        {% if page.creators.size == 1 %}
         <div class="member__container">
+        {% else %}
+        <div class="member__container--large-team">
+        {% endif %}
           <span class="info">Article by</span>
           {% assign member = site.members | where:"title", page.author | first %}
           <ul>

@@ -90,7 +90,7 @@
 }
 
 //Note that this is extending the declarations in article.scss
-.member__container {
+.member__container, .member__container--large-team {
 	position: relative;
 	margin-bottom: 2em;
 
@@ -130,10 +130,13 @@
 @media (max-width: 899px) {
 
 	.flex {
-		display: flex;
+	  display: flex;
+	  justify-content: center;
+
+
 	}
 
-	.member__container {
+	.member__container, .member__container--large-team {
 		display: inline-block;
 		position: relative;
 		margin-bottom: 0;
@@ -176,20 +179,19 @@
 			left: 0;
 			white-space: nowrap;
 		}
-	}
 
-	.member__container:not(:last-child) {
-		border-right: 1px solid #cccccc;
-		padding-right: 2em;
-	}
+		&:not(:first-child) {
+			padding-left: 1.5em;
+			margin-right: -1em;
 
-	.member__container:not(:first-child) {
-		padding-left: 1.5em;
-		margin-right: -1em;
-
-		.info {
-			left: 1.5rem;
+			.info {
+				left: 1.5rem;
+			}
 		}
+	}
+
+	.member__container--large-team:first-child {
+		flex-basis: 220px;
 	}
 }
 
