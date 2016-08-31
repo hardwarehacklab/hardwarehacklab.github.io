@@ -17,7 +17,7 @@ creators:
  - name     : "Nick Maxwell"
 ---
 
-An experimental team of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
+An experimental team made up of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
 
 Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
 
@@ -50,16 +50,16 @@ Things really came together when Rahman started experimenting with <a target="_b
 
 This ability to manipulate objects is at the center of <i>Draw</i>, the result of the experimental project by the team at ThoughtWorks.  <i>Draw</i>, coded in C#, is a lightweight application designed to satisfy the critical needs of a networked VR application: two people can inhabit the same virtual space and see each others’ avatars, communicate via voice, and draw shapes with their own hands.
 
-The team - composed of developers Allie Quintano and Nick Maxwell, designers Haeyoung Kim and Christopher Edwards, strategist Neil Redding, and technologist Rachel Laycock - plans to release the application to the community the coming weeks.
+The team - composed of developers Allie Quintano and Nick Maxwell, designers Haeyoung Kim and Christopher Edwards, strategist Neil Redding, and technologist Rachel Laycock - is looking forward to building on this core feature set.
 
 <figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/dAlAMhXhDiE" allowfullscreen></iframe>
 	<figcaption>More networked drawing in VR</figcaption>
 </figure>
 
-Having designed a basic drawing system, the team now plans to extend the functionality of the application.  They're working on offering the user a way to represent dynamic systems - complex systems with parts that change over time, like international supply chains - in virtual space.
+Having designed a basic drawing system, the team now plans to extend the functionality of the application.  They're working on offering the user a way to represent dynamic systems - complex systems with elements that move and change over time, like international supply chains, automobiles and software architectures - in virtual space.
 
-Finding abstract, simplified ways of representing dynamic systems is a problem that cuts across scores of industries.  Often, tasks like this are done using whiteboards and post-it notes, but the team believes that VR can be used to do this more intuitively.  One feature they'd like to bring to <i>Draw</i> is the ability to create objects, scale them, and move them around the virtual space in a loop.
+Finding abstract, simplified ways of representing dynamic systems is a problem that cuts across scores of industries.  Often, tasks like this are done using whiteboards and post-it notes, but the team believes that VR can be used to do this more intuitively.  One feature they'd like to bring to <i>Draw</i> is the ability to create objects, scale them, and move them around the virtual space along flexible, easily-defined paths. 
 
 <figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/7xylV1QfE08" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ Finding abstract, simplified ways of representing dynamic systems is a problem t
 
 There are other possibilities, too, like data visualization.  For instance, a book might have an illustration of the tallest skyscrapers in the world, at relative scale.  But it would be even easier to create a virtual space that features these buildings right next to each other, at their actual size.
 
-This is new technology to most everyone on the team, so there’s been a lot of learning and unstructured experimentation along the way.  It didn’t take long, however, for the team to notice the potential VR had for fostering a sense of empathy and connection.
+One of the first and most salient discoveries the team made is the potential VR has for fostering a sense of empathy and connection.
 
 “It’s amazing,” Rahman says.  “The first thing people want to do in VR is high five each other.  It brings out a natural curiosity in people.  They immediately start exploring the environment and expressing themselves within it.  There’s something really powerful and intangible in the knowledge you share a virtual space with another person.”
 
@@ -77,9 +77,7 @@ This is new technology to most everyone on the team, so there’s been a lot of 
 	<figcaption>A "thumbs up" signal from all participants starts the meeting</figcaption>
 </figure>
 
-One concept the team quickly seized upon was what they described as “ambient utility,” the virtual environment’s ability to provide utility through its design.  For instance, one of their prototypes is a virtual meeting that takes place among mountains and forests.  When all the participants give a thumbs up sign, a bell sounds and the sun rises.  As the time allotted for the meeting draws to a close, the sun begins to set, providing a naturalistic, intuitive cue to participants that they should finish their discussion.
-
-They have also been learning about what it’s like to develop software for VR.  Since VR development hasn’t been around for very long, the industry lacks a consensus on topics such as testing and continuous integration pipelines.  The team hopes to establish a set of best practices for VR development.
+Since VR development hasn’t been around for very long, the industry lacks a consensus on how essential practices such as testing and continuous integration should be accomplished. The team hopes to establish a set of best practices for VR development.
 
 <figure>
 	<img src="/images/projects/2016/draw-vr/hand-out.jpg">
