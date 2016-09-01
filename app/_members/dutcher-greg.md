@@ -11,7 +11,7 @@ quote       :
 links:
  - url      : "https://github.com/syntactical/"
    icon     : "fa-github"
- - url      : "https://twitter.com/tendedplayback"
+ - url      : "https://twitter.com/greg_dutcher"
    icon     : "fa-twitter"
  - url      : "http://syntactical.org/"
    icon     : "fa-globe"
