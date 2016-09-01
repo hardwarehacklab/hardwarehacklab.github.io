@@ -63,7 +63,13 @@
     <loc>https://hardwarehacklab.io/stories/</loc>
   </url>
   <url>
+    <loc>https://hardwarehacklab.io/stories/page2/</loc>
+  </url>
+  <url>
     <loc>https://hardwarehacklab.io/members/enki-andrews/</loc>
+  </url>
+  <url>
+    <loc>https://hardwarehacklab.io/members/nick-anthony/</loc>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/members/benton-c-bainbridge/</loc>
@@ -85,6 +91,9 @@
   </url>
   <url>
     <loc>https://hardwarehacklab.io/members/chika/</loc>
+  </url>
+  <url>
+    <loc>https://hardwarehacklab.io/members/andrew-crowe/</loc>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/members/julien-deswaef/</loc>
@@ -187,6 +196,6 @@
   </url>
   <url>
     <loc>https://hardwarehacklab.io/periscope/periscope-widget.html</loc>
-    <lastmod>2016-08-29T17:14:31-04:00</lastmod>
+    <lastmod>2016-08-26T10:06:02-04:00</lastmod>
   </url>
 </urlset>
