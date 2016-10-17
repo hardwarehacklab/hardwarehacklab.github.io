@@ -19,7 +19,7 @@ creators:
 
 An experimental team made up of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
 
-Using <a target="_blank" rel="noopener noreferrer" href="https://unity3d.com/">Unity</a>, the <a target="_blank" rel="noopener noreferrer" href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a target="_blank" rel="noopener noreferrer" href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
+Using <a href="https://unity3d.com/">Unity</a>, the <a href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
 
 <figure class="video ratio-50">
 	<iframe src="https://www.youtube.com/embed/l2zb8I0J93Q" allowfullscreen></iframe>
@@ -46,7 +46,7 @@ This same capability - the ability to communicate in non-verbal ways - is what h
 	<figcaption>Creating and scaling objects in VR</figcaption>
 </figure>
 
-Things really came together when Rahman started experimenting with <a target="_blank" rel="noopener noreferrer" href="https://www.leapmotion.com/">LeapMotion</a>.  Two of LeapMotion's early demos gave him this idea: one for drawing in 3D by pinching one’s fingers together, and another for scaling virtual objects with one’s hands.  He realized that this ability to create and manipulate objects could be used to convey ideas in virtual space.
+Things really came together when Rahman started experimenting with <a href="https://www.leapmotion.com/">LeapMotion</a>.  Two of LeapMotion's early demos gave him this idea: one for drawing in 3D by pinching one’s fingers together, and another for scaling virtual objects with one’s hands.  He realized that this ability to create and manipulate objects could be used to convey ideas in virtual space.
 
 This ability to manipulate objects is at the center of <i>Draw</i>, the result of the experimental project by the team at ThoughtWorks.  <i>Draw</i>, coded in C#, is a lightweight application designed to satisfy the critical needs of a networked VR application: two people can inhabit the same virtual space and see each others’ avatars, communicate via voice, and draw shapes with their own hands.
 
@@ -88,4 +88,4 @@ Given the difficulties of recognizing trajectories of new technologies, one of t
 
 Even if they don't, though, the team agrees it's important to experiment and contribute to the dialogue about VR. As Rahman says, "There’s something really satisfying about working to prove that there is a way in which this technology can be used.”
 
-All of the hardware this experimental team has been using is available to the public at the ThoughtWorks NYC office.  If you'd like to try out the hardware and learn more about what it's like to develop for VR, <a target="_blank" rel="noopener noreferrer" href="https://hardwarehacklab.io/join/">stop by the Hardware Hack Lab any Wednesday.</a>
+All of the hardware this experimental team has been using is available to the public at the ThoughtWorks NYC office.  If you'd like to try out the hardware and learn more about what it's like to develop for VR, <a href="/join/">stop by the Hardware Hack Lab any Wednesday.</a>

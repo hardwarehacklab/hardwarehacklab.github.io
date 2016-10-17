@@ -40,7 +40,7 @@ A “sketch” consists of instructions (in C++) denoting the color of each LED 
 
 Dutcher has been running workshops on soldering, how to use Arduino, and other fundamental skills for doing work with creative technology, and plans to use Range 3 as a tool for teaching in future workshops.  “I’d love to get groups of artists and technologists in here to see what we can do with it… It would be a shame not to use it for some sort of performance, or maybe a virtual reality visualization.”
 
-The installation is controlled by <a target="_blank" rel="noopener noreferrer" href="https://www.pjrc.com/teensy/">two Teensy boards</a> (an Arduino competitor) paired with <a target="_blank" rel="noopener noreferrer" href="https://www.pjrc.com/teensy/td_libs_OctoWS2811.html">OctoWS2811 adaptors</a>, which are additional pieces of hardware designed for working with large numbers of LEDs.  The Teensy boards send data to the LEDs via Cat 6 cables, the same kind that deliver Ethernet to homes and offices.  The animation itself was programmed in C++, which is also used in programming Arduinos.
+The installation is controlled by <a href="https://www.pjrc.com/teensy/">two Teensy boards</a> (an Arduino competitor) paired with <a href="https://www.pjrc.com/teensy/td_libs_OctoWS2811.html">OctoWS2811 adaptors</a>, which are additional pieces of hardware designed for working with large numbers of LEDs.  The Teensy boards send data to the LEDs via Cat 6 cables, the same kind that deliver Ethernet to homes and offices.  The animation itself was programmed in C++, which is also used in programming Arduinos.
 
 <figure>
 	<img src="/images/projects/2016/range-3/up-close.png">
@@ -51,4 +51,4 @@ Before starting this series of artworks, Dutcher knew little about electronics o
 
 “Incremental improvements made my learning process so much easier.  My early installations were on a much smaller scale.  The different versions require very different approaches, and I was only able to learn how to power Range 3 because I was building off knowledge I had from my earlier work.”
 
-Range 3 is intended as a democratic artwork and a potentially engaging teaching tool.  Going forward, Dutcher intends to use it in workshops on creative technology.  Also, as one of the organizers of the Hardware Hack Lab, and you can find him in the <a target="_blank" rel="noopener noreferrer" href="https://hardwarehacklab.io/join/">public lab events on many Wednesdays</a>.
+Range 3 is intended as a democratic artwork and a potentially engaging teaching tool.  Going forward, Dutcher intends to use it in workshops on creative technology.  Also, as one of the organizers of the Hardware Hack Lab, and you can find him in the <a href="/join/">public lab events on many Wednesdays</a>.
