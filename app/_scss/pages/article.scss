@@ -73,54 +73,6 @@ $small_lineheight: 1.7em;
 				}
 			}
 
-			.video {
-				display: inline-block;
-				position: relative;
-				width: 90%; height: 0;
-				padding-top: 54%;
-
-				>iframe {
-					position: absolute; top: 0; left: 0;
-					width: 100%; height: 100%;
-				}
-
-				figcaption {
-					width: 100%;
-				}
-			}
-
-			.video.ratio-50 {
-				padding-top: 50%;
-			}
-
-			.video.ratio-51 {
-				padding-top: 51%;
-			}
-
-			.video.ratio-55 {
-				padding-top: 55.25%;
-			}
-
-			.video.ratio-56 {
-				padding-top: 56.25%;
-			}
-
-			.video.ratio-59 {
-				padding-top: 59.65%;
-			}
-
-			.video.ratio-71 {
-				padding-top: 71.15%;
-			}
-
-			.video.ratio-80 {
-				padding-top: 80%;
-			}
-
-			.video.ratio-105 {
-				padding-top: 105%;
-			}
-
 			p, pre, blockquote {
 				font-size: $largest_font;
 				letter-spacing: $large_spacing;
