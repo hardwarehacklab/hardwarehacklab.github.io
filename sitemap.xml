@@ -2,56 +2,59 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hardwarehacklab.io/stories/ubiquitous-state-electro-haptic-reality</loc>
-    <lastmod>2016-01-19T00:00:00-05:00</lastmod>
+    <lastmod>2016-01-19T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/emergence-of-future-reality</loc>
-    <lastmod>2016-01-05T00:00:00-05:00</lastmod>
+    <lastmod>2016-01-05T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/myo-gesture-control-demo-mayank</loc>
-    <lastmod>2015-09-03T00:00:00-04:00</lastmod>
+    <lastmod>2015-09-03T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/thoughtworks-hackers-smarthome-jam</loc>
-    <lastmod>2015-03-21T00:00:00-04:00</lastmod>
+    <lastmod>2015-03-21T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/meet-the-brain-hackers</loc>
-    <lastmod>2015-01-22T00:00:00-05:00</lastmod>
+    <lastmod>2015-01-22T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/projection-mapping-with-chika</loc>
-    <lastmod>2014-12-11T00:00:00-05:00</lastmod>
+    <lastmod>2014-12-11T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/controlling-sound-with-your-hands</loc>
-    <lastmod>2014-11-19T00:00:00-05:00</lastmod>
+    <lastmod>2014-11-19T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/volumetric-imaging-with-looking-glass</loc>
-    <lastmod>2014-10-30T00:00:00-04:00</lastmod>
+    <lastmod>2014-10-30T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/cyborgs-sixth-sense</loc>
-    <lastmod>2014-10-30T00:00:00-04:00</lastmod>
+    <lastmod>2014-10-30T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/kinect-projector-toolkit</loc>
-    <lastmod>2014-04-04T00:00:00-04:00</lastmod>
+    <lastmod>2014-04-04T00:00:00+04:00</lastmod>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/a-primer-in-brain-computer-interface</loc>
-    <lastmod>2013-10-08T00:00:00-04:00</lastmod>
+    <lastmod>2013-10-08T00:00:00+04:00</lastmod>
   </url>
   <url>
-    <loc>https://hardwarehacklab.io/</loc>
+    <loc>https://hardwarehacklab.io/404.html</loc>
+  </url>
+  <url>
+    <loc>https://hardwarehacklab.io/projects/</loc>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/join/</loc>
   </url>
   <url>
-    <loc>https://hardwarehacklab.io/projects/</loc>
+    <loc>https://hardwarehacklab.io/</loc>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/stories/</loc>
@@ -61,9 +64,6 @@
   </url>
   <url>
     <loc>https://hardwarehacklab.io/periscope/</loc>
-  </url>
-  <url>
-    <loc>https://hardwarehacklab.io/stories/page2/</loc>
   </url>
   <url>
     <loc>https://hardwarehacklab.io/members/enki-andrews/</loc>
@@ -202,6 +202,6 @@
   </url>
   <url>
     <loc>https://hardwarehacklab.io/periscope/periscope-widget.html</loc>
-    <lastmod>2017-03-29T13:39:21-04:00</lastmod>
+    <lastmod>2017-03-29T20:39:21+03:00</lastmod>
   </url>
 </urlset>
