@@ -20,7 +20,7 @@ future: true
 show_drafts: true
 excerpt_separator: <!--excerpt-ends-->
 
-permalink: /stories/:title
+permalink: /stories/:title/
 paginate: 7
 paginate_path: "/stories/page:num/"
 
