@@ -39,9 +39,10 @@ markdown: kramdown
 #     coderay_bold_every: 10
 #     coderay_css: style
 
-pygments: true
-gems:
+highlighter: true
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
   
 collections:
   members:
