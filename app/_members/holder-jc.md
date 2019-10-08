@@ -11,6 +11,5 @@ quote       :
 links:
  - url      : "https://toot.thoughtworks.com/@jcholder"
    icon     : "fa-mastodon"
-twitter
 interviewed : 
 ---
