@@ -6,7 +6,7 @@ bodyclass   : "content"
 title       : "Ellen Pearlman"
 photo       : "ellen.jpg"
 description : "Artist, Researcher"
-quote       : 
+quote       :
 
 links:
  - url      : "https://artdis.tumblr.com"
@@ -19,28 +19,28 @@ links:
 interviewed   : 2015-08-05
 ---
 
-##Tell us a little about what you do
+## Tell us a little about what you do
 I work in immersive environments, brain sensor technologies, visual and cognitive perception, and altered experiences
 
-##Which tech trend(s) are getting the most of your attention right now?
+## Which tech trend(s) are getting the most of your attention right now?
 Human brain computer interfaces and machine learning
 
-##Which industry or art trends are getting the most of your attention right now?
+## Which industry or art trends are getting the most of your attention right now?
 Politcal intervention art
 
-##Which hardware (or software, product, platform) are you excited about the potential of, and why?
+## Which hardware (or software, product, platform) are you excited about the potential of, and why?
 BCIs
 
 Marina Abramovic - The Magic of the Mutual Gaze
 Yehuda Dueynas - The Ascent
 Lisa Park - Euonia II
 
-##Which blogs or zines do you peruse right now?
+## Which blogs or zines do you peruse right now?
 My own Andy Warhol Arts Writers Grant Finalist award winning blog on art and technology. <http://artdis.tumblr.com>
 
 As ubiquity grows, so goes surveillance.
 
-##Attachments of works
+## Attachments of works
 
 1. Khymer Noctures - done in collaboration with the Metropolitan Museum of Art Media Lab - shown at the "Sounds, Image and Data" conference at NYU Stenhardt/Goldsmiths College/Leonardo  
    ![Khymer Nocturnes](/images/interviews/ellen/khymer_noctures.jpg)
