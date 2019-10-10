@@ -17,6 +17,8 @@ links:
    icon     : "fa-tumblr"
  - url      : "http://xuv.be"
    icon     : "fa-globe"
+ - url      : "https://toot.thoughtworks.com/@judeswae"
+   icon     : "fa-mastodon"
 
 interviewed   : 2015-09-05
 ---
