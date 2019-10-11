@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
     <meta name="Description" content="Open space for artists and technologists to get hands-on with new technology. We supply a bunch of hardware and a chill environment so you can hack away.">
-
+    {% endif %}
     <title>{{ page.title }}{% if page.bodyid != "home" %} - Hardware Hack Lab{% endif %}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic" rel="stylesheet" type="text/css">
