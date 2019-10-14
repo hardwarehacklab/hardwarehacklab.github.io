@@ -1,21 +1,22 @@
 ---
-layout      : member                # Leave untouched
-bodyid      : "members"             # Leave untouched
-bodyclass   : "content"             # Leave untouched
+layout      : member                # Leave this untouched
+bodyid      : "members"             # Leave this untouched
+bodyclass   : "content"             # Leave this untouched
 
-title       : "Firstname Lastname"
-photo       : "image.jpg"           # Images go in app/images/members
-description : "Hacker Title"
-quote       :
+title       : "Firstname Lastname"  # Add your names as you'd like to see them written
+photo       : "image.jpg"           # A profile picture. Images go in app/images/members
+description : "Hacker Title"        # Ex: artist, technologist, etc.
+quote       :                       # In one phrase, what you think of the Hack Lab
 
+# Add as many "social" links as you like.
+# Portfolio, personal website, LinkedIn, Twitter, Mastodon, Instagram, etc.
 links:
  - url      : "http://example.com/"
    icon     : "fa-globe"
 
-interviewed : 2016-01-17
+interviewed : 2016-01-17            # The (ISO 8601) date you answered the questions below
 ---
-<!-- Not Need to respond to all the questions.
-Delete the ones without an answer -->
+<!-- Not Need to respond to all the questions. Delete the ones without an answer -->
 
 ## Tell us a little about what you do
 ...
