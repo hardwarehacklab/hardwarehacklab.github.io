@@ -4,12 +4,8 @@
 	padding: 0.5em 0;
 	background-color: #23797d;
 	color: #d7f3f5;
-}
-
-@media (max-width: 999px) {
-	#notice {
-		position: absolute;
-	}
+	z-index: 1000;
+	position: fixed;
 }
 
 html, body {
