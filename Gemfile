@@ -1,3 +1,4 @@
+ruby '2.5.3'
 source "http://rubygems.org"
 
 gem 'jekyll'
