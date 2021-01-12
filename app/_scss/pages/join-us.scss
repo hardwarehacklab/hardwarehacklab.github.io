@@ -82,19 +82,21 @@
 		}
 
 		main {
-      .lab {
-        margin: 2em 0 0 0;
-      }
-      .widget {
-  			width: 95%;
-  			padding-top: 200px;
-  			float: left;
-  			margin: 0.1em 10em 1.7em 0;
-		  }
-      .address {
-        width: 100%;
-      }
-    }
+	    	.lab {
+        		margin: 2em 0 0 0;
+      		}
+ 
+      		.widget {
+	  			width: 95%;
+	  			padding-top: 200px;
+	  			float: left;
+	  			margin: 0.1em 10em 1.7em 0;
+			}
+
+    		.address {
+      			width: 100%;
+    		}
+    	}
 	}
 }
 
