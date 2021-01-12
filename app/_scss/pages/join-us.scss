@@ -7,22 +7,25 @@
 	}
 
 	main {
-    .lab {
-      clear: both;
-      margin: 2em 0 4em 0;
-    }
-    .location {
-      margin-bottom: .5em;
-    }
-    .address {
-      width: 50%;
-    }
+	    .lab {
+    		clear: both;
+    		margin: 2em 0 4em 0;
+    	}
+
+    	.location {
+    		margin-bottom: 0.5em;
+    	}
+
+	    .address {
+    		width: 50%;
+		}
+
 		.widget {
 			position: relative;
 			width: 47%;
 			float: right;
 			margin: 0 1.4em 0 2.7em;
-      display: block;
+			display: block;
 
 			iframe {
 				position: absolute; top: 0; left: 0; bottom: 0; right: 0;
