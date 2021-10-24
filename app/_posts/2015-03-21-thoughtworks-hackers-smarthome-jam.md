@@ -1,5 +1,5 @@
 ---
-title     : "ThoughtWorks Hackers at the SmartHome Jam"
+title     : "Thoughtworks Hackers at the SmartHome Jam"
 ---
 <p>Who knew electronics could be so much fun?</p>
 
@@ -7,7 +7,7 @@ title     : "ThoughtWorks Hackers at the SmartHome Jam"
 	<iframe src="https://player.vimeo.com/video/122844160?color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-<p>During a ThoughtWorks company get-together in New York yesterday, employees took part in a 'Smart Home Jam'. We seeded the activity with a few LittleBits circuits and some instructions to get off the ground.</p>
+<p>During a Thoughtworks company get-together in New York yesterday, employees took part in a 'Smart Home Jam'. We seeded the activity with a few LittleBits circuits and some instructions to get off the ground.</p>
 
 <!--excerpt-ends-->
 
@@ -17,7 +17,7 @@ title     : "ThoughtWorks Hackers at the SmartHome Jam"
 
 <figure>
 	<a href="/images/blog/2015-03-21-thoughthackers/thoughthackers2.jpg">
-		<img src="/images/blog/2015-03-21-thoughthackers/thoughthackers2-small.jpg" alt="Hackers at ThoughtWorks" />
+		<img src="/images/blog/2015-03-21-thoughthackers/thoughthackers2-small.jpg" alt="Hackers at Thoughtworks" />
 	</a>
 </figure>
 
@@ -27,7 +27,7 @@ title     : "ThoughtWorks Hackers at the SmartHome Jam"
 
 <figure>
 	<a href="/images/blog/2015-03-21-thoughthackers/thoughthackers1.jpg">
-		<img src="/images/blog/2015-03-21-thoughthackers/thoughthackers1-small.jpg" alt="Hackers at ThoughtWorks" />
+		<img src="/images/blog/2015-03-21-thoughthackers/thoughthackers1-small.jpg" alt="Hackers at Thoughtworks" />
 	</a>
 </figure>
 

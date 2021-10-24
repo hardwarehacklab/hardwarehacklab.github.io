@@ -17,7 +17,7 @@ creators:
  - name     : "Nick Maxwell"
 ---
 
-An experimental team made up of ThoughtWorks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
+An experimental team made up of Thoughtworks designers and technologists has been working for the past three months with virtual reality to make remote collaborations more human.
 
 Using <a href="https://unity3d.com/">Unity</a>, the <a href="http://www.htcvive.com/us/">HTC Vive</a>, and the <a href="https://www3.oculus.com/en-us/rift/">Oculus Rift</a>, they’ve developed a remote-collaboration application that allows users to high-five, express ideas as objects in 3D space, and even play Pictionary from opposite sides of the country.
 
@@ -26,7 +26,7 @@ Using <a href="https://unity3d.com/">Unity</a>, the <a href="http://www.htcvive.
 	<figcaption>Drawing with others in virtual space</figcaption>
 </figure>
 
-The idea for the application, tentatively named <i>Draw</i>, came out of a ThoughtWorks workshop focused on exploring VR business opportunities for clients.  The team had strong convictions that VR had a unique value proposition in the area of remote collaboration, a concern common to a large number of industries.
+The idea for the application, tentatively named <i>Draw</i>, came out of a Thoughtworks workshop focused on exploring VR business opportunities for clients.  The team had strong convictions that VR had a unique value proposition in the area of remote collaboration, a concern common to a large number of industries.
 
 Technology, though it has made remote communication easier, has in general tended to dehumanize the way we communicate and collaborate.  Most remote communication is done over email or video chat - media and interfaces that force one to type words out on a keyboard and interact with others through a flat screen.
 
@@ -37,7 +37,7 @@ The team knew they wanted to develop something that afforded a more human mode o
 	<figcaption>Members of the team Neil (left), Kent (middle), and Haeyoung (right) testing out an early prototype</figcaption>
 </figure>
 
-This trajectory began as a passion project for Kent Rahman, a user experience designer with ThoughtWorks.  While on a project at an education technology company in 2014, he noticed how technology affected communication between students and teachers.  For instance, students uncomfortable speaking up in class could communicate with their teacher using iPad software ThoughtWorks had built.
+This trajectory began as a passion project for Kent Rahman, a user experience designer with Thoughtworks.  While on a project at an education technology company in 2014, he noticed how technology affected communication between students and teachers.  For instance, students uncomfortable speaking up in class could communicate with their teacher using iPad software Thoughtworks had built.
 
 This same capability - the ability to communicate in non-verbal ways - is what he recognized VR could provide in ways no existing technology could.  “Designers have a moral obligation to make tools people use for their jobs enjoyable and delightful, because they influence workers’ happiness,” he says.  “It’s important to treat users like human beings.”
 
@@ -48,7 +48,7 @@ This same capability - the ability to communicate in non-verbal ways - is what h
 
 Things really came together when Rahman started experimenting with <a href="https://www.leapmotion.com/">LeapMotion</a>.  Two of LeapMotion's early demos gave him this idea: one for drawing in 3D by pinching one’s fingers together, and another for scaling virtual objects with one’s hands.  He realized that this ability to create and manipulate objects could be used to convey ideas in virtual space.
 
-This ability to manipulate objects is at the center of <i>Draw</i>, the result of the experimental project by the team at ThoughtWorks.  <i>Draw</i>, coded in C#, is a lightweight application designed to satisfy the critical needs of a networked VR application: two people can inhabit the same virtual space and see each others’ avatars, communicate via voice, and draw shapes with their own hands.
+This ability to manipulate objects is at the center of <i>Draw</i>, the result of the experimental project by the team at Thoughtworks.  <i>Draw</i>, coded in C#, is a lightweight application designed to satisfy the critical needs of a networked VR application: two people can inhabit the same virtual space and see each others’ avatars, communicate via voice, and draw shapes with their own hands.
 
 The team - composed of developers Allie Quintano and Nick Maxwell, designers Haeyoung Kim and Christopher Edwards, strategist Neil Redding, and technologist Rachel Laycock - is looking forward to building on this core feature set.
 
@@ -88,4 +88,4 @@ Given the difficulties of recognizing trajectories of new technologies, one of t
 
 Even if they don't, though, the team agrees it's important to experiment and contribute to the dialogue about VR. As Rahman says, "There’s something really satisfying about working to prove that there is a way in which this technology can be used.”
 
-All of the hardware this experimental team has been using is available to the public at the ThoughtWorks NYC office.  If you'd like to try out the hardware and learn more about what it's like to develop for VR, <a href="/join/">stop by the Hardware Hack Lab any Wednesday.</a>
+All of the hardware this experimental team has been using is available to the public at the Thoughtworks NYC office.  If you'd like to try out the hardware and learn more about what it's like to develop for VR, <a href="/join/">stop by the Hardware Hack Lab any Wednesday.</a>

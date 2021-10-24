@@ -10,9 +10,9 @@ creators:
  - name     : "Aidan Obley"
 ---
 
-There’s something watching people at the sink in the ThoughtWorks NYC office.
+There’s something watching people at the sink in the Thoughtworks NYC office.
 
-For the past few weeks, a team of designers from Parsons School for Design have been working with a technologist at ThoughtWorks.  They’re designing a system for our office to deter people from leaving their dirty dishes in the sink.  It’s not a huge technology problem, but it has helped make our workplace a cleaner, nicer place.
+For the past few weeks, a team of designers from Parsons School for Design have been working with a technologist at Thoughtworks.  They’re designing a system for our office to deter people from leaving their dirty dishes in the sink.  It’s not a huge technology problem, but it has helped make our workplace a cleaner, nicer place.
 
 <figure>
 	<img src="/images/projects/2016/dirty-dishes/dirtyDishes.gif">
