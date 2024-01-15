@@ -3,8 +3,8 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: hardwarehacklab.io
-url: 'https://hardwarehacklab.io'
+name: hardwarehacklab.github.io
+url: 'hardwarehacklab.github.io'
 author:
   name: Andrew McWilliams
   email: andy@jahya.net
