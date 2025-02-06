@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<main>
+  <article role="article" class="member-page">
+    <header>
+      <h1>{{ page.title }}</h1>
+      {% capture interviewed_string %}{{ page.interviewed | date: '%B %Y' }}{% endcapture %}
+      {% if interviewed_string == "" %}
+        <p>{{ page.title }} is a member of the Hardware Hack Lab.</p>
+        <ul>
+          <li>Learn <a href="/">what the lab is about</a></li>
+          <li>Find <a href="/members">other members</a></li>
+          <li>Come <a href="/join">join us yourself</a></li>
+        </ul>
+      {% else %}
+        <span id="interview-date">Interviewed in <time itemprop="dateCreated" datetime="{{ page.interviewed | date: '%Y-%m-%d' }}">{{ interviewed_string }}</time></span>
+      {% endif %}
+    </header>
+    <div class="profile">
+        <figure>
+            <img src="/images/members/{{ page.photo }}" />
+            <ul class="links">
+            {% for link in page.links %}
+                <li><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i></a></li>
+            {% endfor %}
+            </ul>
+        </figure>
+    </div>
+    {{ content }}
+    <hr />
+  </article>
+</main>

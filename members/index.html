@@ -1,0 +1,45 @@
+---
+layout    : default
+title     : Members
+bodyid    : "members"
+bodyclass : "content"
+---
+<main>
+	<article id="members" role="article">
+		<div class="grid">
+            {% for member in site.members %}
+            <figure>
+                {% comment %} 
+                    Find out if there is content (aka interview) in the member file.
+                    If there is no content (aka memeber.content is empty), then don't dislpay link
+                {% endcomment %}
+                
+                {% assign content = member.content | strip_newlines %}
+                {% if content != "" %}
+                    <a href="{{ member.url }}">
+                        <img src="/images/members/{{ member.photo }}" />
+                    </a>
+                    
+                    <a href="{{ member.url }}">
+                        <figcaption><h2>{{ member.title }}</h2></figcaption>
+                    </a>
+                {% else %}
+                    <img src="/images/members/{{ member.photo }}" />
+                    <figcaption><h2>{{ member.title }}</h2></figcaption>
+                {% endif %}
+				
+                <p>{{ member.description }}</p>
+				<ul class="links">
+                {% for link in member.links %}
+                    <li><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i></a></li>
+                {% endfor %}
+                </ul>
+			</figure>
+            {% endfor %}
+		</div>
+
+		<div class="cta">
+			<a href="/join">Join us in the lab</a>
+		</div>
+	</article>
+</main>

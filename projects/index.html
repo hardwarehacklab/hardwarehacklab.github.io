@@ -1,0 +1,34 @@
+---
+layout    : default
+title     : Projects
+bodyid    : "projects"
+bodyclass : "content"
+---
+<main>
+	<article id="projects" role="article">
+		<h1>Hack Lab Projects</h1>
+		<p>These are projects created by members of the Hardware Hack Lab, and employees at Thoughtworks NYC. This is a space to document and share work &mdash; if you would like to see a specific project captured here, come talk to us <a href="/join/">at a lab night</a>!</p>
+		<div class="projects__grid">
+            {% assign projects = site.projects | sort: 'date' | reverse %}
+            {% for project in projects %}
+            <figure class="project-preview">
+                <a href="{{ project.url }}">
+                	<img class="project-preview__image" src="/images/projects/{{ project.photo }}"/>
+            	</a>
+            	<figcaption class="project-preview__figcaption">
+            		<h1 class="project-preview__title">
+                        <a href="{{ project.url }}">
+            			    {{ project.title }}
+            		    </a>
+                    </h1>
+            		<p class="project-preview__blurb">{{project.blurb}}</p>
+            	</figcaption>
+                </a>
+			</figure>
+            {% endfor %}
+		</div>
+		<div class="cta">
+			<a href="/join">Join us in the lab</a>
+		</div>
+	</article>
+</main>

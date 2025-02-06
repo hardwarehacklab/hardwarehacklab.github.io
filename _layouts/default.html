@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="Description" content="Open space for artists and technologists to get hands-on with new technology. We supply a bunch of hardware and a chill environment so you can hack away.">
+    {% endif %}
+    <title>{{ page.title }}{% if page.bodyid != "home" %} - Hardware Hack Lab{% endif %}</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic" rel="stylesheet" type="text/css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <link href="/style/site.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/images/favicon.png">
+  </head>
+  <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
+    <div id="notice">This website is now archived as the Hardware Hack Lab events no longer exist in NYC or BCN.</div>
+    <header role="banner"{% if page.bodyid == 'home' %} class="first-glance"{% endif %}>
+      <h1><a href="/">Hardware Hack Lab</a></h1>
+      <nav role="navigation">
+        <h2>Navigation</h2>
+        <a id="menu-button" href="#">
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-times"></i>
+        </a>
+        <ul class="cta">
+          <li><a href="/members/">Members</a></li>
+          <li><a href="/join/">Join</a></li>
+          <li class="social">
+            <a href="https://twitter.com/hardwarehacklab">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/hardwarehacklab">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      {% if page.bodyid == 'home' %}
+      <div id="tagline">
+        <h2>Tagline</h2>
+        <p>A free space for artists,&nbsp;<br />hackers &amp; innovators, <br />in NYC.</p>
+      </div>
+      <div id="chevron"></div>
+      {% endif %}
+    </header>
+    {% if page.bodyid == 'home' %}
+    <section id="sponsors">
+      <h2>Sponsors</h2>
+      <a href="https://www.thoughtworks.com" id="thoughtworks">
+        <img src="/images/sponsors/thoughtworks-arts.png" alt="Thoughtworks" />
+      </a>
+      &#43;
+      <a href="http://meetup.com/volumetric" id="volumetric">
+        <img src="/images/sponsors/volumetric.png" alt="The Volumetric Society" />
+      </a>
+    </section>
+    {% endif %}
+    {{ content }}
+    <script src="/javascript/jquery.js"></script>
+    <script src="/javascript/site.js"></script>
+    <script src="/javascript/analytics.js"></script>
+  </body>
+</html>

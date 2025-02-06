@@ -1,0 +1,77 @@
+#home #sponsors {
+	padding: 3em 0;
+	font-weight: 700;
+
+	a {
+		text-decoration: none;
+	}
+
+	img {
+		vertical-align: middle;
+		margin: 18px;
+	}
+
+	#thoughtworks img {
+		width: 400px;
+		margin-right: 4px;
+	}
+
+	#volumetric img {
+		width: 68px;
+		margin-left: 12px;
+	}
+}
+
+@media (max-width: 1299px) {
+	#home #sponsors {
+		#thoughtworks img {
+			width: 330px;
+		}
+
+		#volumetric img {
+			width: 51px;
+		}
+	}
+}
+
+@media (max-width: 1099px) {
+	#home #sponsors {
+		img {
+			margin: 15px;
+		}
+		
+		#thoughtworks img {
+			width: 250px;
+		}
+
+		#volumetric img {
+			width: 43px;
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	#home #sponsors {
+		#volumetric img {
+			width: 36px;
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	#home #sponsors {
+		padding: 2em 0;
+	}
+}
+
+@media (max-width: 499px) {
+	#home #sponsors {
+		#thoughtworks img {
+			width: 200px;
+		}
+
+		#volumetric img {
+			width: 30px;
+		}
+	}
+}

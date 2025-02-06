@@ -1,0 +1,126 @@
+#join-us {
+	>header {
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1600.jpg');
+		background-position: 100% 100%;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	main {
+	    .lab {
+    		clear: both;
+    		margin: 2em 0 4em 0;
+    	}
+
+    	.location {
+    		margin-bottom: 0.5em;
+    	}
+
+	    .address {
+    		width: 50%;
+		}
+
+		.widget {
+			position: relative;
+			width: 47%;
+			float: right;
+			margin: 0 1.4em 0 2.7em;
+			display: block;
+
+			iframe {
+				position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+				width: 100%; height: 200px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1299px) {
+	#join-us {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1299.jpg');
+			background-position: 100% 100%;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		main .widget {
+			margin: 0 0.5em 0 2.1em;
+		}
+	}
+}
+
+@media (max-width: 1099px) {
+	#join-us {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-1099.jpg');
+			background-position: 100% 100%;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.address, #when {
+			font-weight: 400;
+		}
+
+		main {
+      .widget {
+			  width: 46%;
+		  }
+	  }
+  }
+}
+
+@media (max-width: 899px) {
+	#join-us {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-899.jpg');
+			background-size: cover;
+			background-position: 100% 100%;
+			background-attachment: inherit;
+		}
+
+		main {
+	    	.lab {
+        		margin: 2em 0 0 0;
+      		}
+ 
+      		.widget {
+	  			width: 95%;
+	  			padding-top: 200px;
+	  			float: left;
+	  			margin: 0.1em 10em 1.7em 0;
+			}
+
+    		.address {
+      			width: 100%;
+    		}
+    	}
+	}
+}
+
+@media (max-width: 639px) {
+	#join-us {
+		>header {
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/full-bleed/lab-4-639.jpg');
+			background-size: cover;
+			background-position: 100% 100%;
+			background-attachment: inherit;
+		}
+
+		main {
+      .widget {
+			  width: 100%;
+		  }
+    }
+	}
+}
+
+@media (max-width: 499px) {
+	#join-us main {
+    .widget {
+		  padding-top: 200px;
+	   }
+  }
+}

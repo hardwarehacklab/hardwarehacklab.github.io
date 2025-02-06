@@ -1,0 +1,123 @@
+.content {
+	>header {
+		height: 90%;
+	}
+
+	main {
+		width: 63%;
+		background-color: #e9e9e9;
+		font-weight: 300;
+		padding: 3.3em 3em 5em 4em;
+		margin-bottom: 7.4%;
+		position: absolute; top: 58%;
+
+		h1 {
+			margin-bottom: 1em;
+			font-weight: normal;
+		}
+
+		ol, ul {
+			margin: 0 0 2em 1.25em;
+
+			li {
+				margin-bottom: 0.3em;
+			}
+		}
+
+		ul.links {
+			margin: 0;
+		}
+
+		.cta {
+			margin-top: 3em;
+
+			li {
+				margin-bottom: 1em;
+			}
+
+			a {
+				font-size: 1.8em;
+				margin-right: 0.2em;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 1299px) {
+	.content main .cta a {
+		font-size: 1.6em;
+	}
+}
+
+@media (max-width: 1099px) {
+	.content {
+		>header {
+			height: 80%;
+		}
+
+		main {
+			width: 70%;
+			top: 51%;
+
+			.cta a {
+				font-size: 1.4em;
+			}
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	.content {
+		>header {
+			height: 48%;
+		}
+
+		main {
+			padding: 0;
+			margin: 0;
+			position: static;
+			width: 100%;
+
+			.cta {
+				padding-bottom: 3em;
+			}
+		}
+
+		article {
+			padding: 3.3em 3em 0 4em;
+		}
+
+		#paging {
+			padding-left: 4em;
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	.content {
+		article {
+			padding: 2em 3em 0 2.5em;
+		}
+
+		#paging {
+			padding: 0 0 4em 2.5em;
+		}
+
+		main .cta a {
+			font-size: 1.3em;
+		}
+	}
+}
+
+@media (max-width: 499px) {
+	.content {
+		article {
+			padding: 1.5em 2em 0 1.5em;
+		}
+
+		#paging {
+			padding: 0 0 3em 1.5em;
+		}
+	}
+}
