@@ -1,16 +1,16 @@
 ---
 ---
-@import 'reset';
-@import 'sitewide/base';
-@import 'sitewide/header';
-@import 'home/base';
-@import 'home/sponsors';
-@import 'home/members';
-@import 'home/about';
-@import 'home/footer';
-@import 'pages/base';
-@import 'pages/article';
-@import 'pages/stories';
-@import 'pages/projects';
-@import 'pages/join-us';
-@import 'pages/members';
+@use 'reset';
+@use 'sitewide/sitewide-base';
+@use 'sitewide/sitewide-header';
+@use 'home/home-base';
+@use 'home/home-sponsors';
+@use 'home/home-members';
+@use 'home/home-about';
+@use 'home/home-footer';
+@use 'pages/pages-base';
+@use 'pages/pages-article';
+@use 'pages/pages-stories';
+@use 'pages/pages-projects';
+@use 'pages/pages-join-us';
+@use 'pages/pages-members';
