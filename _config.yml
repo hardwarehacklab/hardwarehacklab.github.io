@@ -1,5 +1,5 @@
-name: hardwarehacklab.io
-url: 'https://hardwarehacklab.io'
+name: hardwarehacklab.github.io
+url: 'https://hardwarehacklab.github.io/'
 author:
   name: Andrew McWilliams
   email: andy@jahya.net
@@ -19,7 +19,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  
+
 collections:
   members:
     output: true
@@ -29,7 +29,7 @@ collections:
     permalink: /projects/:path/
 
 defaults:
-  - 
+  -
     scope:
       path: ""
       type: "posts"
