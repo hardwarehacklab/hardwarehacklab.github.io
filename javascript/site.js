@@ -74,7 +74,7 @@ $(document).ready(function() {
 		function fixHeader() {
 			headerFixed = true;
 			headerChildren.hide(0);
-			header.removeClass('first-glance').addClass('fixed');
+			//header.removeClass('first-glance').addClass('fixed');
 			headerChildren.show(200);
 		}
 

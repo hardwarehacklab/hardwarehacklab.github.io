@@ -140,6 +140,9 @@ body {
 	}
 }
 
+/*
+For archival purpose, adjusting top-menu to always show, which was default behavior at 999px and below previously.
+
 @media (max-width: 1299px) {
 	body {
 		>header {
@@ -190,9 +193,9 @@ body {
 			}
 		}
 	}
-}
+}*/
 
-@media (max-width: 999px) {
+//@media (max-width: 999px) {
 	body {
 		main {
 			box-shadow: inherit;
@@ -286,7 +289,7 @@ body {
 			}
 		}
 	}
-}
+//}
 
 @media (max-width: 639px) {
 	body {
